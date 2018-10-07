@@ -1,7 +1,18 @@
+html {
+    height: 100%;
+    background: 
+        no-repeat
+        center
+        center
+        fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+}
 
 .tab{
 	 align-content: center;
 }
 .tab_content {
 	display: none;	
+	
 }

@@ -1,3 +1,4 @@
+/*not necessary free to delete it, this is for canvas next affect*/
 html {
     height: 100%;
     background: 
@@ -9,9 +10,7 @@ html {
     background-color: #FFFFFF;
 }
 
-.tab{
-	 align-content: center;
-}
+/*needed for hide and show*/
 .tab_content {
 	display: none;	
 	

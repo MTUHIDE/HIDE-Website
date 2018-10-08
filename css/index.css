@@ -15,3 +15,26 @@ html {
 	display: none;	
 	
 }
+
+.topRight {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: -1;
+}
+
+.bottomLeft{
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    z-index: -1; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 800px;
+}

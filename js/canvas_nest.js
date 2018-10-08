@@ -8,6 +8,16 @@ opacity = 0.8;
 line_color = "204, 51, 255";
 count = 90;
 
+// Get the modal
+var modal = document.getElementById('id01');
+            
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 ! function() {
   // Encapsulate the method after compression to reduce the file size
   function get_attribute(node, attr, default_value) {

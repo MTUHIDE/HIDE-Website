@@ -19,14 +19,14 @@
 	<title>Human Interface Design Enterprise</title>
 
 	<!--@todo--add favIcon------>
-	<link rel="icon" href="../imgs/HIDE_logo.png">
+  <link rel="icon" href="../imgs/HIDE_logo.png">
 	<link rel="stylesheet" href="../css/index.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script src="../js/maintabs_hide_show.js"></script>
 
 	<!----BOOSTRAP-------------->
 	<!---temprary modal action in current project section---->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" >
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -58,7 +58,62 @@
 </section>
 
 <section class = "tab_content" id = "curr_proj" >
-	<div class="topRight"><img src="/imgs/TopRightDesign.svg" alt="TopRightDesign"></div>
+  <div id="primary" class="content-area container">
+    <main id="main" class="site-main section">
+        <a class="button is-info is-large" id="button1">Project CoCo Temp</a>
+
+        <div class="modal" id="modal1" >
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Modal title</p>
+              <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+              <!-- Content ... -->
+            </section>
+            <footer class="modal-card-foot">
+              <button class="button is-success">Save changes</button>
+              <button class="button">Cancel</button>
+            </footer>
+          </div>
+        </div>
+    </main>
+  </div>
+</section >
+
+<section class = "tab_content" id = "pass_proj" >
+	<p>Past Project</p>
+	<p>Fusce scelerisque enim nulla, in hendrerit tortor tristique quis. Donec pulvinar sem elit, in pharetra felis dignissim a. Nullam maximus accumsan urna. Duis ultrices id dolor eget bibendum. Vivamus non lacus dictum, suscipit lacus eu, dignissim eros. Praesent nec egestas lorem, finibus aliquam enim. Praesent mollis nibh gravida laoreet rutrum. Cras sapien diam, volutpat ac risus vel, iaculis tempor mi. Donec odio sem, fringilla id libero sit amet, aliquam rhoncus massa. Pellentesque congue lorem ullamcorper tellus aliquam condimentum.</p>
+</section>
+
+<section class = "tab_content" id = "mngmnt" >
+	<p>Management Place Holder</p>
+	<p>Vivamus facilisis viverra nisi, aliquet fermentum libero interdum a. Phasellus euismod quam ut leo rhoncus eleifend. Nam vel neque tortor. Nunc mattis dignissim quam, sed posuere magna pretium ac. Fusce ultricies fermentum ligula. Fusce sed orci dolor. Vestibulum a viverra tellus, eu egestas est. Etiam blandit vel odio vitae faucibus. Suspendisse ac nibh non sapien iaculis congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse luctus eu est in finibus. Proin auctor, sapien ut pretium venenatis, dui dui tempor dolor, in lacinia ante erat sed massa.</p>
+</section>
+
+<section class = "tab_content" id = "howToJoin" >
+	 <h3>Contact</h3>
+     <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi 214.</strong> Prospective students are encouraged to attend.
+	For more information, please contact <strong><a href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong></p>
+</section>
+
+<section class = "tab_content" id = "faq" >
+	<p>FAQ PLACE HOLDER</p>
+	<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget quam ut quam cursus egestas at suscipit mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque aliquam sem a nisl iaculis commodo. Donec elementum justo at fermentum cursus. In iaculis sem nec ex blandit, elementum hendrerit purus tincidunt. Nulla facilisi. Suspendisse quis sollicitudin neque. Nulla facilisi. Mauris viverra magna sit amet dignissim tempor.</P>
+</section>
+
+</body>
+
+<footer>
+	
+</footer>
+
+
+</html>
+
+<!--
+  <div class="topRight"><img src="/imgs/TopRightDesign.svg" alt="TopRightDesign"></div>
             
         <div class="bottomLeft"><img src="/imgs/BottomLeftDesign.svg" alt="BottomLeftDesign"></div>
         <div class="w3-container">
@@ -128,37 +183,6 @@
                         </footer>
                       </div>
                     </div>
-                </div>	
-	</div>
-
-</section >
-
-<section class = "tab_content" id = "pass_proj" >
-	<p>Past Project</p>
-	<p>Fusce scelerisque enim nulla, in hendrerit tortor tristique quis. Donec pulvinar sem elit, in pharetra felis dignissim a. Nullam maximus accumsan urna. Duis ultrices id dolor eget bibendum. Vivamus non lacus dictum, suscipit lacus eu, dignissim eros. Praesent nec egestas lorem, finibus aliquam enim. Praesent mollis nibh gravida laoreet rutrum. Cras sapien diam, volutpat ac risus vel, iaculis tempor mi. Donec odio sem, fringilla id libero sit amet, aliquam rhoncus massa. Pellentesque congue lorem ullamcorper tellus aliquam condimentum.</p>
-</section>
-
-<section class = "tab_content" id = "mngmnt" >
-	<p>Management Place Holder</p>
-	<p>Vivamus facilisis viverra nisi, aliquet fermentum libero interdum a. Phasellus euismod quam ut leo rhoncus eleifend. Nam vel neque tortor. Nunc mattis dignissim quam, sed posuere magna pretium ac. Fusce ultricies fermentum ligula. Fusce sed orci dolor. Vestibulum a viverra tellus, eu egestas est. Etiam blandit vel odio vitae faucibus. Suspendisse ac nibh non sapien iaculis congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse luctus eu est in finibus. Proin auctor, sapien ut pretium venenatis, dui dui tempor dolor, in lacinia ante erat sed massa.</p>
-</section>
-
-<section class = "tab_content" id = "howToJoin" >
-	 <h3>Contact</h3>
-     <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi 214.</strong> Prospective students are encouraged to attend.
-	For more information, please contact <strong><a href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong></p>
-</section>
-
-<section class = "tab_content" id = "faq" >
-	<p>FAQ PLACE HOLDER</p>
-	<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget quam ut quam cursus egestas at suscipit mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque aliquam sem a nisl iaculis commodo. Donec elementum justo at fermentum cursus. In iaculis sem nec ex blandit, elementum hendrerit purus tincidunt. Nulla facilisi. Suspendisse quis sollicitudin neque. Nulla facilisi. Mauris viverra magna sit amet dignissim tempor.</P>
-</section>
-
-</body>
-
-<footer>
-	
-</footer>
-
-
-</html>
+                </div>
+                </div>
+-->

@@ -6,7 +6,14 @@
 
 // Get the modal
 var modal = document.getElementById('id01');
-            
+var button1 = document.getElementById('button1');
+var modal = document.getElementById('modal1');
+
+button1.onclick = function() {
+	alert("Hello");
+	modal.style.display = 'block';
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
 	if (event.target == modal) {

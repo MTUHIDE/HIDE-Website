@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+	Note:
+		add @todo label to the code section need to be fixed
+		Use @todo keyword for searching.
+
+	last modified junyao 10/07/2018
+ -->
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Human Interface Design Enterprise,MTU Enterprise,Human Interface,HIDE,Computer Science">
+	<!---pair width with device, set zoom level 1.0---->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Human Interface Design Enterprise</title>
+
+	<!--@todo--add favIcon------>
+	<link rel="icon" href="../imgs/HIDE_logo.png">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="../js/maintabs_hide_show.js"></script>
+
+	<!----BOOSTRAP-------------->
+	<!---temprary modal action in current project section---->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+<!------ fixed tab----------------------------->
+	
+	<!--@todo---- add onclick attribute ------->
+	<div class="tab">
+	  <button class="tab_button" onclick="Open_Tab('about_us')">About Us</button>
+	  <button class="tab_button" onclick="Open_Tab('curr_proj')">Current Project</button>
+	  <button class="tab_button" onclick="Open_Tab('pass_proj')">Archive</button>
+	  <button class="tab_button" onclick="Open_Tab('mngmnt')">Management</button>
+	  <button class="tab_button" onclick="Open_Tab('howToJoin')">How to Join</button>
+	  <button class="tab_button" onclick="Open_Tab('faq')">FAQ</button>
+	</div>
+
+<!---fixed tab button end----------------------->
+
+
+
+
+<!-----content for each tab---------------------->
+<section class = "tab_content" id = "about_us" >
+	<p>About US</p>
+	<p>Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.</p>
+</section>
+
+<section class = "tab_content" id = "curr_proj" >
+	<div class="topRight"><img src="/imgs/TopRightDesign.svg" alt="TopRightDesign"></div>
+            
+        <div class="bottomLeft"><img src="/imgs/BottomLeftDesign.svg" alt="BottomLeftDesign"></div>
+        <div class="w3-container">
+            
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Project CoCo Temp</button>
+          
+            <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-teal"> 
+                  <span onclick="document.getElementById('id01').style.display='none'" 
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h2>Project CoCo Temp</h2>
+                </header>
+                <div class="w3-container">
+                  <p>This is the project. This is the project. This is the project. This is the project. 
+                        This is the project. This is the project. This is the project. This is the project. 
+                  </p>
+                </div>
+                <footer class="w3-container w3-teal">
+                  <p>Team Members: John, Joe, Jason, Jeremy</p>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-container">
+            
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Voting</button>
+              
+                <div id="id01" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4">
+                    <header class="w3-container w3-teal"> 
+                      <span onclick="document.getElementById('id01').style.display='none'" 
+                      class="w3-button w3-display-topright">&times;</span>
+                      <h2>Voting</h2>
+                    </header>
+                    <div class="w3-container">
+                      <p>This is the project. This is the project. This is the project. This is the project. 
+                            This is the project. This is the project. This is the project. This is the project. 
+                      </p>
+                    </div>
+                    <footer class="w3-container w3-teal">
+                      <p>Team Members: John, Joe, Jason, Jeremy</p>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w3-container">
+            
+                    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Other Project</button>
+                  
+                    <div id="id01" class="w3-modal">
+                      <div class="w3-modal-content w3-card-4">
+                        <header class="w3-container w3-teal"> 
+                          <span onclick="document.getElementById('id01').style.display='none'" 
+                          class="w3-button w3-display-topright">&times;</span>
+                          <h2>Other Project</h2>
+                        </header>
+                        <div class="w3-container">
+                          <p>This is the project. This is the project. This is the project. This is the project. 
+                                This is the project. This is the project. This is the project. This is the project. 
+                          </p>
+                        </div>
+                        <footer class="w3-container w3-teal">
+                          <p>Team Members: John, Joe, Jason, Jeremy</p>
+                        </footer>
+                      </div>
+                    </div>
+                </div>	
+	</div>
+
+</section >
+
+<section class = "tab_content" id = "pass_proj" >
+	<p>Past Project</p>
+	<p>Fusce scelerisque enim nulla, in hendrerit tortor tristique quis. Donec pulvinar sem elit, in pharetra felis dignissim a. Nullam maximus accumsan urna. Duis ultrices id dolor eget bibendum. Vivamus non lacus dictum, suscipit lacus eu, dignissim eros. Praesent nec egestas lorem, finibus aliquam enim. Praesent mollis nibh gravida laoreet rutrum. Cras sapien diam, volutpat ac risus vel, iaculis tempor mi. Donec odio sem, fringilla id libero sit amet, aliquam rhoncus massa. Pellentesque congue lorem ullamcorper tellus aliquam condimentum.</p>
+</section>
+
+<section class = "tab_content" id = "mngmnt" >
+	<p>Management Place Holder</p>
+	<p>Vivamus facilisis viverra nisi, aliquet fermentum libero interdum a. Phasellus euismod quam ut leo rhoncus eleifend. Nam vel neque tortor. Nunc mattis dignissim quam, sed posuere magna pretium ac. Fusce ultricies fermentum ligula. Fusce sed orci dolor. Vestibulum a viverra tellus, eu egestas est. Etiam blandit vel odio vitae faucibus. Suspendisse ac nibh non sapien iaculis congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse luctus eu est in finibus. Proin auctor, sapien ut pretium venenatis, dui dui tempor dolor, in lacinia ante erat sed massa.</p>
+</section>
+
+<section class = "tab_content" id = "howToJoin" >
+	 <h3>Contact</h3>
+     <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi 214.</strong> Prospective students are encouraged to attend.
+	For more information, please contact <strong><a href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong></p>
+</section>
+
+<section class = "tab_content" id = "faq" >
+	<p>FAQ PLACE HOLDER</p>
+	<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget quam ut quam cursus egestas at suscipit mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque aliquam sem a nisl iaculis commodo. Donec elementum justo at fermentum cursus. In iaculis sem nec ex blandit, elementum hendrerit purus tincidunt. Nulla facilisi. Suspendisse quis sollicitudin neque. Nulla facilisi. Mauris viverra magna sit amet dignissim tempor.</P>
+</section>
+
+</body>
+
+<footer>
+	
+</footer>
+
+
+</html>

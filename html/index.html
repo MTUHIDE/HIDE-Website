@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color:#f8f8f8;">
 
 <!--
 	Note:
@@ -32,12 +32,19 @@
 </head>
 
 <body>
+  <!-----remove comment for nest affect, still need to be optimized---
+  <script src="../js/canvas_nest.js">  </script>
+  --->
+  <div id="bottom_corner_img">
+    <img src="../imgs/buttomleft.png" />
+  </div>
 
-
+  
 <!------ fixed tab----------------------------->
 	
 	<!--@todo---- add onclick attribute ------->
 	<div class="tab">
+    <img src="../imgs/baricon.png"  alt="HIDE ICON">
 	  <button class="tab_button" onclick="Open_Tab('about_us')">About Us</button>
 	  <button class="tab_button" onclick="Open_Tab('curr_proj')">Current Project</button>
 	  <button class="tab_button" onclick="Open_Tab('pass_proj')">Archive</button>
@@ -58,14 +65,6 @@
 </section>
 
 <section class = "tab_content" id = "curr_proj" >
-<<<<<<< HEAD
-  <!-----the background should be part of overall web design, not specific to current tab
-	<div class="topRight"><img src="/imgs/TopRightDesign.svg" alt="TopRightDesign"></div>
-  <div class="bottomLeft"><img src="/imgs/BottomLeftDesign.svg" alt="BottomLeftDesign"></div>
-  ----->          
-        
-        
-=======
 
         <a class="button is-info is-large" id="button1">Project CoCo Temp</a>
         <a class="button is-info is-large" id="button2">Voting</a>
@@ -200,84 +199,8 @@
 </body>
 
 <footer>
-	
+
 </footer>
 
 
 </html>
-
-<!--
-  <div class="topRight"><img src="/imgs/TopRightDesign.svg" alt="TopRightDesign"></div>
-            
-        <div class="bottomLeft"><img src="/imgs/BottomLeftDesign.svg" alt="BottomLeftDesign"></div>
->>>>>>> 88bda1088ea434b737d1e84c61420f51d1904cea
-        <div class="w3-container">
-            
-            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Project CoCo Temp</button>
-          
-            <div id="id01" class="w3-modal">
-              <div class="w3-modal-content w3-card-4">
-                <header class="w3-container w3-teal"> 
-                  <span onclick="document.getElementById('id01').style.display='none'" 
-                  class="w3-button w3-display-topright">&times;</span>
-                  <h2>Project CoCo Temp</h2>
-                </header>
-                <div class="w3-container">
-                  <p>This is the project. This is the project. This is the project. This is the project. 
-                        This is the project. This is the project. This is the project. This is the project. 
-                  </p>
-                </div>
-                <footer class="w3-container w3-teal">
-                  <p>Team Members: John, Joe, Jason, Jeremy</p>
-                </footer>
-              </div>
-            </div>
-          </div>
-          
-          <div class="w3-container">
-            
-                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Voting</button>
-              
-                <div id="id01" class="w3-modal">
-                  <div class="w3-modal-content w3-card-4">
-                    <header class="w3-container w3-teal"> 
-                      <span onclick="document.getElementById('id01').style.display='none'" 
-                      class="w3-button w3-display-topright">&times;</span>
-                      <h2>Voting</h2>
-                    </header>
-                    <div class="w3-container">
-                      <p>This is the project. This is the project. This is the project. This is the project. 
-                            This is the project. This is the project. This is the project. This is the project. 
-                      </p>
-                    </div>
-                    <footer class="w3-container w3-teal">
-                      <p>Team Members: John, Joe, Jason, Jeremy</p>
-                    </footer>
-                  </div>
-                </div>
-              </div>
-
-              <div class="w3-container">
-            
-                    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Other Project</button>
-                  
-                    <div id="id01" class="w3-modal">
-                      <div class="w3-modal-content w3-card-4">
-                        <header class="w3-container w3-teal"> 
-                          <span onclick="document.getElementById('id01').style.display='none'" 
-                          class="w3-button w3-display-topright">&times;</span>
-                          <h2>Other Project</h2>
-                        </header>
-                        <div class="w3-container">
-                          <p>This is the project. This is the project. This is the project. This is the project. 
-                                This is the project. This is the project. This is the project. This is the project. 
-                          </p>
-                        </div>
-                        <footer class="w3-container w3-teal">
-                          <p>Team Members: John, Joe, Jason, Jeremy</p>
-                        </footer>
-                      </div>
-                    </div>
-                </div>
-                </div>
--->

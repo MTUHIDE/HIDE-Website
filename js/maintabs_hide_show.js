@@ -71,7 +71,7 @@ function Open_Tab(tab_name)
 		x[i].style.display = "none";
 	}
 
-	document.getElementById(tab_name).style.display = "block";  
+	document.getElementById(tab_name).style.display = "inline-block";  
 }
 
 

@@ -29,9 +29,11 @@ body {
 .tab_content {
 	display: none;	
 	position: fixed;
-    top:15%;
-    left:20%;
-
+    margin-left: 10%;
+    background: rgba(68,71,74,0.9);
+    padding: 10px;
+    width: 80%;
+    height:100%;
 }
 
 .tab_button {

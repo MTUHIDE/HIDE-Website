@@ -1,0 +1,173 @@
+/* Humane Interface Design Enterprise */
+.acronym{
+	position: absolute;
+	width: 101.55px;
+	height: 93.09px;
+	left: 4%;
+	top: 3%;
+
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 19.1184px;
+
+	color: #7D6DDE;
+}
+
+.remainingName{
+	position: absolute;
+	width: 101.55px;
+	height: 93.09px;
+	left: 5%;
+	top: 3%;
+
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 19.1184px;
+
+	color: #69657F;
+}
+
+.small-logo{
+	position: absolute;
+	left: 15%;
+	top: 7.5%;
+}
+
+.topRight{
+	position: relative;
+}
+
+.topRight img{
+	position: absolute;
+	right: 0%;
+	bottom: 100%;
+}
+
+.bottomLeft{
+	position: relative;
+}
+
+.bottomLeft img{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+
+#main-header{
+/* Humane Interface Design Enterprise */
+
+	position: absolute;
+	height: auto;
+	left: 25%;
+	top: 45%;
+
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 100%;
+
+	color: #7D6DDE;
+
+	backdrop-filter: blur(4px);/* Note: backdrop-filter has minimal browser support */
+}
+
+.large-logo{
+	position: absolute;
+	left: 45%;
+	top: 35%;
+}
+
+.block_row1{
+	position: absolute;
+	/*width: 75%;
+	height: auto;*/
+	left: 15%;
+	top: 55%;
+}
+
+.block_row2{
+	position: absolute;
+	/*width: 75%;
+	height: auto;*/
+	left: 40%;
+	top: 75%;
+}
+
+.button{
+	float: left;
+	font-family: Encode Sans Condensed;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 100%;
+	text-align: center;
+	font-vertical-align: top;
+	display: inline-block;
+	cursor: pointer;
+	padding: 14px 20px;
+	width: 20%;
+	transition: all 0.5s;
+	margin: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	clip: rect(0,0,0,0);	
+
+	font-color: #7E6FE2;
+	background-color: white;
+
+	border-radius: 12px;
+	border: none;
+
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s
+}
+
+.button span{
+	cursor: pointer;
+	display: inline-block;
+	position: sticky;
+	font-size: 80%;
+	text-align: center;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.button span:after{
+	content: '\00bb';
+	position: static;
+	text-align: center;
+	opacity: 0;
+	top: 0;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-top: 20px;
+	white-space: normal;
+	position: static;
+	opacity: 1;
+}
+
+
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+.bg{
+	/* The image used */
+	background-image: url('Background.jpg');
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

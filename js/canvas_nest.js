@@ -4,9 +4,9 @@ pull_strength = 0.007;
 stick_distance = 70000;
 cursor_stick_distance = 20000;
 zIndex = -2;
-opacity = 0.8;
+opacity = .8;
 line_color = "204, 51, 255";
-count = 90;
+count = 60;
 
 // Get the modal
 var modal = document.getElementById('id01');
@@ -70,7 +70,7 @@ window.onclick = function(event) {
           dist < e.max && (e === current_point && dist >= e.max / 2 && (r.x -= pull_strength * x_dist, r.y -= pull_strength * y_dist), // Close to the time to accelerate
             d = (e.max - dist) / e.max,
             context.beginPath(),
-            context.lineWidth = d / 2,
+            context.lineWidth = (d+1) / 2,
             context.strokeStyle = "rgba(" + config.c + "," + (d + 0.2) + ")",
             context.moveTo(r.x, r.y),
             context.lineTo(e.x, e.y),

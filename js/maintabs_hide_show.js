@@ -3,7 +3,6 @@
  *alternatively use jquery hide() and show()
  *last edited 10/10/2018 @WilliamCollicott
  */
-
 // Get the modal
 var modal = document.getElementById('id01');
 $(document).ready(init);
@@ -73,5 +72,6 @@ function Open_Tab(tab_name)
 
 	document.getElementById(tab_name).style.display = "inline-block";  
 }
+
 
 

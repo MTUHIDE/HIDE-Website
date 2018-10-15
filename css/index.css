@@ -7,7 +7,7 @@ html {
         center
         fixed;
     overflow: auto;
-    background-image: url("../imgs/newback1.png");
+    background-image: url("../imgs/background.png");
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 .tab{
      background-color:#25292c;
-    padding-top: 3%;
+    padding-top: 2%;
     min-width: 800px; /* Minimum width of your wrapper element */
     overflow: hidden;
     display: flex;/*????*/ 
@@ -28,12 +28,14 @@ body {
 /*needed for hide and show*/
 .tab_content {
 	display: none;	
+    color: white; /*temp font color*/
 	position: fixed;
     margin-left: 10%;
     background: rgba(68,71,74,0.9);
     padding: 10px;
     width: 80%;
     height:100%;
+    border-radius: 15px;
 }
 
 .tab_button {
@@ -45,13 +47,16 @@ body {
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    padding: 5px 5px;
+    padding: 5px 8px;
+    padding-bottom: 0px;
     font-size: 1.5em
 }
 
 
 
-
+#hide_name {
+    color:#f8f8f8;
+}
 #top_corner_img {
     position: relative;
 }

@@ -3,12 +3,12 @@
 pull_strength = 0.007;
 stick_distance = 70000;
 cursor_stick_distance = 20000;
-zIndex = -2;
+zIndex = -1;
 opacity = .8;
 line_color = "204, 51, 255";
-count = 60;
+count = 50;
 
-// Get the modal
+// Get the moda
 var modal = document.getElementById('id01');
             
 // When the user clicks anywhere outside of the modal, close it

@@ -1,85 +1,16 @@
-/* Humane Interface Design Enterprise */
-.acronym{
-	position: absolute;
-	width: 101.55px;
-	height: 93.09px;
-	left: 4%;
-	top: 3%;
-
-	font-family: "Courier New", Courier, monospace;
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 19.1184px;
-
-	color: #7D6DDE;
+html{
+	background: url('Homepage.svg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.remainingName{
-	position: absolute;
-	width: 101.55px;
-	height: 93.09px;
-	left: 5%;
-	top: 3%;
-
-	font-family: "Courier New", Courier, monospace;
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 19.1184px;
-
-	color: #69657F;
-}
-
-.small-logo{
-	position: absolute;
-	left: 15%;
-	top: 7.5%;
-}
-
-.topRight{
-	position: relative;
-}
-
-.topRight img{
-	position: absolute;
-	right: 0%;
-	bottom: 100%;
-}
-
-.bottomLeft{
-	position: relative;
-}
-
-.bottomLeft img{
-	position: absolute;
-	bottom: 0%;
-	left: 0%;
-}
-
-#main-header{
-/* Humane Interface Design Enterprise */
-
-	position: absolute;
-	height: auto;
-	left: 25%;
-	top: 45%;
-
-	font-family: "Courier New", Courier, monospace;
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 100%;
-
-	color: #7D6DDE;
-
-	backdrop-filter: blur(4px);/* Note: backdrop-filter has minimal browser support */
-}
-
-.large-logo{
-	position: absolute;
-	left: 45%;
-	top: 35%;
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .block_row1{
@@ -87,7 +18,7 @@
 	/*width: 75%;
 	height: auto;*/
 	left: 15%;
-	top: 55%;
+	top: 70%;
 }
 
 .block_row2{
@@ -95,7 +26,7 @@
 	/*width: 75%;
 	height: auto;*/
 	left: 40%;
-	top: 75%;
+	top: 80%;
 }
 
 .button{
@@ -157,17 +88,4 @@
 body, html{
 	height: 100%;
 	margin: 0;
-}
-
-.bg{
-	/* The image used */
-	background-image: url('Background.jpg');
-
-	/* Full height */
-	height: 100%;
-
-	/* Center and scale the image */
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }

@@ -12,14 +12,14 @@ $(document).ready(init);
 function init()
 {
 	// Current Projects
-	$('#modal1').addClass('is-active');
-	$('#modal2').addClass('is-active');
-	$('#modal3').addClass('is-active');
+	// $('#modal1').addClass('is-active');
+	// $('#modal2').addClass('is-active');
+	// $('#modal3').addClass('is-active');
 
 	// Past Projects
-	$('#pp1').addClass('is-active');
-	$('#pp2').addClass('is-active');
-	$('#pp3').addClass('is-active');
+	// $('#pp1').addClass('is-active');
+	// $('#pp2').addClass('is-active');
+	// $('#pp3').addClass('is-active');
 
 	// Closes any active modal on either tab when the exit button is pressed
 	$(".delete").on('click',function(){

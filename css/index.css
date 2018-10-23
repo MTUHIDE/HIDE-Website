@@ -15,6 +15,29 @@ body {
     font-size: 2vw;
 }
 
+button.accordion {
+    width: 100%;
+    background-color: rgb(0, 42, 180);
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+button.accordion:hover {
+    background-color: rgb(130, 41, 189);
+}
+
+.accordion-content {
+    padding: 0px 20px;
+    border-left: 2px solid rgb(130, 41, 189);
+    border-right: 2px solid rgb(130, 41, 189);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-in-out;
+}
 
 .tab{
      background-color:#25292c;

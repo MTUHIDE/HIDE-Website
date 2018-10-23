@@ -1,7 +1,7 @@
 /*
  *hide and show function
  *alternatively use jquery hide() and show()
- *last edited 10/10/2018 @WilliamCollicott
+ *last edited 10/22/2018 @WilliamCollicott
  */
 // Get the modal
 var modal = document.getElementById('id01');
@@ -11,6 +11,21 @@ $(document).ready(init);
 // for each modal in the current projects tab and the past projects tab
 function init()
 {
+	// Creates an array of accordions (for the current/past projects tab(s))
+	// and opens or closes them on each click.
+	var accordions = document.getElementsByClassName("accordion");
+	for(var i = 0; i < accordions.length; i++) {
+		accordions[i].onclick = function() {
+			var content = this.nextElementSibling;
+			if(content.style.maxHeight) {
+				// Close accordion
+				content.style.maxHeight = null;
+			} else {
+				// Open accordion
+				content.style.maxHeight = content.scrollHeight + "px";
+			}
+		}
+	}
 	// Current Projects
 	// $('#modal1').addClass('is-active');
 	// $('#modal2').addClass('is-active');

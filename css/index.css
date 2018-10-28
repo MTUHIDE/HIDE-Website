@@ -1,4 +1,3 @@
-/*not necessary free to delete it, this is for canvas next affect*/
 html {
     height: 100%;
     background: 
@@ -6,7 +5,8 @@ html {
         center
         center
         fixed;
-    overflow: auto;
+        
+    overflow: scroll;
     background-image: url("../imgs/background.png");
 }
 
@@ -42,7 +42,9 @@ button.accordion:hover {
 .tab{
      background-color:#25292c;
     padding-top: 2%;
+/*
     min-width: 800px; /* Minimum width of your wrapper element */
+  
     overflow: hidden;
     display: flex;/*????*/ 
     border-bottom:2px solid rgb(0,0,0);padding-bottom:1px; 
@@ -52,7 +54,9 @@ button.accordion:hover {
 .tab_content {
 	display: none;	
     color: white; /*temp font color*/
-	position: fixed;
+
+    position: fixed;
+
     margin-left: 10%;
     background: rgba(68,71,74,0.9);
     padding: 10px;

@@ -25,16 +25,7 @@ function init()
 				content.style.maxHeight = content.scrollHeight + "px";
 			}
 		}
-	}
-	// Current Projects
-	// $('#modal1').addClass('is-active');
-	// $('#modal2').addClass('is-active');
-	// $('#modal3').addClass('is-active');
-
-	// Past Projects
-	// $('#pp1').addClass('is-active');
-	// $('#pp2').addClass('is-active');
-	// $('#pp3').addClass('is-active');
+	}	
 
 	// Closes any active modal on either tab when the exit button is pressed
 	$(".delete").on('click',function(){
@@ -88,5 +79,13 @@ function Open_Tab(tab_name)
 	document.getElementById(tab_name).style.display = "inline-block";  
 }
 
+// Current Projects
+	// $('#modal1').addClass('is-active');
+	// $('#modal2').addClass('is-active');
+	// $('#modal3').addClass('is-active');
 
+	// Past Projects
+	// $('#pp1').addClass('is-active');
+	// $('#pp2').addClass('is-active');
+	// $('#pp3').addClass('is-active');
 

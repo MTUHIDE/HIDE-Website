@@ -88,5 +88,12 @@ function Open_Tab(tab_name)
 	document.getElementById(tab_name).style.display = "inline-block";  
 }
 
-
+function myFunction() {
+    var x = document.getElementById("mytab");
+    if (x.className === "tab") {
+        x.className += " responsive";
+    } else {
+        x.className = "tab";
+    }
+}
 

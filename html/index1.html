@@ -20,8 +20,8 @@
 
 	<!--@todo--add favIcon------>
   <link rel="icon" href="../imgs/HIDE_logo.png">
-	<link rel="stylesheet" href="../css/bulma.css">
   <link rel="stylesheet" href="../css/index1.css">
+
 
 	<!----BOOSTRAP-------------->
 	<!---temprary modal action in current project section---->
@@ -32,10 +32,9 @@
    <script src="../js/maintabs_hide_show.js"></script>
 </head>
 
-<body>
+<body  class="has-navbar-fixed-top">
   <!-----remove comment for nest affect, still need to be optimized--->
   
-  <nav class="navbar" role="navigation" aria-label="main navigation">
 <!--  
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -49,96 +48,47 @@
     </a>
   </div>
 -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
+     <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="../imgs/baricon.png" width="112" height="50">
+    </a>
 
-      <a class="navbar-item">
-        Documentation
-      </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
+    <div class="navbar-start ">
+        <a class="navbar-item" onclick="Open_Tab('about_us')">
+          About Us
         </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
+        <a class="navbar-item" onclick="Open_Tab('curr_proj')">
+          Current Project
+        </a>
+        <a class="navbar-item" onclick="Open_Tab('pass_proj')">
+          Archive
+        </a>
+        <a class="navbar-item" onclick="Open_Tab('mngmnt')">
+          Management
+        </a>
+        <a class="navbar-item" onclick="Open_Tab('howToJoin')">
+          How to Join
+        </a>
+        <a class="navbar-item" onclick="Open_Tab('faq')">
+          How to Join
+        </a>
     </div>
   </div>
 </nav>
 <!------ fixed tab----------------------------->
-	<nav class="navbar is-fixed-top">
-  <div class="tabs is-centered">
-  <ul>
-    <li >
-      <a onclick="Open_Tab('about_us')">
-        <span>About Us</span>
-      </a>
-    </li>
-    <li>
-      <a onclick="Open_Tab('curr_proj')">
-        <span>Current Projects</span>
-      </a>
-    </li>
-    <li>
-      <a onclick="Open_Tab('pass_proj')">
-        <span>Archive</span>
-      </a>
-    </li>
-    <li>
-      <a onclick="Open_Tab('mngmnt')">
-        <span>Management</span>
-      </a>
-    </li>
-    <li>
-      <a onclick="Open_Tab('howToJoin')">
-        <span>How to Join</span>
-      </a>
-    </li>
-    <li>
-      <a onclick="Open_Tab('faq')">
-        <span>FAQ</span>
-      </a>
-    </li>
-  </ul>
-</div>
-</nav>
+	
 	<!--@todo---- add onclick attribute ------->
-	<div class="tab">
-    <p id = "hide_name">Humane&nbsp&nbsp<br/> Interface&nbsp&nbsp<br/> Design&nbsp&nbsp<br/> Enterprise&nbsp&nbsp</p>
-    <img src="../imgs/baricon.png"  alt="HIDE ICON">
-	 
-	</div>
+	
 
 <!---fixed tab button end----------------------->
 

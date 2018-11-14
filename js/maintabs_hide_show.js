@@ -19,7 +19,7 @@ function init()
 			var content = this.nextElementSibling;
 			if(content.style.maxHeight) {
 				// Close accordion
-				content.style.width = "50%";
+				//content.style.width = "50%";
 				content.style.maxHeight = null;
 			} else {
 				// Open accordion

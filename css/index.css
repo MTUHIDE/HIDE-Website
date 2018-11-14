@@ -118,7 +118,7 @@ button.accordion:hover {
 
 
 @media screen and (max-width: 600px) {
-  .tab a:not(:first-child) {display: none;}
+  .tab button:not(:first-child) {display: none;}
   .tab a.icon {
     float: right;
     display: block;
@@ -133,7 +133,7 @@ button.accordion:hover {
     right: 0;
     top: 0;
   }
-  .tab.responsive a {
+  .tab.responsive button {
     float: none;
     display: block;
     text-align: left;

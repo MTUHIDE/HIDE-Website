@@ -1,10 +1,10 @@
 /*
  *hide and show function
  *alternatively use jquery hide() and show()
- *last edited 10/22/2018 @WilliamCollicott
+ *last edited 11/15/2018 @WilliamCollicott
  */
 // Get the modal
-var modal = document.getElementById('id01');
+//var modal = document.getElementById('id01');
 $(document).ready(init);
 
 // Runs when the HTML page is loaded. This method loads the open/close ability
@@ -26,15 +26,6 @@ function init()
 			}
 		}
 	}
-	// Current Projects
-	// $('#modal1').addClass('is-active');
-	// $('#modal2').addClass('is-active');
-	// $('#modal3').addClass('is-active');
-
-	// Past Projects
-	// $('#pp1').addClass('is-active');
-	// $('#pp2').addClass('is-active');
-	// $('#pp3').addClass('is-active');
 
 	// Closes any active modal on either tab when the exit button is pressed
 	$(".delete").on('click',function(){
@@ -67,7 +58,33 @@ function init()
 		$("#pp3").addClass("is-active");
 	});
 
-	
+	// Get the modal
+	var modal = document.getElementById('myModal');
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+
+	// Get the <span> element that closes the modal
+	//var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	// span.onclick = function() { 
+	// 	modal.style.display = "none";
+	// }
+
+	document.onkeydown = function (evt) {
+		evt = evt || window.event;
+		if(evt.keyCode == 27) {
+			modal.style.display = "none"
+		}
+	}
 }
 	
 // When the user clicks anywhere outside of the modal, close it
@@ -96,4 +113,6 @@ function myFunction() {
         x.className = "tab";
     }
 }
+
+
 

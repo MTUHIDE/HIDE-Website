@@ -17,7 +17,7 @@ body {
 /* This defines the accoridon button */
 button.accordion {
     width: 100%;
-    background-color: rgb(83, 27, 86);
+    background-color: rgb(138, 32, 255);
     border: none;
     outline: none;
     padding: 5px 20px;
@@ -29,15 +29,15 @@ button.accordion {
 
 /* Actions taken when the button is hovered over */
 button.accordion:hover {
-    background-color: rgb(40, 179, 190);
+    background-color: rgb(65, 198, 255);
 }
 
 /* The properties of the HTML inside the expanded text section of the accordion. */
 .accordion-content {
     width: 100%;
     padding: 0px 5px;
-    border-left: 1px solid rgb(40, 179, 190);
-    border-right: 1px solid rgb(40, 179, 190);
+    border-left: 1px solid rgb(65, 198, 255);
+    border-right: 1px solid rgb(65, 198, 255);
     max-height: 0;
     overflow: hidden;
     

@@ -2,34 +2,32 @@
 <html style="background-color:#f8f8f8;">
 
 <!--
-	Note:
-		add @todo label to the code section need to be fixed
-		Use @todo keyword for searching.
-
-	last modified william 10/10/2018
+  Note:
+    add @todo label to the code section need to be fixed
+    Use @todo keyword for searching.
+  last modified william 10/10/2018
  -->
 
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="keywords" content="Humane Interface Design Enterprise,MTU Enterprise,Human Interface,HIDE,Computer Science">
-	<!---pair width with device, set zoom level 1.0---->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Humane Interface Design Enterprise,MTU Enterprise,Human Interface,HIDE,Computer Science">
+  <!---pair width with device, set zoom level 1.0---->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Human Interface Design Enterprise</title>
+  <title>Human Interface Design Enterprise</title>
 
-	<!--@todo--add favIcon------>
-  <link rel="icon" href="../imgs/HIDE_logo.png">
-	<link rel="stylesheet" href="../css/index.css">
+  <!--@todo--add favIcon------>
+  <link rel="stylesheet" href="../css/index.css">
 
    <!--pohone icon for menu------>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!----BOOSTRAP-------------->
-	<!---temprary modal action in current project section---->
+  <!----BOOSTRAP-------------->
+  <!---temprary modal action in current project section---->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" >
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="../js/maintabs_hide_show.js"></script>
 </head>
@@ -37,30 +35,26 @@
 <body>
   <!-----remove comment for nest affect, still need to be optimized--->
  
-
-  <div id="bottom_corner_img">
-    <img src="../imgs/bottomleft.svg" />
-  </div>
   <!---
    <script src="../js/canvas_nest.js">  </script>
   -->
   
 <!------ fixed tab----------------------------->
-	
-	<!--@todo---- add onclick attribute ------->
-	<div class="tab" id = "mytab">
+  
+  <!--@todo---- add onclick attribute ------->
+  <div class="tab" id = "mytab">
     <p id = "hide_name">Humane&nbsp&nbsp<br/> Interface&nbsp&nbsp<br/> Design&nbsp&nbsp<br/> Enterprise&nbsp&nbsp</p>
-    <img src="../imgs/baricon.png"  alt="HIDE ICON" style = "padding-bottom:1%">
-	  <button class="tab_button" onclick="Open_Tab('about_us')">About Us</button>
-	  <button class="tab_button" onclick="Open_Tab('curr_proj')">Current Project</button>
-	  <button class="tab_button" onclick="Open_Tab('pass_proj')">Archive</button>
-	  <button class="tab_button" onclick="Open_Tab('mngmnt')">Management</button>
-	  <button class="tab_button" onclick="Open_Tab('howToJoin')">How to Join</button>
-	  <button class="tab_button" onclick="Open_Tab('faq')">FAQ</button>
+    <input id="small_logo" type="image" name="logo" src="../imgs/baricon.png" alt="HIDE ICON" onclick="window.location.reload()">
+    <button class="tab_button" onclick="Open_Tab('about_us')">About Us</button>
+    <button class="tab_button" onclick="Open_Tab('curr_proj')">Current Project</button>
+    <button class="tab_button" onclick="Open_Tab('pass_proj')">Archive</button>
+    <button class="tab_button" onclick="Open_Tab('mngmnt')">Management</button>
+    <button class="tab_button" onclick="Open_Tab('howToJoin')">How to Join</button>
+    <button class="tab_button" onclick="Open_Tab('faq')">FAQ</button>
      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
       </a>
-	</div>
+  </div>
 
 <!---fixed tab button end----------------------->
 
@@ -69,8 +63,8 @@
 
 <!-----content for each tab---------------------->
 <section class = "tab_content" id = "about_us" >
-	<p>About US</p>
-	<p>Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
+  <p>About US</p>
+  <p>Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
   Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
 Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
 Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.</p>
@@ -183,9 +177,9 @@ Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed 
 </section>
 
 <section class = "tab_content" id = "howToJoin" >
-	 <h3>Contact</h3>
+   <h3>Contact</h3>
      <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi 214.</strong> Prospective students are encouraged to attend.
-	For more information, please contact <strong><a href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong></p>
+  For more information, please contact <strong><a href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong></p>
 </section>
 
 <section class = "tab_content" id = "faq" >

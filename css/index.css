@@ -45,6 +45,10 @@ button.accordion:hover {
     transition: max-height 0.2s ease-in-out;   
 }
 
+.animation {
+		z-index: -2;
+}
+
 .tab{
     background-color:#25292c;
     padding-top: 1%;

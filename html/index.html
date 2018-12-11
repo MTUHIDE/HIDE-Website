@@ -34,17 +34,15 @@
 
 <body>
   <!-----remove comment for nest affect, still need to be optimized--->
- 
-  <!---
-   <script src="../js/canvas_nest.js">  </script>
-  -->
-  
+  <!-- Animation -->
+  <script src="../js/canvas_nest.js">  </script>
+
 <!------ fixed tab----------------------------->
   
   <!--@todo---- add onclick attribute ------->
   <div class="tab" id = "mytab">
-    <p id = "hide_name">Humane&nbsp&nbsp<br/> Interface&nbsp&nbsp<br/> Design&nbsp&nbsp<br/> Enterprise&nbsp&nbsp</p>
-    <input type="image" name="logo" src="../imgs/baricon.png" alt="HIDE ICON" style="padding-bottom: 1%" onclick="window.location.reload()">
+    <img id="name" src="../name.svg" alt="Humane Interface Design Enterprise">
+    <input id="small_logo" type="image" name="logo" src="../imgs/baricon.png" alt="HIDE ICON" onclick="window.location.reload()">
     <button class="tab_button" onclick="Open_Tab('about_us')">About Us</button>
     <button class="tab_button" onclick="Open_Tab('curr_proj')">Current Project</button>
     <button class="tab_button" onclick="Open_Tab('pass_proj')">Archive</button>

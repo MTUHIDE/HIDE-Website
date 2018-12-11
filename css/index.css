@@ -7,7 +7,7 @@ html {
         fixed;
         
     overflow: scroll;
-    background-image: url("../imgs/background.png");
+    background-image: url("../imgs/HIDE_Logo.png");
 }
 
 body {
@@ -91,24 +91,10 @@ button.accordion:hover {
 #hide_name {
     color:#f8f8f8;
 }
-#top_corner_img {
-    position: relative;
-}
-#top_corner_img img {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
 
-
-#bottom_corner_img {
-    position: relative;
-}
-#bottom_corner_img img {
-    position: fixed;
-    bottom:0px;
-    left: 0px;
-    z-index: -3;
+#small_logo {
+	padding-bottom: 1%
+	outline: none;
 }
 
 

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html style="background-color:#f8f8f8;">
+
+<!--
+  Note:
+    add @todo label to the code section need to be fixed
+    Use @todo keyword for searching.
+  last modified william 10/10/2018
+ -->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Humane Interface Design Enterprise,MTU Enterprise,Human Interface,HIDE,Computer Science">
+  <!---pair width with device, set zoom level 1.0---->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Human Interface Design Enterprise</title>
+
+  <!--@todo--add favIcon------>
+  <link rel="stylesheet" href="../css/index.css">
+
+   <!--pohone icon for menu------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!----BOOSTRAP-------------->
+  <!---temprary modal action in current project section---->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="../js/maintabs_hide_show.js"></script>
+</head>
+
+<body>
+  <!-----remove comment for nest affect, still need to be optimized--->
+  <!-- Animation -->
+  <script src="../js/canvas_nest.js">  </script>
+
+<!------ fixed tab----------------------------->
+  
+  <!--@todo---- add onclick attribute ------->
+  <div class="tab" id = "mytab">
+    <img id="name" src="../name.svg" alt="Humane Interface Design Enterprise">
+    <input id="small_logo" type="image" name="logo" src="../imgs/baricon.png" alt="HIDE ICON" onclick="window.location.reload()">
+    <button class="tab_button" onclick="Open_Tab('about_us')">About Us</button>
+    <button class="tab_button" onclick="Open_Tab('curr_proj')">Current Project</button>
+    <button class="tab_button" onclick="Open_Tab('pass_proj')">Archive</button>
+    <button class="tab_button" onclick="Open_Tab('mngmnt')">Management</button>
+    <button class="tab_button" onclick="Open_Tab('howToJoin')">How to Join</button>
+    <button class="tab_button" onclick="Open_Tab('faq')">FAQ</button>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+      </a>
+  </div>
+
+<!---fixed tab button end----------------------->
+
+
+
+
+<!-----content for each tab---------------------->
+<section class = "tab_content" id = "about_us" >
+  <p>About US</p>
+  <p>Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
+  Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
+Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.
+Duis in ullamcorper turpis. Vivamus ac sapien ligula. Fusce id rutrum eros. Sed finibus, tortor ac ultricies posuere, odio enim venenatis elit, vitae lacinia nibh purus quis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc placerat leo quis ipsum pharetra laoreet. Pellentesque condimentum ex ligula.</p>
+</section>
+
+<section class = "tab_content" id = "curr_proj">
+  <button class="accordion">Project CoCo Temp<br/><p style="font-size: 65%;">A weather monitoring and reporting application made 
+                                                                            with XXXXX and implemented in corraboration with YYYYY.
+                                                                            The end goal of this project is to have it do this and that 
+                                                                            for this group at this location.</p></button>
+  <div class="accordion-content">
+      <img id="myImg" src="../imgs/baricon.png" alt="testImage" style="width: 20vh;height: 20vh">
+        <div id="myModal" class="modal">
+          <img class="modal-content" id="img01">
+          <div id="caption">This is the caption. (Press ESC to exit)</div>
+        </div>
+      CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp 
+      CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp 
+      CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp 
+      CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp 
+      CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp CoCo Temp  
+  </div>  
+
+  <br>
+
+  <button class="accordion">Bergundy Thing<br/><p style="font-size: 65%;">This is a project that does this and this that is made with this and that
+                                                                                we collaborated on with so and so for this. We will later launch this is this kind of platform.
+                                                                                Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler 
+                                                                                </p></button>
+  <div class="accordion-content">
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+      Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy Bergundy 
+  </div>  
+
+  <br>
+
+  <button class="accordion">Voting<br/><p style="font-size: 65%;">The voting project is being done for the Undergreduate Student Government. They will use it for blah blah blah 
+                                                                    and it will allow various types of surveys to be distributed onto kiosks across campus. Lorem Ipsum 
+                                                                    </p></button>
+  <div class="accordion-content">
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+      Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting Voting 
+  </div>  
+</section >
+
+<section class = "tab_content" id = "pass_proj" >
+    <button class="accordion">Past Project #3<br/><p style="font-size: 65%;">This is another past project that was made at some time and made by some group that was composed of these people.
+      The end goal of this project is to have it do this and that 
+      for this group at this location.</p></button>
+        <div class="accordion-content">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        </div>  
+
+  <br>
+
+    <button class="accordion">Past Project #2<br/><p style="font-size: 65%;">This is another past project with this description.
+            </p></button>
+          <div class="accordion-content">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          </div>  
+
+  <br>
+
+  <button class="accordion">Past Project #1<br/><p style="font-size: 65%;">This is the past project that did something.
+  </p></button>
+      <div class="accordion-content">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </div> 
+</section>
+
+<section class = "tab_content" id = "mngmnt" >
+  <h3>Management</h3>
+  <h6>Robert Pastel, Faculty Advisor</h6>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51a8L-dlWzL._UX385_.jpg">
+    <ul>
+      <li>Email: pastel@mtu.edu</li>
+      <li>Phone: 906-487-1639</li>
+    </ul>
+
+  <h6>Emily Leopold, President/Project Lead</h6>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51a8L-dlWzL._UX385_.jpg">
+    <ul>
+      <li>Email: eleopol@mtu.edu</li>
+      <li>Phone: something</li>
+    </ul>
+</section>
+
+<section class = "tab_content" id = "howToJoin" >
+   <h3>Contact</h3>
+     <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi 214.</strong> Prospective students are encouraged to attend.
+  For more information, please contact <strong><a href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong></p>
+</section>
+
+<section class = "tab_content" id = "faq" >
+  <h3>FAQ</h3>
+  <div>
+        <ul class="faq-list">
+          <li>Q: How much experience do I need?</br>
+              A: None! We can help you learn regardless of how much prior experiance you may or may not have.</li>
+          <li>Q: When/where do you meet?</br>
+              A: Wednesdays at 6pm in Rekhi 214. Feel free to stop by to check us out anytime.</li>
+          <li>Q: How many members do you have?</br>
+              A: Lots, idk dude, like 30-40?</li>
+          <li>Q: What majors do you accept?</br>
+              A: Any major is welcome if you have an iterest in computer science, </li>
+          <li>Q: How can I get in touch?</br>
+              A: Please contact hide-management-l@mtu.edu</li>
+          <li>Q: Question 7?</br>
+              A: answer</li>
+      </ul> 
+  </div>
+</section>
+
+</body>
+
+<footer>
+
+</footer>
+
+
+</html>

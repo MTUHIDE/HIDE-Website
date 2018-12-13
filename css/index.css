@@ -7,7 +7,7 @@ html {
         fixed;
         
     overflow: scroll;
-    background-image: url("../imgs/HIDE_Logo.png");
+    background-image: url("../imgs/Logo.svg");
 }
 
 body {

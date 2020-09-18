@@ -8,7 +8,7 @@ function Home() {
                 <section className="navigation">
                     <header>
                         <div className="header-content">
-                            <div className="logo"><a href="#top"><img href="%PUBLIC_URL%/HIDE_Logo.png" alt="Sedna logo" /></a>
+                            <div className="logo"><a href="#top"><img src={window.location.origin + '/HIDE_Logo.png'} alt="HIDE logo" /></a>
                             </div>
                             <div className="header-nav">
                                 <nav>
@@ -20,9 +20,6 @@ function Home() {
                                     </ul>
 
                                 </nav>
-                            </div>
-                            <div className="navicon">
-                                <a className="nav-toggle" href="#"><span></span></a>
                             </div>
                         </div>
                     </header>
@@ -67,9 +64,11 @@ function Home() {
                     </div>
                 </div>
                 <div className="macbook-wrap wp3"></div>
-                <div className="responsive-feature-img"><img
-                    src="https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"
-                    alt="responsive devices" /></div>
+                <div className="responsive-feature-img">
+                    <img
+                    src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}
+                    alt="responsive devices" />
+                </div>
             </section>
 
             <section className="blog-intro section-padding" id="projects">
@@ -87,7 +86,7 @@ function Home() {
                                 analyze surveys.</p>
                             <img
                                 src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
-                                style={{height:150 + 'px'}} />
+                                style={{height:150 + 'px'}} alt={"Michigan Technological University"}/>
                         </div>
                         <div className="col-md-6 col-sm-12 col-xs-12 rightcol ">
                             <h5>MTMC Scheduling Application</h5>
@@ -193,16 +192,17 @@ function Home() {
                     </div>
                 </div>
             </footer>
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" />
-            <script src="js/vendor/jquery-1.11.2.min.js" />
-            <script src="bower_components/retina.js/dist/retina.js" />
-            <script src="js/jquery.fancybox.pack.js" />
-            <script src="js/vendor/bootstrap.min.js" />
-            <script src="js/scripts.js?v=1517849600" />
-            <script src="js/jquery.flexslider-min.js" />
-            <script src="bower_components/classie/classie.js" />
-            <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js" />
             </body>
+
+            <script src={"http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"} />
+            <script src={window.location.origin + "/js/vendor/jquery-1.11.2.min.js"} />
+            <script src={window.location.origin + "/bower_components/retina.js/dist/retina.js"} />
+            <script src={window.location.origin + "/js/jquery.fancybox.pack.js"} />
+            <script src={window.location.origin + "/js/vendor/bootstrap.min.js"} />
+            <script src={window.location.origin + "/js/scripts.js"} />
+            <script src={window.location.origin + "/js/jquery.flexslider-min.js"} />
+            <script src={window.location.origin + "/bower_components/classie/classie.js"} />
+            <script src={window.location.origin + "/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"} />
         </div>
     );
 }

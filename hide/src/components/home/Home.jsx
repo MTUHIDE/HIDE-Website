@@ -194,15 +194,15 @@ function Home() {
             </footer>
             </div>
 
-            <script src={"http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"} />
-            <script src={window.location.origin + "/js/vendor/jquery-1.11.2.min.js"} />
-            <script src={window.location.origin + "/bower_components/retina.js/dist/retina.js"} />
-            <script src={window.location.origin + "/js/jquery.fancybox.pack.js"} />
-            <script src={window.location.origin + "/js/vendor/bootstrap.min.js"} />
-            <script src={window.location.origin + "/js/scripts.js"} />
-            <script src={window.location.origin + "/js/jquery.flexslider-min.js"} />
-            <script src={window.location.origin + "/bower_components/classie/classie.js"} />
-            <script src={window.location.origin + "/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"} />
+            {/*<script src={"http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"} />*/}
+            {/*<script src={window.location.origin + "/js/vendor/jquery-1.11.2.min.js"} />*/}
+            {/*<script src={window.location.origin + "/bower_components/retina.js/dist/retina.js"} />*/}
+            {/*<script src={window.location.origin + "/js/jquery.fancybox.pack.js"} />*/}
+            {/*<script src={window.location.origin + "/js/vendor/bootstrap.min.js"} />*/}
+            {/*<script src={window.location.origin + "/js/scripts.js"} />*/}
+            {/*<script src={window.location.origin + "/js/jquery.flexslider-min.js"} />*/}
+            {/*<script src={window.location.origin + "/bower_components/classie/classie.js"} />*/}
+            {/*<script src={window.location.origin + "/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"} />*/}
         </div>
     );
 }

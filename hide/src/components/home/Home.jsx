@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
     return (
         <div>
-            <body id="top">
+            <div id="top">
             <section className="hero">
                 <section className="navigation">
                     <header>
@@ -192,7 +192,7 @@ function Home() {
                     </div>
                 </div>
             </footer>
-            </body>
+            </div>
 
             <script src={"http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"} />
             <script src={window.location.origin + "/js/vendor/jquery-1.11.2.min.js"} />

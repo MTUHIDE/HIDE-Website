@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Management from "./Management";
 
 function Home() {
     return (
@@ -23,9 +24,6 @@ function Home() {
 
                                     </nav>
                                 </div>
-                                <div className="navicon top48">
-                                    <a className="nav-toggle" href="#"><span></span></a>
-                                </div>
                             </div>
                         </header>
                     </section>
@@ -35,7 +33,7 @@ function Home() {
                                 <div className="hero-content text-center">
                                     <h1 className="h1shaddow">HIDE</h1>
                                     <p className="intro">Humane Interface Design Enterprise</p>
-                                    <a href="#about" className="btn btn-accent btn-large">Learn more</a>
+                                    <a href="#about" className="btn btn-outline-primary learn-more">Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -118,93 +116,8 @@ function Home() {
                     </div>
                 </section>
 
-                <section className="testimonial-slider section-padding text-center" id="management">
-                    <h1 className="marginh1 clearfix">Management</h1>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="flexslider">
+                <Management/>
 
-                                    <div className="flex-viewport hiddenrel">
-                                        <ul className="slides translation">
-                                            <li className="linline clone" aria-hidden="true">
-                                                <div className="avatar"><img
-                                                    src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/04d/08e/2f76e3a.jpg"
-                                                    alt="Dr. Robert Pastel" draggable="false" /></div>
-                                                <h2>Dr. Robert Pastel</h2>
-                                                <p className="author">Faculty Advisor</p>
-                                            </li>
-                                            <li className="linline">
-                                                <div className="avatar"><img
-                                                    src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/1978790_10203384345875282_502897345_n.jpg?oh=e670aff2bce23cac70714d6a3e623dc6&amp;oe=5B156D19"
-                                                    alt="Emily Leopold" draggable="false" /></div>
-                                                <h2>Emily Leopold</h2>
-                                                <p className="author">President / Project Team Lead</p>
-                                            </li>
-                                            <li className="linline">
-                                                <div className="avatar"><img
-                                                    src="https://paulisaweso.me/img/headshot.26f969e1.jpg"
-                                                    alt="Paul Esch-Laurent" draggable="false" /></div>
-                                                <h2>Paul Esch-Laurent</h2>
-                                                <p className="author">Interim Vice President</p>
-                                            </li>
-                                            <li className="linline">
-                                                <div className="avatar"><img
-                                                    src="https://i1.rgstatic.net/ii/profile.image/282497905643522-1444364157411_Q128/Caden_Sumner.jpg"
-                                                    alt="Caden Sumner" draggable="false" /></div>
-                                                <h2>Caden Sumner</h2>
-                                                <p className="author">MTMC Scheduling App Team Lead</p>
-                                            </li>
-                                            <li className="linline">
-                                                <div className="avatar"><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/04d/08e/2f76e3a.jpg"
-                                                                             alt="Kyle Bray"
-                                                                             draggable="false" /></div>
-                                                <h2>Kyle Bray</h2>
-                                                <p className="author">CoCo Temp Team Lead</p>
-                                            </li>
-                                            <li className="linline">
-                                                <div className="avatar"><img
-                                                    src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/18839121_1909294362670624_2062878286640075788_n.jpg?oh=cadec9a6ddf0e9344ee4c4cdcc14ae33&amp;oe=5AE18D9C"
-                                                    alt="Glory Creed" draggable="false" /></div>
-                                                <h2>Glory Creed</h2>
-                                                <p className="author">Secretary</p>
-                                            </li>
-                                            <li className="linline flex-active-slide">
-                                                <div className="avatar"><img
-                                                    src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/04d/08e/2f76e3a.jpg"
-                                                    alt="Dr. Robert Pastel" draggable="false" /></div>
-                                                <h2>Dr. Robert Pastel</h2>
-                                                <p className="author">Faculty Advisor</p>
-                                            </li>
-
-                                            <li className="linline clone"
-                                                aria-hidden="true">
-                                                <div className="avatar"><img
-                                                    src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/1978790_10203384345875282_502897345_n.jpg?oh=e670aff2bce23cac70714d6a3e623dc6&amp;oe=5B156D19"
-                                                    alt="Emily Leopold" draggable="false" /></div>
-                                                <h2>Emily Leopold</h2>
-                                                <p className="author">President / Project Team Lead</p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <ol className="flex-control-nav flex-control-paging">
-                                        <li><a className="">1</a></li>
-                                        <li><a className="">2</a></li>
-                                        <li><a className="">3</a></li>
-                                        <li><a className="">4</a></li>
-                                        <li><a className="">5</a></li>
-                                        <li><a className="flex-active">6</a></li>
-                                    </ol>
-                                    <ul className="flex-direction-nav">
-                                        <li className="flex-nav-prev"><a className="flex-prev" href="#">Previous</a>
-                                        </li>
-                                        <li className="flex-nav-next"><a className="flex-next" href="#">Next</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section className="sign-up section-padding text-center" id="contact">
                     <div className="container">
                         <div className="row">

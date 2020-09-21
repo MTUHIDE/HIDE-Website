@@ -21,14 +21,13 @@
     color: #fff;
 }
 
+.font60 {
+    font-size: 60px;
+}
+
 .h1shaddow {
     font-size: 100px;
     letter-spacing: 20px;
-    text-shadow: 5px;
-}
-
-.top48 {
-    top: 34px;
 }
 
 .headerStyle {
@@ -36,4 +35,33 @@
     padding: 0px 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.imageCentered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 10%;
+}
+
+.indicator-center {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+}
+
+.learn-more {
+    font-size: 13px     !important;
+    border: solid 2px   !important;
+    border-radius: 40px !important;
+    display: inline-block   !important;
+    text-transform: uppercase   !important;
+    padding: 15px 40px  !important;
+    font-weight: 400    !important;
+    line-height: 1.42857143 !important;
+    text-align: center  !important;
+    white-space: nowrap !important;
+    vertical-align: middle  !important;
 }

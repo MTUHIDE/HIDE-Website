@@ -1,0 +1,37 @@
+.linline {
+    width: 720px;
+    float: left;
+    display: block;
+}
+
+.hiddenrel {
+    overflow: hidden;
+    position: relative;
+}
+
+.translation {
+    width: 1600%;
+    transition-duration: 0.6s;
+    transform: translate3d(-4320px, 0px, 0px);
+}
+
+.marginh1 {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.h1shaddow {
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-shadow: 5px;
+}
+
+.top48 {
+    top: 48px;
+}
+
+.headerStyle {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0px;
+}

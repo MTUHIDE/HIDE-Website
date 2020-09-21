@@ -6,7 +6,7 @@ function Home() {
         <div>
             <div id="top">
                 <section className="hero">
-                    <section className="navigation">
+                    <section className="navigation fixed">
                         <header className="headerStyle">
                             <div className="header-content">
                                 <div className="logo">

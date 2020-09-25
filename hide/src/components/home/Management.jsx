@@ -4,7 +4,7 @@ import './Home.css';
 function Management() {
     return (
         <div>
-            <section className="testimonial-slider section-padding text-center" id="management">
+            <section className="testimonial-slider section-padding text-center managementClass" id="management">
                 <h1 className="marginh1 clearfix font60 outline">Management</h1>
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
                     <div className="center-block">

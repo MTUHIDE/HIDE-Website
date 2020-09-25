@@ -8,7 +8,7 @@ function Management() {
                 <h1 className="marginh1 clearfix font60 outline">Management</h1>
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
                     <div className="center-block">
-                        <ol className="carousel-indicators indicator-center">
+                        <ol className="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" className="active"/>
                             <li data-target="#myCarousel" data-slide-to="1"/>
                             <li data-target="#myCarousel" data-slide-to="2"/>

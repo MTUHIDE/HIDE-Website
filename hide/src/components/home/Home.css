@@ -45,13 +45,6 @@
     width: 10%;
 }
 
-.indicator-center {
-    margin: auto;
-    width: 50%;
-    /*border: 3px solid green;*/
-    padding: 10px;
-}
-
 .learn-more {
     font-size: 13px     !important;
     border: solid 2px   !important;
@@ -64,4 +57,8 @@
     text-align: center  !important;
     white-space: nowrap !important;
     vertical-align: middle  !important;
+}
+
+.author {
+    margin-bottom: 100px;
 }

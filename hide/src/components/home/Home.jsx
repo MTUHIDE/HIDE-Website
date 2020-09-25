@@ -44,7 +44,7 @@ function Home() {
                         <div className="row">
                             <div className="col-md-5">
                                 <div className="feature-list">
-                                    <h3>About Us</h3>
+                                    <h3 className="about">About Us</h3>
                                     <p>The <strong>Humane Interface Design Enterprise</strong> is a student-run
                                         organization
                                         focused on <strong>software development and usability research.</strong>

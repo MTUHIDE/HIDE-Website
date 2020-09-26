@@ -75,7 +75,7 @@ function Management() {
                             <img src={window.location.origin + '/img/isaac_l.jpg'} alt="Isaac L"
                                  className="imageCentered img-fluid"/>
                             <h2>Isaac Long</h2>
-                            <p className="author">PillowTalk Lead</p>
+                            <p className="author">PillowTalk Team Lead</p>
                         </div>
                         <div className="item">
                             <img src={window.location.origin + '/img/shruti.jpg'} alt="Shruti G"

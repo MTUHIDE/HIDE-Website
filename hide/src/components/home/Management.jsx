@@ -42,7 +42,7 @@ function Management() {
                         <ManagerCard name="Thomas Grifka" imagePath="/img/thomas_g.jpg" role="GVSC Team Lead" active=""/>
                         <ManagerCard name="Brett Post" imagePath="/img/brett_p.jpg" role="Chem Store Team Lead" active=""/>
                         <ManagerCard name="Mason Sayles" imagePath="/img/mason_s.jpg" role="CoCoTemp Team Lead" active=""/>
-                        <ManagerCard name="Isaac Long" imagePath="/img/isaac_s.jpg" role="PillowTalk Team Lead" active=""/>
+                        <ManagerCard name="Isaac Long" imagePath="/img/isaac_l.jpg" role="PillowTalk Team Lead" active=""/>
                         <ManagerCard name="Shruti" imagePath="/img/shruti.jpg" role="UX and AccelorMittal Team Lead" active=""/>
                         <ManagerCard name="Charles Vidro" imagePath="/img/charles_v.jpg" role="HIDE Website Team Lead" active=""/>
                     </div>

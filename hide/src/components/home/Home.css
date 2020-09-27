@@ -66,3 +66,11 @@
 .managementClass {
     padding: 120px 0px 20px 0 !important;
 }
+
+.feature-list > p {
+    font-size: 15px !important;
+}
+
+.primary-nav > li {
+    padding-left: 4px;
+}

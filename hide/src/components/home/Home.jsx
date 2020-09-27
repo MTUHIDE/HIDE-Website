@@ -47,7 +47,7 @@ function Home() {
                                     <h3 className="about">About Us</h3>
                                     <p>The <strong>Humane Interface Design Enterprise</strong> is a student-run
                                         organization
-                                        focused on <strong>software development and usability research.</strong>
+                                        focused on <strong>software development and usability research. </strong>
                                         Our primary goal is to give our members a headstart in their careers by
                                         immersing
                                         them in a <strong>collaborative environment</strong> where they can gain real

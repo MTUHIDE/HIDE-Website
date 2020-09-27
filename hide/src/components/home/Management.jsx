@@ -1,6 +1,17 @@
 import React from 'react';
 import './Home.css';
 
+function ManagerCard(props) {
+        return (
+            <div className={"item " + props.active}>
+                <img src={window.location.origin + props.imagePath} alt={props.name}
+                className="imageCentered img-fluid"/>
+                <h2>{props.name}</h2>
+             <p className="author">{props.role}</p>
+            </div>
+        );
+}
+
 function Management() {
     return (
         <div>
@@ -23,72 +34,17 @@ function Management() {
                         </ol>
                     </div>
                     <div className="carousel-inner">
-                        <div className="item active">
-                            <img src={window.location.origin + '/img/lena_s.jpg'} alt="Lena S"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Lena Stenvig</h2>
-                            <p className="author">President</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/ethan_m.png'} alt="Ethan M"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Ethan Matzdorf</h2>
-                            <p className="author">Vice President / HuskyHunt Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/thomas_g.jpg'} alt="Thomas G"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Thomas Grifka</h2>
-                            <p className="author">GVSC Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/justin_m.JPG'} alt="Justin M"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Justin Martin</h2>
-                            <p className="author">Voting Booth Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/robert_p.jpg'} alt="Dr. Robert Pastel"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Dr. Robert Pastel</h2>
-                            <p className="author">Faculty Advisor</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/jason_h.jpg'} alt="Jason J"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Jason Holtrey</h2>
-                            <p className="author">Treasurer</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/brett_p.jpg'} alt="Brett P"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Brett Post</h2>
-                            <p className="author">Chem Store Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/mason_s.jpg'} alt="Mason S"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Mason Sayles</h2>
-                            <p className="author">CoCoTemp Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/isaac_l.jpg'} alt="Isaac L"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Isaac Long</h2>
-                            <p className="author">PillowTalk Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/shruti.jpg'} alt="Shruti G"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Shruti</h2>
-                            <p className="author">UX and AccelorMittal Team Lead</p>
-                        </div>
-                        <div className="item">
-                            <img src={window.location.origin + '/img/charles_v.jpg'} alt="Charles V"
-                                 className="imageCentered img-fluid"/>
-                            <h2>Charles Vidro</h2>
-                            <p className="author">HIDE Website Team Lead</p>
-                        </div>
+                        <ManagerCard name="Lena Stenvig" imagePath="/img/lena_s.jpg" role="President" active="active"/>
+                        <ManagerCard name="Justin Martin" imagePath="/img/justin_m.jpg" role="Vice President / Voting Booth Team Lead" active=""/>
+                        <ManagerCard name="Jason Holtrey" imagePath="/img/jason_h.jpg" role="Treasurer" active=""/>
+                        <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" active=""/>
+                        <ManagerCard name="Ethan Matzdorf" imagePath="/img/ethan_m.png" role="HuskyHunt Team Lead" active=""/>
+                        <ManagerCard name="Thomas Grifka" imagePath="/img/thomas_g.jpg" role="GVSC Team Lead" active=""/>
+                        <ManagerCard name="Brett Post" imagePath="/img/brett_p.jpg" role="Chem Store Team Lead" active=""/>
+                        <ManagerCard name="Mason Sayles" imagePath="/img/mason_s.jpg" role="CoCoTemp Team Lead" active=""/>
+                        <ManagerCard name="Isaac Long" imagePath="/img/isaac_s.jpg" role="PillowTalk Team Lead" active=""/>
+                        <ManagerCard name="Shruti" imagePath="/img/shruti.jpg" role="UX and AccelorMittal Team Lead" active=""/>
+                        <ManagerCard name="Charles Vidro" imagePath="/img/charles_v.jpg" role="HIDE Website Team Lead" active=""/>
                     </div>
 
                     <a className="left carousel-control" href="#myCarousel" data-slide="prev">

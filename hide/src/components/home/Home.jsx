@@ -123,8 +123,13 @@ function Home() {
                         <div className="row">
                             <div className="col-md-6 col-md-offset-3">
                                 <h3>Contact</h3>
-                                <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi
-                                    214.</strong> Prospective
+                                {/*<p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi*/}
+                                    {/*214.</strong> Prospective*/}
+                                    {/*students are encouraged to attend.*/}
+                                    {/*For more information, please contact <strong><a*/}
+                                        {/*href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>*/}
+                                {/*</p>*/}
+                                <p>Our general meetings are <strong>Wednesdays from 6-7pm via Zoom. </strong> Prospective
                                     students are encouraged to attend.
                                     For more information, please contact <strong><a
                                         href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>

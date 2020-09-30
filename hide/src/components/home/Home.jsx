@@ -129,7 +129,7 @@ function Home() {
                                     {/*For more information, please contact <strong><a*/}
                                         {/*href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>*/}
                                 {/*</p>*/}
-                                <p>Our general meetings are <strong>Wednesdays from 6-7pm via Zoom. </strong> Prospective
+                                <p>Our general meetings are <strong>Wednesdays from 6-7pm via <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/81124480955?pwd%3DOExZenRZRDNWUmU2b1ZiSVVveDZjZz09&sa=D&source=calendar&ust=1601935779454000&usg=AOvVaw13oBUtkqM34u5e3MBYOcoL">Zoom</a>. </strong> Prospective
                                     students are encouraged to attend.
                                     For more information, please contact <strong><a
                                         href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>

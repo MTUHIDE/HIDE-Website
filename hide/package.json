@@ -1,5 +1,6 @@
 {
   "name": "hide",
+  "homepage": "http://hide.cs.mtu.edu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

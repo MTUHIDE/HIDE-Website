@@ -7,8 +7,9 @@ This site uses [React](https://reactjs.org/) for the front end.
 ## Installation
 
 1. Install [NodeJS](https://nodejs.org/en/).
-2. CD to HIDE-Website/hide and run the ```npm start``` command to start a local server.
-3. Open <http://localhost:3000/> to see the app.
+2. Run ```npm install```.
+3. CD to HIDE-Website/hide and run the ```npm start``` command to start a local server.
+4. Open <http://localhost:3000/> to see the app.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

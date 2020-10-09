@@ -88,31 +88,45 @@ function Home() {
                         </div>
                         <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
-                                <h5>Survey Application</h5>
-                                <p>A collaboration with USG and Career services to increase feedback in various
-                                    applications
-                                    (i.e. on campus, career fair). Easy to use custom interface to create, distribute,
-                                    and
-                                    analyze surveys.</p>
-                                <img
-                                    src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
-                                    style={{height:150 + 'px'}} alt={"Michigan Technological University"}/>
+                                <h5>HuskyHunt</h5>
+                                <p>The HuskyHunt project is designed to allow Michigan Tech students and faculty to
+                                    sell/trade their stuff in a secure manner. Product listings are only
+                                    visible to those with an MTU email address.</p>
                             </div>
-                            <div className="col-md-6 col-sm-12 col-xs-12 rightcol ">
-                                <h5>MTMC Scheduling Application</h5>
-                                <p>A web application for viewing / creating availability, services, users, and
-                                    appointments
-                                    for Michigan Tech Learning Centers. </p>
+                            <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
+                                <h5>Voting Booth</h5>
+                                <p>A collaboration with Undergraduate Student Government to increase student
+                                    feedback on key campus issues. Designed to be a quick, easy, and efficient
+                                    way to survey the student population here at Michigan Tech.</p>
+                            </div>
+                            <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
+                                <h5>HIDE Website</h5>
+                                <p>We maintain the HIDE website, the one you are looking at, right now!</p>
+                            </div>
+                            <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
+                                <h5>ArcelorMittal</h5>
+                                <p>Coming soon.</p>
+                            </div>
+                            <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
+                                <h5>Chem Store</h5>
+                                <p>Coming soon.</p>
+                            </div>
+                            <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
+                                <h5>Pillow Talk</h5>
+                                <p>Coming soon.</p>
+                            </div>
+                            <div className="col-md-6 col-sm-12 col-xs-12 leftcol ">
+                                <h5>GVSC: Command Simulator RTS</h5>
+                                <p>Coming soon.</p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                 <h5>CoCo Temp</h5>
-                                <p>Citizen Science Data collection system for micro-climate, research scientists
-                                    complete
-                                    data logging system whose feature set focuses on analysis of micro climate temp
-                                    data.</p>
+                                <p>Coming soon.</p>
                             </div>
-
                         </div>
+                        <br />
+                        <img src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
+                             style={{height:150 + 'px'}} alt={"Michigan Technological University"}/>
                     </div>
                 </section>
 

@@ -2,31 +2,44 @@ import React from 'react';
 import './Home.css';
 import Management from "./Management";
 
+function NavigationHeader() {
+    function openMenu() {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+    return (
+        <div>
+            <div>
+                <section className="navigation fixed back">
+                    <header className="headerStyle" />
+                </section>
+            </div>
+            <div className="container navContainer">
+                <div className="topnav" id="myTopnav">
+                    <a className="logoNav" href="#top"><img src={window.location.origin + '/HIDE_Logo.png'} alt="HIDE logo" /></a>
+                    <a className="navLink" href="#about">About</a>
+                    <a className="navLink" href="#projects">Projects</a>
+                    <a className="navLink" href="#management">Management</a>
+                    <a className="navLink" href="#contact">Contact</a>
+
+                    <a href="javascript:void(0);" className="icon navLinkIcon" onClick={openMenu}>&#9776;</a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
 function Home() {
     return (
         <div>
             <div id="top">
                 <section className="hero">
-                    <section className="navigation fixed">
-                        <header className="headerStyle">
-                            <div className="header-content">
-                                <div className="logo">
-                                    <a href="#top"><img src={window.location.origin + '/HIDE_Logo.png'} alt="HIDE logo" /></a>
-                                </div>
-                                <div className="header-nav">
-                                    <nav>
-                                        <ul className="primary-nav">
-                                            <li><a href="#about">About</a></li>
-                                            <li><a href="#projects">Projects</a></li>
-                                            <li><a href="#management">Management</a></li>
-                                            <li><a href="#contact">Contact</a></li>
-                                        </ul>
-
-                                    </nav>
-                                </div>
-                            </div>
-                        </header>
-                    </section>
+                    <NavigationHeader />
                     <div className="container">
                         <div className="row">
                             <div className="col-md-10 col-md-offset-1">

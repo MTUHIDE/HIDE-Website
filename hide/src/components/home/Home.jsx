@@ -27,7 +27,7 @@ function NavigationHeader() {
                     <a className="navLink" href="#management">Management</a>
                     <a className="navLink" href="#contact">Contact</a>
 
-                    <a href="javascript:void(0);" className="icon navLinkIcon" onClick={openMenu}>&#9776;</a>
+                    <a className="icon navLinkIcon" onClick={openMenu}>&#9776;</a>
                 </div>
             </div>
         </div>

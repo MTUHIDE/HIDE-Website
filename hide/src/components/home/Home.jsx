@@ -104,7 +104,8 @@ function Home() {
                                 <h5>HuskyHunt</h5>
                                 <p>The HuskyHunt project is designed to allow Michigan Tech students and faculty to
                                     sell/trade their stuff in a secure manner. Product listings are only
-                                    visible to those with an MTU email address.</p>
+                                    visible to those with an MTU email address.<br /><br />
+                                <b>Currently looking for testers!<br /> Visit <a href="https://huskyhunt.com/" rel="noopener noreferrer" target="_blank">https://huskyhunt.com/</a> for more information.</b></p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                 <h5>Voting Booth</h5>
@@ -112,31 +113,38 @@ function Home() {
                                     feedback on key campus issues. Designed to be a quick, easy, and efficient
                                     way to survey the student population here at Michigan Tech.</p>
                             </div>
+                        </div>
+                        <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
                                 <h5>HIDE Website</h5>
-                                <p>We maintain the HIDE website, the one you are looking at, right now!</p>
+                                <p>React application, primarily focused on website maintenance with some miscellaneous side projects such as the Winter Wonderhack site. </p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                 <h5>ArcelorMittal</h5>
-                                <p>Coming soon.</p>
+                                <p>A web-based application and database to enhance the management of ArcelorMittal’s technical service organization based on territories. </p>
                             </div>
+                        </div>
+                        <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
                                 <h5>Chem Store</h5>
-                                <p>Coming soon.</p>
+                                <p>New Project working with the MTU Chem Store to create a chemical inventory tracking website for chemicals distributed around campus.</p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                 <h5>Pillow Talk</h5>
-                                <p>Coming soon.</p>
+                                <p>Research project under Dr. Vertanen to build a voice controlled, inflatable pillow for a man living with ALS. This is a great project for anyone who is interested in hardware/software interface.</p>
                             </div>
+                        </div>
+                        <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12 leftcol ">
                                 <h5>GVSC: Command Simulator RTS</h5>
-                                <p>Coming soon.</p>
+                                <p>A simulation project for the Ground Vehicle Systems Center (GVSC). Development is in Unreal Engine 4 for both VR (Vive Cosmos Elite) and PC. </p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                 <h5>CoCo Temp</h5>
-                                <p>Coming soon.</p>
+                                <p>A web application with a focus on collecting microclimate data from citizen scientists.</p>
                             </div>
                         </div>
+
                         <br />
                         <img src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
                              style={{height:150 + 'px'}} alt={"Michigan Technological University"}/>

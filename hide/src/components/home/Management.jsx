@@ -34,6 +34,7 @@ function Management() {
                             <li data-target="#managementCarousel" data-slide-to="8"/>
                             <li data-target="#managementCarousel" data-slide-to="9"/>
                             <li data-target="#managementCarousel" data-slide-to="10"/>
+                            <li data-target="#managementCarousel" data-slide-to="11"/>
                         </ol>
                     </div>
                     <div className="carousel-inner">

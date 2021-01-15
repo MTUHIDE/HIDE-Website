@@ -127,7 +127,7 @@ function Home() {
                         <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
                                 <h5>Chem Store</h5>
-                                <p>New Project working with the MTU Chem Store to create a chemical inventory tracking website for chemicals distributed around campus.</p>
+                                <p>Working with the MTU Chem Store to create a chemical inventory tracking website for chemicals distributed around campus.</p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                 <h5>Pillow Talk</h5>
@@ -140,9 +140,21 @@ function Home() {
                                 <p>A simulation project for the Ground Vehicle Systems Center (GVSC). Development is in Unreal Engine 4 for both VR (Vive Cosmos Elite) and PC. </p>
                             </div>
                             <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
-                                <h5>CoCo Temp</h5>
-                                <p>A web application with a focus on collecting microclimate data from citizen scientists.</p>
+                                <h5>CCLC Queue</h5>
+                                <p>A Canvas plugin that will be replacing the current system in the Computer Science Learning Center.</p>
                             </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
+                                <h5>LBFE</h5>
+                                <p>New team - A web application that enables increased accessibility and mobility of mobile apps. Previously a project with IT Oxygen.</p>
+                            </div>
+                            {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}
+                                {/*<h5>Voting Booth</h5>*/}
+                                {/*<p>A collaboration with Undergraduate Student Government to increase student*/}
+                                    {/*feedback on key campus issues. Designed to be a quick, easy, and efficient*/}
+                                    {/*way to survey the student population here at Michigan Tech.</p>*/}
+                            {/*</div>*/}
                         </div>
 
                         <br />
@@ -164,7 +176,7 @@ function Home() {
                                     {/*For more information, please contact <strong><a*/}
                                         {/*href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>*/}
                                 {/*</p>*/}
-                                <p>Our general meetings are <strong>Wednesdays from 6-7pm via <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/81124480955?pwd%3DOExZenRZRDNWUmU2b1ZiSVVveDZjZz09&sa=D&source=calendar&ust=1601935779454000&usg=AOvVaw13oBUtkqM34u5e3MBYOcoL">Zoom</a>. </strong> Prospective
+                                <p>Our general meetings are <strong>Wednesdays from 6-7pm via <a href="https://us02web.zoom.us/j/87004752696?pwd=cWRzS1RGQ256Q09Qd0hvMlRybUZBUT09">Zoom</a>. </strong> Prospective
                                     students are encouraged to attend.
                                     For more information, please contact <strong><a
                                         href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>

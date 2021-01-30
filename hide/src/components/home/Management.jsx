@@ -35,6 +35,8 @@ function Management() {
                             <li data-target="#managementCarousel" data-slide-to="9"/>
                             <li data-target="#managementCarousel" data-slide-to="10"/>
                             <li data-target="#managementCarousel" data-slide-to="11"/>
+                            <li data-target="#managementCarousel" data-slide-to="12"/>
+                            <li data-target="#managementCarousel" data-slide-to="13"/>
                         </ol>
                     </div>
                     <div className="carousel-inner">
@@ -50,6 +52,8 @@ function Management() {
                         <ManagerCard name="Ethan Matzdorf" imagePath="/img/ethan_m.png" role="HuskyHunt Team Lead" active=""/>
                         <ManagerCard name="Ian Lawrie" imagePath="/img/ian_l.jpg" role="PillowTalk Team Lead" active=""/>
                         <ManagerCard name="Thomas Grifka" imagePath="/img/thomas_g.jpg" role="GVSC Team Lead" active=""/>
+                        <ManagerCard name="Abby Myers" imagePath="/img/abby_m.jpg" role="Co-Team Lead" active=""/>
+                        <ManagerCard name="Mike Boisvert" imagePath="/img/mike_b.jpg" role="Team Lead of Little Brothers" active=""/>
                     </div>
 
                     <a className="left carousel-control" href="#managementCarousel" data-slide="prev">

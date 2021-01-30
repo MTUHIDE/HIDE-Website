@@ -146,8 +146,8 @@ function Home() {
                         </div>
                         <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12 leftcol">
-                                <h5>LBFE</h5>
-                                <p>New team - A web application that enables increased accessibility and mobility of mobile apps. Previously a project with IT Oxygen.</p>
+                                <h5>LB: Little Brothers</h5>
+                                <p>Little Brothers is a program that helps the elderly travel to doctor's appointments, small activities, provide meals, help with bills, etc. This website is being constructed by members of HIDE at MTU, started in 2021.</p>
                             </div>
                             {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}
                                 {/*<h5>Voting Booth</h5>*/}
@@ -200,7 +200,7 @@ function Home() {
                             <div className="col-md-12">
                                 <div className="footer-links">
                                     <p>
-                                        Copyright © 2020 Humane Interface Design Enterprise</p>
+                                        Copyright © 2021 Humane Interface Design Enterprise</p>
                                 </div>
                             </div>
                         </div>

@@ -16,6 +16,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 **Contacts:** 
  - Charles Vidro - <cjvidro@mtu.edu>
+ - Eva Muller - <emmuller@mtu.edu>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

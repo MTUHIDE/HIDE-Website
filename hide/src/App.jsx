@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from './components/home/Home.jsx';
+import CurrentProjects from './components/current_projects/CurrentProjects.jsx';
 
 
 function App() {
@@ -17,9 +18,8 @@ function App() {
                     {/*<Route path="/news">*/}
                         {/*<h1>News</h1>*/}
                     {/*</Route>*/}
-                    <Route path="/">
-                        <Home />
-                    </Route>
+                    <Route path="/currentprojects" component={CurrentProjects}/>
+                    <Route exact path="/" component={Home}/>
                 </Switch>
             </div>
         </Router>

@@ -1,24 +1,25 @@
 import React, { Component }from 'react';
 import '../home/Home.css';
+// import {Link} from "react-router-dom";
 
 class CurrentProjects extends Component {
   render() {
       return (
           <div>
               <div id="top">
-                  {/*<section className="hero">*/}
-                  {/*    /!*<NavigationHeader />*!/*/}
-                  {/*    <div className="container">*/}
-                  {/*        <div className="row">*/}
-                  {/*            <div className="col-md-10 col-md-offset-1">*/}
-                  {/*                <div className="hero-content text-center">*/}
-                  {/*                    <h1 className="h1shaddow">HIDE</h1>*/}
-                  {/*                    <p className="intro">Current Projects</p>*/}
-                  {/*                </div>*/}
-                  {/*            </div>*/}
-                  {/*        </div>*/}
-                  {/*    </div>*/}
-                  {/*</section>*/}
+                  <section className="hero" id="currentProjectsHero">
+                      {/*<NavigationHeader />*/}
+                      <div className="container">
+                          <div className="row">
+                              <div className="col-md-10 col-md-offset-1">
+                                  <div className="hero-content text-center">
+                                      <h1 className="h1shaddow">HIDE</h1>
+                                      <p className="intro">Current Projects</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
                   <section className="blog-intro section-padding" id="projects">
                       <div className="container">
                           <div className="row">

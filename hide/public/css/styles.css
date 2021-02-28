@@ -351,6 +351,8 @@ Hero
     background: #333844 url("../img/polygonal-bg.jpg") no-repeat center center;
     background-size: cover;
     position: relative; }
+#currentProjectsHero{
+    min-height: 500px;}
 .hero .down-arrow a {
     color: #fff; }
 .hero h1 {

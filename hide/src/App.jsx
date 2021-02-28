@@ -7,13 +7,14 @@ import {
 import './App.css';
 import Home from './components/home/Home';
 import CurrentProjects from './components/current_projects/CurrentProjects';
-
+import Header from './components/Header'
 
 function App() {
   return (
       <div className="App">
         <Router>
             <div>
+                <Header />
                 <Switch>
                     {/*<Route path="/news">*/}
                         {/*<h1>News</h1>*/}

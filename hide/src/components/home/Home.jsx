@@ -1,60 +1,15 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Management from "./Management";
-//import { Link } from "react-router-dom";
-//import {Redirect} from 'react-router-dom';
-import {NavLink} from "react-router-dom";
-//import NavLink from "react-bootstrap";
-
-function NavigationHeader() {
-    function openMenu() {
-        let x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-
-    return (
-        <div>
-            <div>
-                <section className="navigation fixed back">
-                    <header className="headerStyle" />
-                </section>
-            </div>
-            <div className="container navContainer">
-                <div className="topnav" id="myTopnav">
-                    <a className="logoNav" href="#top"><img src={window.location.origin + '/HIDE_Logo.png'} alt="HIDE logo" /></a>
-                    <a className="navLink" href="#about">About</a>
-                    <a className="navLink" href="#projects">Projects</a>
-                    <a className="navLink" href="#management">Management</a>
-                    <a className="navLink" href="#contact">Contact</a>
-                    <a className="icon navLinkIcon" onClick={openMenu}>&#9776;</a>
-                </div>
-            </div>
-        </div>
-    )
-}
+import { Link } from "react-router-dom";
 
 class Home extends Component {
-    // let state={redirect: false};
-    // function setRedirect(){console.log("Set Redirect Test");state={redirect: true};}
-    // function renderRedirect(){
-    //     console.log("Render Redirect Test");
-    //     return (<Redirect to="/currentprojects" />)}
-    // function toCurrentProjects(e){
-    //     e.preventDefault();
-    //     console.log("Test");
-    //     return (<Redirect to="/currentprojects" />);
-    //         }
   render() {
       return (
           <div>
               {/*{renderRedirect()}*/}
               <div id="top">
                   <section className="hero">
-                      <NavigationHeader/>
                       <div className="container">
                           <div className="row">
                               <div className="col-md-10 col-md-offset-1">
@@ -179,27 +134,11 @@ class Home extends Component {
                               </div>
                               <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                   <h5>Learn More</h5>
-                                  {/*<Link to="/currentprojects">*/}
-                                  {/*    <button variant="outlined">*/}
-                                  {/*        Click here to learn more*/}
-                                  {/*    </button>*/}
-                                  {/*</Link>*/}
                                   <div>
-                                      {/*<button onClick={renderRedirect}>To Current Projects</button>*/}
-                                      <NavLink to="/currentprojects" activeClassName="selectedLink">Current Projects</NavLink>
-
+                                      <Link to="/currentprojects" activeClassName="selectedLink">Current Projects</Link>
                                   </div>
-
                               </div>
-
-                              {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}
-                              {/*<h5>Voting Booth</h5>*/}
-                              {/*<p>A collaboration with Undergraduate Student Government to increase student*/}
-                              {/*feedback on key campus issues. Designed to be a quick, easy, and efficient*/}
-                              {/*way to survey the student population here at Michigan Tech.</p>*/}
-                              {/*</div>*/}
                           </div>
-
                           <br/>
                           <img
                               src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
@@ -214,12 +153,6 @@ class Home extends Component {
                           <div className="row">
                               <div className="col-md-6 col-md-offset-3">
                                   <h3>Contact</h3>
-                                  {/*<p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi*/}
-                                  {/*214.</strong> Prospective*/}
-                                  {/*students are encouraged to attend.*/}
-                                  {/*For more information, please contact <strong><a*/}
-                                  {/*href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>*/}
-                                  {/*</p>*/}
                                   <p>Our general meetings are <strong>Wednesdays from 6-7pm via <a
                                       href="https://us02web.zoom.us/j/87004752696?pwd=cWRzS1RGQ256Q09Qd0hvMlRybUZBUT09">Zoom</a>.
                                   </strong> Prospective
@@ -235,7 +168,7 @@ class Home extends Component {
                       <div className="container">
                           <div className="row">
                               <div className="to-top-wrap">
-                                  <a href="#top" className="top"><i className="fa fa-angle-up"></i></a>
+                                  <a href="/#top" className="top"><i className="fa fa-angle-up"></i></a>
                               </div>
                           </div>
                       </div>

@@ -22,7 +22,7 @@ function Management() {
                 <h1 className="marginh1 clearfix font60 outline">Management</h1>
                 <div id="managementCarousel" className="carousel slide" data-ride="carousel">
                     <div className="center-block">
-                        <ol className="carousel-indicators">
+                        <ol className="carousel-indicators" id="carousel-indicators">
                             <li data-target="#managementCarousel" data-slide-to="0" className="active"/>
                             <li data-target="#managementCarousel" data-slide-to="1"/>
                             <li data-target="#managementCarousel" data-slide-to="2"/>

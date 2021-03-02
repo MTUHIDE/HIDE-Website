@@ -8,13 +8,12 @@ class CurrentProjects extends Component {
           <div>
               <div id="top">
                   <section className="hero" id="currentProjectsHero">
-                      {/*<NavigationHeader />*/}
                       <div className="container">
                           <div className="row">
                               <div className="col-md-10 col-md-offset-1">
                                   <div className="hero-content text-center">
                                       <h1 className="h1shaddow">HIDE</h1>
-                                      <p className="intro">Current Projects</p>
+                                      <p className="intro" style={{fontSize: 30}}>Current Projects</p>
                                   </div>
                               </div>
                           </div>

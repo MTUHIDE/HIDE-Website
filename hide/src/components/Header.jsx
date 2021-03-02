@@ -23,14 +23,13 @@ function Header () {
                         <a className="logoNav" href="/#top"><img src={window.location.origin + '/HIDE_Logo.png'}
                                                                 alt="HIDE logo"/></a>
                         <a className="navLink" href="/#about">About</a>
-                        {/*<a className="navLink">*/}
-                        <div className="navLink dropdown">
+                        <div className="navLink dropdown" id="dropdown">
                             <a className="dropbtn" href="/#projects">Projects</a>
                             <div className="dropdown-content">
+                                {/*<a href="/currentprojects#top">Current Projects</a>*/}
                                 <Link to="/currentprojects#top">Current Projects</Link>
                             </div>
                         </div>
-                        {/*</a>*/}
                         <a className="navLink" href="/#management">Management</a>
                         <a className="navLink" href="/#contact">Contact</a>
                         <a className="icon navLinkIcon" onClick={openMenu}>&#9776;</a>

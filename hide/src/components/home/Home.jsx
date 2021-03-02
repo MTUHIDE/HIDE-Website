@@ -16,7 +16,7 @@ class Home extends Component {
                                   <div className="hero-content text-center">
                                       <h1 className="h1shaddow">HIDE</h1>
                                       <p className="intro">Humane Interface Design Enterprise</p>
-                                      <a href="#about" className="btn btn-outline-primary learn-more">Learn more</a>
+                                      <a href="#about" className="btn btn-outline-primary learn-more" id="learn-more">Learn more</a>
                                   </div>
                               </div>
                           </div>
@@ -58,7 +58,8 @@ class Home extends Component {
                       <div className="macbook-wrap wp3 animated fadeInRight"/>
                       <div className="responsive-feature-img">
                           <img
-                              src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}
+                              // src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}
+                              src={"/img/hide_groupphoto.png"}
                               alt="responsive devices"/>
                       </div>
                   </section>
@@ -133,9 +134,8 @@ class Home extends Component {
                                       is being constructed by members of HIDE at MTU, started in 2021.</p>
                               </div>
                               <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
-                                  <h5>Learn More</h5>
                                   <div>
-                                      <Link to="/currentprojects" activeClassName="selectedLink">Current Projects</Link>
+                                      <Link to="/currentprojects" className="Link" activeClassName="selectedLink">Learn More</Link>
                                   </div>
                               </div>
                           </div>

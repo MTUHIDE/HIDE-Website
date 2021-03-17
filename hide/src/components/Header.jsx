@@ -46,17 +46,9 @@ export default class Header extends React.Component {
                             <a className="dropdown">
                                 <a className="fa fa-caret-down" id="caret-down" onClick={this.openSubMenu}/>
                                 <div className="dropdown-content" id="myDropdownContent">
-                                    <Link to="/currentprojects" hash="#top">Current Projects</Link>
-                                    {/*<div className="header" onClick={this.handleScroll}>*/}
-                                    {/*    <Link className="header-link" to={{*/}
-                                    {/*        pathname: '/currentprojects',*/}
-                                    {/*        state: {*/}
-                                    {/*            fromBanner: true*/}
-                                    {/*        }*/}
-                                    {/*    }}*/}
-                                    {/*    >Current Projects*/}
-                                    {/*    </Link>*/}
-                                    {/*</div>*/}
+                                    <Link to="/currentprojects/#top">Current Projects</Link>
+                                    <Link to="/currentprojects">Past Projects</Link>
+                                    {/*<Link to="/currentprojects" hash="#top">Current Projects</Link>*/}
                                 </div>
                             </a>
                         </div>

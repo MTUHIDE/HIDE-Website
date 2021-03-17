@@ -3,7 +3,7 @@ import './Home.css';
 import Management from "./Management";
 import { Link } from "react-router-dom";
 
-class Home extends Component {
+export default class Home extends React.Component {
   render() {
       return (
           <div>
@@ -16,7 +16,7 @@ class Home extends Component {
                                   <div className="hero-content text-center">
                                       <h1 className="h1shaddow">HIDE</h1>
                                       <p className="intro">Humane Interface Design Enterprise</p>
-                                      <a href="#about" className="btn btn-outline-primary learn-more" id="learn-more">Learn more</a>
+                                      <a href="#about" className="btn" id="learn-more">Learn more</a>
                                   </div>
                               </div>
                           </div>
@@ -58,7 +58,7 @@ class Home extends Component {
                       <div className="macbook-wrap wp3 animated fadeInRight"/>
                       <div className="responsive-feature-img">
                           <img
-                              // src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}
+                               // src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}
                               src={"/img/hide_groupphoto.png"}
                               alt="responsive devices"/>
                       </div>
@@ -135,7 +135,11 @@ class Home extends Component {
                               </div>
                               <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
                                   <div>
-                                      <Link to="/currentprojects" className="Link" activeClassName="selectedLink">Learn More</Link>
+                                      <Link to="/currentprojects">
+                                          <button type="btn" className="btn"  id="learn-more-light">
+                                              <h5>Learn More</h5>
+                                          </button>
+                                      </Link>
                                   </div>
                               </div>
                           </div>
@@ -190,5 +194,3 @@ class Home extends Component {
       );
   }
 }
-
-export default Home;

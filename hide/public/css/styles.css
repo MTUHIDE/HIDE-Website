@@ -358,13 +358,22 @@ Hero
 #learn-more{
     color: #FFFFFF;
     background-color: #232731;
-    border: 0px !important;
+    border-color: #232731;
     padding: 15px 60px !important;
 }
+#learn-more-light{
+    color: #232731;
+    background-color: #F3F4F8;
+    border-color: #626d88;
+    padding: 10px 60px !important;
+}
 #learn-more:hover{
-    color: #FFFFFF;
-    border: solid 2px !important;
+    border-color: #FFFFFF!important;
   }
+#learn-more-light:hover{
+    background-color: #FFFFFF;
+    border-color: #232731 !important;
+}
 #currentProjectsHero{
     min-height: 500px;}
 .hero .down-arrow a {

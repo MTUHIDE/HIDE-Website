@@ -4,6 +4,7 @@ import {
     Route,
     Switch
 } from "react-router-dom";
+import ScrollToTop from 'react-router-scroll-top'
 import './App.css';
 import Home from './components/home/Home';
 import CurrentProjects from './components/current_projects/CurrentProjects';
@@ -13,6 +14,7 @@ function App() {
   return (
       <div className="App">
         <Router>
+            <ScrollToTop>
             <div>
                 <Header />
                 <Switch>
@@ -27,6 +29,7 @@ function App() {
                     </Route>
                 </Switch>
             </div>
+            </ScrollToTop>
         </Router>
       </div>
   );

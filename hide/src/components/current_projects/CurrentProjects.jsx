@@ -11,6 +11,7 @@ export default class CurrentProjects extends React.Component {
                   <section className="hero" id="currentProjectsHero">
                       <div className="container">
                           <div className="row">
+                              <div className="blur"></div>
                               <div className="col-md-10 col-md-offset-1">
                                   <div className="hero-content text-center">
                                       <h1 className="h1shaddow">HIDE</h1>

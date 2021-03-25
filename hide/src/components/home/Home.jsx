@@ -12,12 +12,14 @@ export default class Home extends React.Component {
                   <section className="hero">
                       <div className="container">
                           <div className="row">
+                              <div className="blur"></div>
                               <div className="col-md-10 col-md-offset-1">
                                   <div className="hero-content text-center">
                                       <h1 className="h1shaddow">HIDE</h1>
                                       <p className="intro">Humane Interface Design Enterprise</p>
                                       <a href="#about" className="btn" id="learn-more">Learn more</a>
                                   </div>
+
                               </div>
                           </div>
                       </div>
@@ -134,19 +136,22 @@ export default class Home extends React.Component {
                                       is being constructed by members of HIDE at MTU, started in 2021.</p>
                               </div>
                               <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
-                                  <div>
-                                      <Link to="/currentprojects">
-                                          <button type="btn" className="btn"  id="learn-more-light">
-                                              <h5>Learn More</h5>
-                                          </button>
-                                      </Link>
-                                  </div>
+                                  <img
+                                      src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
+                                      style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>
                               </div>
                           </div>
                           <br/>
-                          <img
-                              src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
-                              style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>
+                          <div className="col-md-12" style={{padding: "20px 0"}}>
+                              <div>
+                                  <Link to="/currentprojects">
+                                      <button type="btn" className="btn"  id="learn-more-light">
+                                          <h5>More Project Info</h5>
+                                      </button>
+                                  </Link>
+                              </div>
+                          </div>
+
                       </div>
                   </section>
 

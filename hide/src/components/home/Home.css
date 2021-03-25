@@ -30,6 +30,25 @@
     letter-spacing: 20px;
 }
 
+#currentProjectsHero .hero-content {
+    padding-top: 150px !important;
+}
+
+.blur{
+    width: 60%;
+    height: 70%;
+    /*border: 2px solid;*/
+    border-radius: 20px;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    z-index: 0;
+    background-color: rgba(35, 39, 49, 0.8);
+    /*filter: blur(10px);*/
+    /*-webkit-filter: blur(10px);*/
+    /*-ms-filter: blur(10px);*/
+}
+
 .headerStyle {
     border-bottom: none;
     padding: 0px 0px;
@@ -84,7 +103,7 @@
 }
 
 /* Style the links inside the navigation bar */
-.topnav a, .topnav .dropdown {
+.topnav a{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -94,8 +113,10 @@
     font-size: 13px;
     text-transform: uppercase;
 }
-.topnav .dropdown{
-    padding: 17px 16px;
+.topnav .dropdown {
+    float: left;
+    display: block;
+    padding: 23px 16px;
 }
 
 .topnav a.navLinkIcon {
@@ -109,67 +130,56 @@
 }
 
 /* Dropdown container - needed to position the dropdown content */
+/*make it have same characteristics that a.navLink has*/
 .dropdown {
     float: left;
     /*overflow: hidden;*/
-    position: relative;
-    /*display: inline-block;*/
 }
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-    border: none;
-    outline: none;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 13px;
     text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
     margin: 0;
-    background-color: #232731;
-}
-
-#caret-down {
-    padding: 0 0 0 0;
-}
-
-.dropbtn {
-    position: relative !important;
 }
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
-    position: absolute !important;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    float: left;
-    z-index: -1;
-    right: 0;
-    left: auto;
-    margin-top: 30px;
+    z-index: 999;
+    margin-top: 47px;
 }
 
 /* Style the links inside the dropdown */
-.dropdown-content a, .dropdown-content Link{
+.dropdown-content a {
     float: none;
     color: black;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.topnav a:hover, .dropdown:hover .dropbtn{
-    background-color: #555;
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #2b2f38;
     color: white;
 }
 
 /* Add a grey background to dropdown links on hover */
-.dropdown-content a:hover, .dropdown-content Link:hover{
+.dropdown-content a:hover {
     background-color: #ddd;
     color: black;
 }
@@ -177,6 +187,10 @@
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.topnav .dropdown-content i, .topnav .dropdown-content span{
+    display: none;
 }
 
 /* When the screen is bigger than 600 pixels wide, make navbar fixed */
@@ -187,14 +201,26 @@
         z-index: 999;
         width: 100%;
     }
-    .navLink, .dropdown {
+    .navLink {
         transform: translateY(50%);
     }
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn, .topnav div:not(:first-child) {
+    .blur {
+        width: 80%;
+        height: 60%;
+        top: 24%;
+        left: 10%;
+    }
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+    .topnav .dropdown {
+        padding: 0 0;
+    }
+    .topnav .dropbtn i{
         display: none;
     }
     .topnav a.icon {
@@ -223,60 +249,42 @@
         position: fixed;
         right: 0;
         top: 0;
-        border: none;
     }
-    .topnav.responsive a.logoNav, .topnav.responsive .dropdown{
-        border: none;
-    }
-    .topnav.responsive .dropdown-main{
-        border-bottom: none;
-        border-right: 1px solid #3D4351
-    }
-    .topnav.responsive a, .topnav.responsive div {
+    .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
-        border-bottom: 1px solid #3D4351;
     }
-    .topnav.responsive .dropdown-group{
-        position: relative;
-    }
-    .topnav.responsive .dropdown-main{
-        width: 75%;
-        position: relative;
-    }
-    .topnav.responsive .dropdown {
-        width: 25%;
-        float: right;
-        position: absolute;
-        padding: 0 0;
-    }
-    .topnav.responsive .dropdown-group .dropdown{
-        right: 0;
-        top: 0;
-    }
+    .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {
-        z-index: 999;
         position: relative;
-        right: 0;
         margin-top: 0;
-        display: none;
-        width:400%
-    }
-    .topnav.responsive .dropdown-content.responsive{
-        float: none;
         display: block;
-        text-align: left;
-        border-bottom: 1px solid #3D4351;
-        width: 400%;
-
+        background-color: #232731;
+        box-shadow: none;
     }
-    .topnav.responsive #caret-down{
-        text-align: center;
-        margin-right: 15px;
-        padding: 17px;
+    .topnav.responsive .dropdown-content a:hover {
+        background-color: #2b2f38;
+    }
+    .topnav.responsive .dropdown-content a {
+        color: #f2f2f2;
+    }
+    .topnav.responsive .dropdown-content span, .topnav.responsive .dropdown-content i {
+        display: contents;
+    }
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown:hover .dropbtn {
+        background-color: #232731;
+    }
+    .topnav.responsive .dropdown .dropbtn:hover {
+        background-color: #2b2f38;
     }
 }
+
 
 .logoNav {
     position: relative;

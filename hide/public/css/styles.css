@@ -358,7 +358,7 @@ Hero
 #learn-more{
     color: #FFFFFF;
     background-color: #232731;
-    border-color: #232731;
+    border-color: #FFFFFF;
     padding: 15px 60px !important;
 }
 #learn-more-light{
@@ -368,11 +368,14 @@ Hero
     padding: 10px 60px !important;
 }
 #learn-more:hover{
-    border-color: #FFFFFF!important;
+    border-color: #232731;
   }
 #learn-more-light:hover{
-    background-color: #FFFFFF;
+    background-color: #232731;
     border-color: #232731 !important;
+}
+#learn-more-light:hover h5{
+    color: #F3F4F8;
 }
 #currentProjectsHero{
     min-height: 500px;}

@@ -1,4 +1,4 @@
-import React, { Component }from 'react';
+import React from 'react';
 import '../home/Home.css';
 // import Header from '../Header';
 
@@ -7,7 +7,7 @@ export default class CurrentProjects extends React.Component {
   render() {
       return (
           <>
-              <div id="top">
+              <div id="top-current">
                   <section className="hero" id="currentProjectsHero">
                       <div className="container">
                           <div className="row">

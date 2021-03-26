@@ -33,6 +33,9 @@
 #currentProjectsHero .hero-content {
     padding-top: 150px !important;
 }
+#top .hero-content {
+    padding-top: 220px !important;
+}
 
 .blur{
     width: 60%;
@@ -103,7 +106,7 @@
 }
 
 /* Style the links inside the navigation bar */
-.topnav a{
+.topnav a, .topnav button{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -119,7 +122,7 @@
     padding: 23px 16px;
 }
 
-.topnav a.navLinkIcon {
+.topnav button.navLinkIcon {
     font-size: 30px;
     transform: translateY(15%);
 }
@@ -173,7 +176,7 @@
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover, .topnav button:hover, .dropdown:hover .dropbtn {
     background-color: #2b2f38;
     color: white;
 }
@@ -223,12 +226,15 @@
     .topnav .dropbtn i{
         display: none;
     }
-    .topnav a.icon {
+    .topnav a.icon, .topnav button.icon {
         float: right;
         display: block;
         position: fixed;
         right: 0;
         top: 0;
+        background-color: #232731;
+        border: none;
+        color: #f2f2f2
     }
     .topnav {
         z-index: 999;
@@ -245,12 +251,12 @@
     .topnav.responsive {
         position: fixed;
     }
-    .topnav.responsive a.icon {
+    .topnav.responsive a.icon, .topnav.responsive button.icon {
         position: fixed;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a {
+    .topnav.responsive a, .topnav.responsive button{
         float: none;
         display: block;
         text-align: left;

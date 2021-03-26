@@ -35,7 +35,7 @@ function Header() {
                         </div>
                         <a className="navLink" href="/#management">Management</a>
                         <a className="navLink" href="/#contact">Contact</a>
-                        <a className="icon navLinkIcon" onClick={openMenu}>&#9776;</a>
+                        <button className="icon navLinkIcon" onClick={openMenu}>&#9776;</button>
                     </div>
                 </div>
             </div>

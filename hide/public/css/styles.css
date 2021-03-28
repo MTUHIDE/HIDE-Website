@@ -5,10 +5,11 @@
 Typography
 ========================================================================== */
 p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 29px;
-    color: rgba(28, 54, 83, 0.6);
-    padding-bottom: 20px; }
+    color: rgba(10, 25, 40, 0.6);
+    padding-bottom: 20px;
+    font-weight: bolder; }
 
 h1 {
     font-size: 60px; }

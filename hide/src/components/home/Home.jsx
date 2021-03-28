@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Management from "./Management";
+import Faq from "./Faq"
 import { Link } from "react-router-dom";
 
 export default class Home extends React.Component {
@@ -24,6 +25,7 @@ export default class Home extends React.Component {
                           </div>
                       </div>
                   </section>
+
                   <section className="features-extra section-padding" id="about">
                       <div className="container">
                           <div className="row">
@@ -156,6 +158,8 @@ export default class Home extends React.Component {
                   </section>
 
                   <Management/>
+
+                  <Faq/>
 
                   <section className="sign-up section-padding text-center" id="contact">
                       <div className="container">

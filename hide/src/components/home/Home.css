@@ -90,9 +90,9 @@
     padding: 80px 0px 20px 0 !important;
 }
 
-.feature-list > p {
-    font-size: 15px !important;
-}
+/*.feature-list > p {*/
+    /*font-size: 16px !important;*/
+/*}*/
 
 .primary-nav > li {
     padding-left: 4px;
@@ -345,4 +345,18 @@ section.features-extra.section-padding.color2, #pastprojects{
 #pastprojects button{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+/*FAQ*/
+.faq-title {
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.faq-answer {
+    text-align: left;
 }

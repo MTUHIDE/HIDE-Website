@@ -82,8 +82,13 @@
     vertical-align: middle  !important;
 }
 
-.author {
+.margin-bottom-100 {
     margin-bottom: 100px;
+}
+
+.managerEmail {
+    color: #acb1b4;
+    text-transform: none;
 }
 
 .managementClass {

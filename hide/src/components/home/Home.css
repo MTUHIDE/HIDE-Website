@@ -95,6 +95,10 @@
     padding: 80px 0px 20px 0 !important;
 }
 
+#managementCarousel a:hover{
+    color: white;
+}
+
 /*.feature-list > p {*/
     /*font-size: 16px !important;*/
 /*}*/

@@ -49,7 +49,7 @@ export default class CurrentProjects extends React.Component {
                                       {/*Indicators*/}
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#huskyhuntCarousel" data-slide-to="0" className="active"/>
-                                          <li data-target="#huskyhuntCarousel" data-slide-to="1"/>
+                                          {/*<li data-target="#huskyhuntCarousel" data-slide-to="1"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -57,9 +57,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item active">
                                               <img src="/img/currentprojects/huskyhunt_screenshot.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/currentprojects/ethan_m.png" alt="Team Lead: Ethan M"/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/currentprojects/ethan_m.png" alt="Team Lead: Ethan M"/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -99,7 +99,7 @@ export default class CurrentProjects extends React.Component {
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#votingboothCarousel" data-slide-to="0" className="active"/>
                                           <li data-target="#votingboothCarousel" data-slide-to="1"/>
-                                          <li data-target="#votingboothCarousel" data-slide-to="2"/>
+                                          {/*<li data-target="#votingboothCarousel" data-slide-to="2"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -110,9 +110,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item">
                                               <img src="/img/currentprojects/votingbooth_screenshot2.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/justin_m.jpg" alt="Team Lead: Justin M"/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/justin_m.jpg" alt="Team Lead: Justin M"/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -138,10 +138,11 @@ export default class CurrentProjects extends React.Component {
                                       <p>A web-based application and database to enhance the management of ArcelorMittal’s
                                           technical service organization based on territories.
                                           <br/><br/>
-                                          <strong>Team Lead(s):</strong> Shruti
+                                          <strong>Team Lead(s):</strong> Shruti Amre, Abby Myers
                                           <br/><br/>Want to learn more?
                                           <br/>Contact: <strong><a
-                                              href="mailto:smamre@mtu.edu">smamre@mtu.edu</a></strong>
+                                              href="mailto:smamre@mtu.edu">smamre@mtu.edu</a></strong><br/>
+                                          <strong><a href="mailto:abigailm@mtu.edu">abigailm@mtu.edu</a></strong>
                                       </p>
                                   </div>
                               </div>
@@ -150,8 +151,8 @@ export default class CurrentProjects extends React.Component {
                                       {/*Indicators*/}
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#arcelormittalCarousel" data-slide-to="0" className="active"/>
-                                          <li data-target="#arcelormittalCarousel" data-slide-to="1"/>
-                                          <li data-target="#arcelormittalCarousel" data-slide-to="2"/>
+                                          {/*<li data-target="#arcelormittalCarousel" data-slide-to="1"/>*/}
+                                          {/*<li data-target="#arcelormittalCarousel" data-slide-to="2"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -159,12 +160,12 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item active">
                                               <img src="/img/currentprojects/arcelormittal_screenshot.jpg" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/shruti.jpg" alt=""/>
-                                          </div>
-                                          <div className="item">
-                                              <img src="/img/abby_m.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/shruti.jpg" alt=""/>*/}
+                                          {/*</div>*/}
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/abby_m.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -202,7 +203,7 @@ export default class CurrentProjects extends React.Component {
                                       {/*Indicators*/}
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#chemstoreCarousel" data-slide-to="0" className="active"/>
-                                          <li data-target="#chemstoreCarousel" data-slide-to="1"/>
+                                          {/*<li data-target="#chemstoreCarousel" data-slide-to="1"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -210,9 +211,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item active">
                                               <img src="/img/currentprojects/chemstore_screenshot.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/brett_p.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/brett_p.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -252,7 +253,7 @@ export default class CurrentProjects extends React.Component {
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#pillowtalkCarousel" data-slide-to="0" className="active"/>
                                           <li data-target="#pillowtalkCarousel" data-slide-to="1"/>
-                                          <li data-target="#pillowtalkCarousel" data-slide-to="2"/>
+                                          {/*<li data-target="#pillowtalkCarousel" data-slide-to="2"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -263,9 +264,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item">
                                               <img src="/img/currentprojects/pillowtalk_screenshot2.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/ian_l.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/ian_l.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -303,7 +304,7 @@ export default class CurrentProjects extends React.Component {
                                       {/*Indicators*/}
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#gvscCarousel" data-slide-to="0" className="active"/>
-                                          <li data-target="#gvscCarousel" data-slide-to="1"/>
+                                          {/*<li data-target="#gvscCarousel" data-slide-to="1"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -311,9 +312,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item active">
                                               <img src="/img/currentprojects/gvsc_screenshot.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/thomas_g.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/thomas_g.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -352,7 +353,7 @@ export default class CurrentProjects extends React.Component {
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#cclcqueueCarousel" data-slide-to="0" className="active"/>
                                           <li data-target="#cclcqueueCarousel" data-slide-to="1"/>
-                                          <li data-target="#cclcqueueCarousel" data-slide-to="2"/>
+                                          {/*<li data-target="#cclcqueueCarousel" data-slide-to="2"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -363,9 +364,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item">
                                               <img src="/img/currentprojects/cclcqueue_screenshot2.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/will_h.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/will_h.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -404,7 +405,7 @@ export default class CurrentProjects extends React.Component {
                                       {/*Indicators*/}
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#lbCarousel" data-slide-to="0" className="active"/>
-                                          <li data-target="#lbCarousel" data-slide-to="1"/>
+                                          {/*<li data-target="#lbCarousel" data-slide-to="1"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
@@ -412,9 +413,9 @@ export default class CurrentProjects extends React.Component {
                                           <div className="item active">
                                               <img src="/img/currentprojects/lb_screenshot.png" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/mike_b.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/mike_b.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -452,17 +453,17 @@ export default class CurrentProjects extends React.Component {
                                       {/*Indicators*/}
                                       <ol className="carousel-indicators" id="carousel-indicators">
                                           <li data-target="#hidewebsiteCarousel" data-slide-to="0" className="active"/>
-                                          <li data-target="#hidewebsiteCarousel" data-slide-to="1"/>
+                                          {/*<li data-target="#hidewebsiteCarousel" data-slide-to="1"/>*/}
                                       </ol>
 
                                       {/*Wrapper for slides*/}
                                       <div className="carousel-inner">
                                           <div className="item active">
-                                              <img src="/img/currentprojects/hidewebsite_screenshot.png" alt=""/>
+                                              <img src="/img/currentprojects/hidewebsite_screenshot.jpg" alt=""/>
                                           </div>
-                                          <div className="item">
-                                              <img src="/img/charles_v.jpg" alt=""/>
-                                          </div>
+                                          {/*<div className="item">*/}
+                                          {/*    <img src="/img/charles_v.jpg" alt=""/>*/}
+                                          {/*</div>*/}
                                       </div>
 
                                       {/*Left and right controls*/}
@@ -499,6 +500,13 @@ export default class CurrentProjects extends React.Component {
                                       For more information, please contact <strong><a
                                           href="mailto:hide-management-l@mtu.edu">hide-management-l@mtu.edu</a></strong>
                                   </p>
+                                  <a href="https://www.linkedin.com/company/humane-interface-design-enterprise/" rel="noopener noreferrer" target="_blank">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                           className="bi bi-linkedin" viewBox="0 0 16 16">
+                                          <path
+                                              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                      </svg>
+                                  </a>
                               </div>
                           </div>
                       </div>

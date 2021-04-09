@@ -369,3 +369,39 @@ section.features-extra.section-padding.color2, #pastprojects{
 .faq-answer {
     text-align: left;
 }
+
+/*Social Media Links*/
+.row .media-links{
+    display:flex;
+    align-items: center;
+}
+#linkedin:hover{
+    transition: 0.3s ease;
+    fill: #084b8f;
+    width: 70px;
+    height: 70px;
+}
+#linkedin{
+    transition: 0.3s ease;
+    fill: #0a66c2;
+}
+#github:hover{
+    transition: 0.3s ease;
+    fill: black;
+    width: 70px;
+    height: 70px;
+}
+#github{
+    transition: 0.3s ease;
+    fill: #353a40;
+}
+#wwh:hover{
+    transition: 0.3s ease;
+    width: 80px;
+    height: 80px;
+}
+#wwh{
+    transition: 0.3s ease;
+    width: 60px;
+    height: 60px;
+}

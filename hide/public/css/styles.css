@@ -363,20 +363,26 @@ Hero
     padding: 15px 60px !important;
 }
 #learn-more-light{
-    color: #232731;
-    background-color: #F3F4F8;
-    border-color: #626d88;
+    transition: 0.2s ease;
+    background-color: #232731;
+    border-color: #232731;
     padding: 10px 60px !important;
 }
 #learn-more:hover{
     border-color: #232731;
   }
 #learn-more-light:hover{
-    background-color: #232731;
-    border-color: #232731 !important;
+    transition: 0.2s ease;
+    background-color: #F3F4F8;
+    border-color: #626d88 !important;
+}
+#learn-more-light h5{
+    transition: 0.2s ease;
+    color: #F3F4F8;
 }
 #learn-more-light:hover h5{
-    color: #F3F4F8;
+    transition: 0.2s ease;
+    color:#232731;
 }
 #currentProjectsHero{
     min-height: 500px;}

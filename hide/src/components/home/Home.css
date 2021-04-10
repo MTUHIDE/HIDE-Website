@@ -99,6 +99,13 @@
     color: white;
 }
 
+.carousel-control:focus{
+    opacity: .5;
+}
+.carousel-control:hover{
+    opacity: .9 !important;
+}
+
 /*.feature-list > p {*/
     /*font-size: 16px !important;*/
 /*}*/

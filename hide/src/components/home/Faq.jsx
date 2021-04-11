@@ -32,7 +32,7 @@ export default function Faq() {
                     <h3>Frequently Asked Questions</h3>
                     <FaqAccordion
                         question = "Can I get permission to join HIDE?"
-                        answer = "Our enterprise does not require special permission to join besides registering for the appropriate course. If you are enrolling in the 4950/4960 courses as a requirement for graduation (Engineering majors), you may need to fill out a registration form for department approval here (https://www.mtu.edu/enterprise/team-resources/). Contact your advisor to discuss approval."
+                        answer = "Our enterprise does not require special permission to join besides registering for the appropriate course. If you are enrolling in the 4950/4960 courses as a requirement for graduation (Engineering majors), you may need to fill out a registration form for department approval. Contact your academic advisor for more information."
                     />
                     <FaqAccordion
                         question = "Which ENT course should I sign up for?"

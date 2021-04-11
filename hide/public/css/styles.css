@@ -5,10 +5,11 @@
 Typography
 ========================================================================== */
 p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 29px;
-    color: rgba(28, 54, 83, 0.6);
-    padding-bottom: 20px; }
+    color: rgba(10, 25, 40, 0.6);
+    padding-bottom: 20px;
+    font-weight: bolder; }
 
 h1 {
     font-size: 60px; }
@@ -26,11 +27,12 @@ h3 {
 h4 {
     font-size: 18px; }
 
-h5 {
+h5, .Link {
     font-size: 15px;
     color: #3D4351;
     text-transform: uppercase;
     font-weight: 500; }
+
 
 .btn {
     font-size: 13px;
@@ -42,7 +44,7 @@ h5 {
 .btn:hover, .btn:focus {
     color: #fff;
     border-color: #23527c;
-    background-color: #23527c; }
+    background-color: #232731; }
 
 .btn-white {
     font-size: 13px;
@@ -348,9 +350,42 @@ Hero
 ========================================================================== */
 .hero {
     min-height: 750px;
-    background: #333844 url("../img/polygonal-bg.jpg") no-repeat center center;
+    background: #333844 url("../img/code_background2.jpeg") no-repeat center center;
     background-size: cover;
     position: relative; }
+#carousel-indicators .active{
+    margin-right: 5px
+}
+#learn-more{
+    color: #FFFFFF;
+    background-color: #232731;
+    border-color: #FFFFFF;
+    padding: 15px 60px !important;
+}
+#learn-more-light{
+    transition: 0.2s ease;
+    background-color: #232731;
+    border-color: #232731;
+    padding: 10px 60px !important;
+}
+#learn-more:hover{
+    border-color: #232731;
+  }
+#learn-more-light:hover{
+    transition: 0.2s ease;
+    background-color: #F3F4F8;
+    border-color: #626d88 !important;
+}
+#learn-more-light h5{
+    transition: 0.2s ease;
+    color: #F3F4F8;
+}
+#learn-more-light:hover h5{
+    transition: 0.2s ease;
+    color:#232731;
+}
+#currentProjectsHero{
+    min-height: 500px;}
 .hero .down-arrow a {
     color: #fff; }
 .hero h1 {
@@ -523,12 +558,12 @@ Features-stack
     margin-top: 20px; }
 .features-extra .macbook-wrap {
     position: absolute;
-    width: 916px;
-    height: 540px;
-    background: url("../img/User-experience-diagram.png") no-repeat center center;
+    width: 1000px;
+    height: 600px;
+    background: url("../img/hide_groupphoto.png") no-repeat center center;
     top: 114px;
     z-index: 4;
-    left: 50%; }
+    left: 35%; }
 
 /* ==========================================================================
 .hero-strip

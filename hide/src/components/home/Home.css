@@ -30,6 +30,28 @@
     letter-spacing: 20px;
 }
 
+#currentProjectsHero .hero-content {
+    padding-top: 150px !important;
+}
+#top .hero-content {
+    padding-top: 220px !important;
+}
+
+.blur{
+    width: 60%;
+    height: 70%;
+    /*border: 2px solid;*/
+    border-radius: 20px;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    z-index: 0;
+    background-color: rgba(35, 39, 49, 0.8);
+    /*filter: blur(10px);*/
+    /*-webkit-filter: blur(10px);*/
+    /*-ms-filter: blur(10px);*/
+}
+
 .headerStyle {
     border-bottom: none;
     padding: 0px 0px;
@@ -60,17 +82,33 @@
     vertical-align: middle  !important;
 }
 
-.author {
+.margin-bottom-100 {
     margin-bottom: 100px;
+}
+
+.managerEmail {
+    color: #acb1b4;
+    text-transform: none;
 }
 
 .managementClass {
     padding: 80px 0px 20px 0 !important;
 }
 
-.feature-list > p {
-    font-size: 15px !important;
+#managementCarousel a:hover{
+    color: white;
 }
+
+.carousel-control:focus{
+    opacity: .5;
+}
+.carousel-control:hover{
+    opacity: .9 !important;
+}
+
+/*.feature-list > p {*/
+    /*font-size: 16px !important;*/
+/*}*/
 
 .primary-nav > li {
     padding-left: 4px;
@@ -80,11 +118,11 @@
 /* Navbar style ------------------------------*/
 .topnav {
     background-color: #232731;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a, .topnav button{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -94,8 +132,13 @@
     font-size: 13px;
     text-transform: uppercase;
 }
+.topnav .dropdown {
+    float: left;
+    display: block;
+    padding: 23px 16px;
+}
 
-.topnav a.navLinkIcon {
+.topnav button.navLinkIcon {
     font-size: 30px;
     transform: translateY(15%);
 }
@@ -106,18 +149,22 @@
 }
 
 /* Dropdown container - needed to position the dropdown content */
+/*make it have same characteristics that a.navLink has*/
 .dropdown {
     float: left;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-    font-size: 17px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
     border: none;
     outline: none;
-    color: white;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -131,6 +178,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 999;
+    margin-top: 47px;
 }
 
 /* Style the links inside the dropdown */
@@ -144,8 +192,8 @@
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
+.topnav a:hover, .topnav button:hover, .dropdown:hover .dropbtn {
+    background-color: #2b2f38;
     color: white;
 }
 
@@ -158,6 +206,10 @@
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.topnav .dropdown-content i, .topnav .dropdown-content span{
+    display: none;
 }
 
 /* When the screen is bigger than 600 pixels wide, make navbar fixed */
@@ -175,15 +227,30 @@
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+    .blur {
+        width: 80%;
+        height: 60%;
+        top: 24%;
+        left: 10%;
+    }
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
     }
-    .topnav a.icon {
+    .topnav .dropdown {
+        padding: 0 0;
+    }
+    .topnav .dropbtn i{
+        display: none;
+    }
+    .topnav a.icon, .topnav button.icon {
         float: right;
         display: block;
         position: fixed;
         right: 0;
         top: 0;
+        background-color: #232731;
+        border: none;
+        color: #f2f2f2
     }
     .topnav {
         z-index: 999;
@@ -200,24 +267,46 @@
     .topnav.responsive {
         position: fixed;
     }
-    .topnav.responsive a.icon {
+    .topnav.responsive a.icon, .topnav.responsive button.icon {
         position: fixed;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a {
+    .topnav.responsive a, .topnav.responsive button{
         float: none;
         display: block;
         text-align: left;
     }
     .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown-content {
+        position: relative;
+        margin-top: 0;
+        display: block;
+        background-color: #232731;
+        box-shadow: none;
+    }
+    .topnav.responsive .dropdown-content a:hover {
+        background-color: #2b2f38;
+    }
+    .topnav.responsive .dropdown-content a {
+        color: #f2f2f2;
+    }
+    .topnav.responsive .dropdown-content span, .topnav.responsive .dropdown-content i {
+        display: contents;
+    }
     .topnav.responsive .dropdown .dropbtn {
         display: block;
         width: 100%;
         text-align: left;
     }
+    .topnav.responsive .dropdown:hover .dropbtn {
+        background-color: #232731;
+    }
+    .topnav.responsive .dropdown .dropbtn:hover {
+        background-color: #2b2f38;
+    }
 }
+
 
 .logoNav {
     position: relative;
@@ -225,4 +314,101 @@
 
 .back {
     z-index: 995;
+}
+#huskyhuntCarousel img, #votingboothCarousel img, #arcelormittalCarousel img,
+#chemstoreCarousel img, #pillowtalkCarousel img, #gvscCarousel img,
+#cclcqueueCarousel img, #lbCarousel img, #hidewebsiteCarousel img{
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+    margin: auto;
+}
+@media screen and (max-width: 800px) {
+    #huskyhuntCarousel img, #votingboothCarousel img, #arcelormittalCarousel img,
+    #chemstoreCarousel img, #pillowtalkCarousel img, #gvscCarousel img,
+    #cclcqueueCarousel img, #lbCarousel img, #hidewebsiteCarousel img{
+        width: auto;
+        height: 250px;
+        max-height: 250px;
+        margin: auto;
+    }
+}
+
+.container.sm-margin{
+    padding: 0;
+}
+
+.center div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (min-width: 800px) {
+    .row.flex-vertically{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+}
+.color1 section{
+    background: #fff
+}
+section.features-extra.section-padding.color2, #pastprojects{
+    background: #F3F4F8;
+}
+#pastprojects button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*FAQ*/
+.faq-title {
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.faq-answer {
+    text-align: left;
+}
+
+/*Social Media Links*/
+.row .media-links{
+    display:flex;
+    align-items: center;
+}
+#linkedin:hover{
+    transition: 0.3s ease;
+    fill: #084b8f;
+    width: 70px;
+    height: 70px;
+}
+#linkedin{
+    transition: 0.3s ease;
+    fill: #0a66c2;
+}
+#github:hover{
+    transition: 0.3s ease;
+    fill: black;
+    width: 70px;
+    height: 70px;
+}
+#github{
+    transition: 0.3s ease;
+    fill: #353a40;
+}
+#wwh:hover{
+    transition: 0.3s ease;
+    width: 80px;
+    height: 80px;
+}
+#wwh{
+    transition: 0.3s ease;
+    width: 60px;
+    height: 60px;
 }

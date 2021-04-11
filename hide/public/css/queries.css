@@ -235,7 +235,7 @@
         margin: 120px 0 120px 0;
     }
 
-    @media screen and (max-width:640px) {
+    @media screen and (max-width: 640px) {
         footer ul.footer-group {
             border-top: none;
         }
@@ -258,7 +258,7 @@
 
     }
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width: 480px) {
         .hero .hero-content {
             padding-top: 41%;
         }
@@ -318,5 +318,6 @@
 
     }
 
-    @media screen and (max-width:320px) {
+    @media screen and (max-width: 320px) {
     }
+}

@@ -68,11 +68,17 @@ const ProjectSummaries = () => {
               is being constructed by members of HIDE at MTU, started in 2021.</p>
           </ProjectSummary>
 
-          <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
-            <img
-            src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
-            style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>
-          </div>
+          <ProjectSummary title="Health Resource Hub" isLeft={false}>
+            <p>Provides information about important community resources such as food,
+              housing, transit, health, education, and more.
+              Collaborating with IT Oxygen enterprise.</p>
+          </ProjectSummary>
+
+          {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}
+            {/*<img*/}
+            {/*src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"*/}
+            {/*style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>*/}
+          {/*</div>*/}
 
           <br/>
             <div className="col-md-12" style={{padding: "20px 0"}}>

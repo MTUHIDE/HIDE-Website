@@ -89,9 +89,9 @@ export default class CurrentProjects extends React.Component {
                 <div className="col-md-7 col-sm-12 center">
                   <div id="chemstoreCarousel" className="carousel slide" data-interval="false" data-ride="carousel">
                     {/*Indicators*/}
-                    <ol className="carousel-indicators" id="carousel-indicators">
-                      <li data-target="#chemstoreCarousel" data-slide-to="0" className="active"/>
-                    </ol>
+                    {/*<ol className="carousel-indicators" id="carousel-indicators">*/}
+                      {/*<li data-target="#chemstoreCarousel" data-slide-to="0" className="active"/>*/}
+                    {/*</ol>*/}
 
                     {/*Wrapper for slides*/}
                     <div className="carousel-inner">
@@ -101,14 +101,14 @@ export default class CurrentProjects extends React.Component {
                     </div>
 
                     {/*Left and right controls*/}
-                    <a className="left carousel-control" href="#chemstoreCarousel" data-slide="prev">
-                      <span className="glyphicon glyphicon-chevron-left"/>
-                      <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="right carousel-control" href="#chemstoreCarousel" data-slide="next">
-                      <span className="glyphicon glyphicon-chevron-right"/>
-                      <span className="sr-only">Next</span>
-                    </a>
+                    {/*<a className="left carousel-control" href="#chemstoreCarousel" data-slide="prev">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-left"/>*/}
+                      {/*<span className="sr-only">Previous</span>*/}
+                    {/*</a>*/}
+                    {/*<a className="right carousel-control" href="#chemstoreCarousel" data-slide="next">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-right"/>*/}
+                      {/*<span className="sr-only">Next</span>*/}
+                    {/*</a>*/}
                   </div>
                 </div>
               </div>
@@ -182,9 +182,9 @@ export default class CurrentProjects extends React.Component {
                 <div className="col-md-7 col-sm-12 center">
                   <div id="gvscCarousel" className="carousel slide" data-interval="false" data-ride="carousel">
                     {/*Indicators*/}
-                    <ol className="carousel-indicators" id="carousel-indicators">
-                      <li data-target="#gvscCarousel" data-slide-to="0" className="active"/>
-                    </ol>
+                    {/*<ol className="carousel-indicators" id="carousel-indicators">*/}
+                      {/*<li data-target="#gvscCarousel" data-slide-to="0" className="active"/>*/}
+                    {/*</ol>*/}
 
                     {/*Wrapper for slides*/}
                     <div className="carousel-inner">
@@ -194,14 +194,14 @@ export default class CurrentProjects extends React.Component {
                     </div>
 
                     {/*Left and right controls*/}
-                    <a className="left carousel-control" href="#gvscCarousel" data-slide="prev">
-                      <span className="glyphicon glyphicon-chevron-left"/>
-                      <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="right carousel-control" href="#gvscCarousel" data-slide="next">
-                      <span className="glyphicon glyphicon-chevron-right"/>
-                      <span className="sr-only">Next</span>
-                    </a>
+                    {/*<a className="left carousel-control" href="#gvscCarousel" data-slide="prev">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-left"/>*/}
+                      {/*<span className="sr-only">Previous</span>*/}
+                    {/*</a>*/}
+                    {/*<a className="right carousel-control" href="#gvscCarousel" data-slide="next">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-right"/>*/}
+                      {/*<span className="sr-only">Next</span>*/}
+                    {/*</a>*/}
                   </div>
                 </div>
               </div>
@@ -275,9 +275,9 @@ export default class CurrentProjects extends React.Component {
                 <div className="col-md-7 col-sm-12 center">
                   <div id="lbCarousel" className="carousel slide" data-interval="false" data-ride="carousel">
                     {/*Indicators*/}
-                    <ol className="carousel-indicators" id="carousel-indicators">
-                      <li data-target="#lbCarousel" data-slide-to="0" className="active"/>
-                    </ol>
+                    {/*<ol className="carousel-indicators" id="carousel-indicators">*/}
+                      {/*<li data-target="#lbCarousel" data-slide-to="0" className="active"/>*/}
+                    {/*</ol>*/}
 
                     {/*Wrapper for slides*/}
                     <div className="carousel-inner">
@@ -287,14 +287,14 @@ export default class CurrentProjects extends React.Component {
                     </div>
 
                     {/*Left and right controls*/}
-                    <a className="left carousel-control" href="#lbCarousel" data-slide="prev">
-                      <span className="glyphicon glyphicon-chevron-left"/>
-                      <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="right carousel-control" href="#lbCarousel" data-slide="next">
-                      <span className="glyphicon glyphicon-chevron-right"/>
-                      <span className="sr-only">Next</span>
-                    </a>
+                    {/*<a className="left carousel-control" href="#lbCarousel" data-slide="prev">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-left"/>*/}
+                      {/*<span className="sr-only">Previous</span>*/}
+                    {/*</a>*/}
+                    {/*<a className="right carousel-control" href="#lbCarousel" data-slide="next">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-right"/>*/}
+                      {/*<span className="sr-only">Next</span>*/}
+                    {/*</a>*/}
                   </div>
                 </div>
               </div>
@@ -355,6 +355,49 @@ export default class CurrentProjects extends React.Component {
                       <span className="glyphicon glyphicon-chevron-right"/>
                       <span className="sr-only">Next</span>
                     </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="features-extra section-padding color1" id="health_resource_hub">
+            <div className="container sm-padding">
+              <div className="row flex-vertically">
+                <div className="col-md-5 col-sm-12">
+                  <div className="feature-list">
+                    <h3 className="about">Health Resource Hub</h3>
+                    <p>Provides information about important community resources such as food, housing, transit, health, education, and more. Collaborating with IT Oxygen enterprise.
+                      <br/><br/>
+                      <strong>Team Lead(s):</strong> Abby Myers
+                      <br/><br/>Want to learn more?
+                      <br/>Contact: <strong><a
+                        href="mailto:abigailm@mtu.edu">abigailm@mtu.edu</a></strong>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-7 col-sm-12 center">
+                  <div id="hidewebsiteCarousel" className="carousel slide" data-interval="false" data-ride="carousel">
+                    {/*Indicators*/}
+                    {/*<ol className="carousel-indicators" id="carousel-indicators">*/}
+                      {/*<li data-target="#hidewebsiteCarousel" data-slide-to="0" className="active"/>*/}
+                    {/*</ol>*/}
+
+                    {/*Wrapper for slides*/}
+                    <div className="carousel-inner">
+                      <div className="item active">
+                        <img src="/img/code_background2.jpeg" alt=""/>
+                      </div>
+                    </div>
+
+                    {/*Left and right controls*/}
+                    {/*<a className="left carousel-control" href="#hidewebsiteCarousel" data-slide="prev">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-left"/>*/}
+                      {/*<span className="sr-only">Previous</span>*/}
+                    {/*</a>*/}
+                    {/*<a className="right carousel-control" href="#hidewebsiteCarousel" data-slide="next">*/}
+                      {/*<span className="glyphicon glyphicon-chevron-right"/>*/}
+                      {/*<span className="sr-only">Next</span>*/}
+                    {/*</a>*/}
                   </div>
                 </div>
               </div>

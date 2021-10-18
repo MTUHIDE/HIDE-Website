@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import Management from "./Management";
 import Faq from "./Faq"
-import { Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import ProjectSummaries from "./ProjectSummaries";
 

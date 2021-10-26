@@ -34,7 +34,7 @@ const Carousel = (props) => {
       <div id={name + "Carousel"} className="carousel slide" data-interval="false" data-ride="carousel">
         {/*Indicators*/}
         {picturePaths.length > 1 &&
-          <ol className="carousel-indicators" id="carousel-indicators">
+          <ol className="carousel-indicators carousel-indicators-projects" id="carousel-indicators">
             {indicators}
           </ol>
         }

@@ -10,7 +10,7 @@ const Carousel = (props) => {
   for (let i = 0; i < picturePaths.length; i++) {
     if (i === 0) {
       indicators.push(
-        <li data-target={"#" + name + "Carousel"} data-slide-to={i} key={i} className="active" style={{"border-color": "gray", "border-width": "2px"}}/>
+        <li data-target={"#" + name + "Carousel"} data-slide-to={i} key={i} className="active" style={{"border-color": "white", "border-width": "2px"}}/>
       );
       pictures.push(
         <div className="item active">
@@ -19,7 +19,7 @@ const Carousel = (props) => {
       );
     } else {
       indicators.push(
-        <li data-target={"#" + name + "Carousel"} data-slide-to={i} key={i} style={{"border-color": "gray", "border-width": "2px"}}/>
+        <li data-target={"#" + name + "Carousel"} data-slide-to={i} key={i} style={{"border-color": "white", "border-width": "2px"}}/>
       );
       pictures.push(
         <div className="item">
@@ -34,7 +34,7 @@ const Carousel = (props) => {
       <div id={name + "Carousel"} className="carousel slide" data-interval="false" data-ride="carousel">
         {/*Indicators*/}
         {picturePaths.length > 1 &&
-          <ol className="carousel-indicators" id="carousel-indicators">
+          <ol className="carousel-indicators carousel-indicators-projects" id="carousel-indicators">
             {indicators}
           </ol>
         }

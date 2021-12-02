@@ -4,7 +4,7 @@ import ProjectSummary from "./ProjectSummary";
 
 const ProjectSummaries = () => {
   return (
-    <section className="blog-intro section-padding" id="projects">
+    <section className="section-padding" id="projects">
       <div className="container">
         <div className="row">
           <div className="col-md-12">

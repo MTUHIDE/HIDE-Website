@@ -22,6 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 hide/package-lock.json
+hide/yarn.lock
 
 #IntelliJ
 .idea/

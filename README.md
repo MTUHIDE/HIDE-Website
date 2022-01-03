@@ -7,8 +7,9 @@ This site uses [React](https://reactjs.org/) for the front end.
 ## Installation
 
 1. Install [NodeJS](https://nodejs.org/en/).
-2. Run ```npm install```.
-3. CD to HIDE-Website/hide and run the ```npm start``` command to start a local server.
+2. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+2. Run ```yarn install```.
+3. CD to HIDE-Website/hide and run the ```yarn start``` command to start a local server.
 4. Open <http://localhost:3000/> to see the app.
 
 ## Contributing
@@ -29,7 +30,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -37,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm run build`
+### `yarn run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -70,7 +71,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment Process
 - The site is hosted at [https://hide.cs.mtu.edu/](https://hide.cs.mtu.edu/).
-- Create a build using `npm run build`.
+- Create a build using `yarn run build`.
 - Log in to cPanel.
 - Navigate to the file manager.
 - Find the `public_html` directory.

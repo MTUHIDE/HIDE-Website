@@ -9,7 +9,7 @@ const Contact = () => {
                       <div className="col-md-6 col-md-offset-3">
                         <h3>Contact</h3>
                         <p>Our general meetings are <strong>Wednesdays from 6-7pm in Rekhi 214 or on <a
-                          href="https://michigantech.zoom.us/j/83892143330">Zoom</a>.
+                          href="https://michigantech.zoom.us/j/86891464621">Zoom</a>.
                         </strong> Prospective
                           students are encouraged to attend.
                           For more information, please contact <strong><a

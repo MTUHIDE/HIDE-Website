@@ -77,7 +77,7 @@ const ProjectSummaries = () => {
 
           <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
             <img
-            src=" http://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
+            src="https://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
             style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>
           </div>
 

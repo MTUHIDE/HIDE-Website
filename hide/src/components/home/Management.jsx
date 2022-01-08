@@ -43,7 +43,7 @@ function Management() {
                         <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
                         <ManagerCard name="Joe Wood" imagePath="/img/joe_w.png" role="GVSC Team Lead" email="jodwood@mtu.edu" active=""/>
                         <ManagerCard name="Tyler Zetty" imagePath="/img/tyler_z.png" role="CCLC Queue Team Lead" email="tjzetty@mtu.edu" active=""/>
-                        <ManagerCard name="Jason Hoffman" imagePath="/img/no_profile.png" role="Chem Store Team Lead" email="jasonhof@mtu.edu" active=""/>
+                        <ManagerCard name="Jason Hoffman" imagePath="/img/jason_h.png" role="Chem Store Team Lead" email="jasonhof@mtu.edu" active=""/>
                         <ManagerCard name="Tom Berg" imagePath="/img/tom_b.png" role="Little Brothers Team Lead" email="tomberg@mtu.edu" active=""/>
                     </div>
 

@@ -36,7 +36,7 @@ const Contact = () => {
                           </div>
                           <div className="col-xs-4">
                             <a href="https://winterwonderhack.com/" rel="noopener noreferrer" target="_blank">
-                              <img className="icon-img" id="wwh" src={"/img/wwh2021_logo.png"} alt="winter wonderhack logo"/>
+                              <img className="icon-img" id="wwh" src={"/img/wwh2022_logo.png"} alt="winter wonderhack logo"/>
                             </a>
                           </div>
                         </div>

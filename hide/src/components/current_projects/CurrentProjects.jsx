@@ -22,35 +22,35 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          <section className="features-extra section-padding color2" id="votingbooth">
-            <div className="container sm-padding">
-              <div className="row flex-vertically">
-                <div className="col-md-5 col-sm-12">
-                  <div className="feature-list">
-                    <h3 className="about">Voting Booth</h3>
-                    <p>A collaboration with Undergraduate Student Government to increase student
-                      feedback on key campus issues. Designed to be a quick, easy, and efficient
-                      way to survey the student population here at Michigan Tech.
-                      <br/><br/>
-                      <strong>Team Lead(s):</strong> Eva Muller
-                      <br/><br/>Want to learn more?
-                      <br/>Contact: <strong><a
-                        href="mailto:emmuller@mtu.edu">emmuller@mtu.edu</a></strong>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-7 col-sm-12 center">
-                  <Carousel
-                    name={"votingbooth"}
-                    picturePaths={[
-                      "/img/currentprojects/votingbooth_screenshot1.png",
-                      "/img/currentprojects/votingbooth_screenshot2.png"
-                      ]}
-                  />
-                </div>
-              </div>
-            </div>
-          </section>
+          {/*<section className="features-extra section-padding color2" id="votingbooth">*/}
+            {/*<div className="container sm-padding">*/}
+              {/*<div className="row flex-vertically">*/}
+                {/*<div className="col-md-5 col-sm-12">*/}
+                  {/*<div className="feature-list">*/}
+                    {/*<h3 className="about">Voting Booth</h3>*/}
+                    {/*<p>A collaboration with Undergraduate Student Government to increase student*/}
+                      {/*feedback on key campus issues. Designed to be a quick, easy, and efficient*/}
+                      {/*way to survey the student population here at Michigan Tech.*/}
+                      {/*<br/><br/>*/}
+                      {/*<strong>Team Lead(s):</strong> Eva Muller*/}
+                      {/*<br/><br/>Want to learn more?*/}
+                      {/*<br/>Contact: <strong><a*/}
+                        {/*href="mailto:emmuller@mtu.edu">emmuller@mtu.edu</a></strong>*/}
+                    {/*</p>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+                {/*<div className="col-md-7 col-sm-12 center">*/}
+                  {/*<Carousel*/}
+                    {/*name={"votingbooth"}*/}
+                    {/*picturePaths={[*/}
+                      {/*"/img/currentprojects/votingbooth_screenshot1.png",*/}
+                      {/*"/img/currentprojects/votingbooth_screenshot2.png"*/}
+                      {/*]}*/}
+                  {/*/>*/}
+                {/*</div>*/}
+              {/*</div>*/}
+            {/*</div>*/}
+          {/*</section>*/}
           <section className="features-extra section-padding color2" id="chemstore">
             <div className="container sm-padding">
               <div className="row flex-vertically">
@@ -116,10 +116,10 @@ export default class CurrentProjects extends React.Component {
                     <p>A simulation project for the Ground Vehicle Systems Center (GVSC). Development is
                       in Unreal Engine 4 for both VR (Vive Cosmos Elite) and PC.
                       <br/><br/>
-                      <strong>Team Lead(s):</strong> Thomas Grifka
+                      <strong>Team Lead(s):</strong> Joe Wood
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
-                        href="mailto:tjgrifka@mtu.edu">tjgrifka@mtu.edu</a></strong>
+                        href="mailto:jodwood@mtu.edu">jodwood@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -143,10 +143,10 @@ export default class CurrentProjects extends React.Component {
                     <p>A Canvas plugin that will be replacing the current system in the Computer Science
                       Learning Center.
                       <br/><br/>
-                      <strong>Team Lead(s):</strong> Will Holland
+                      <strong>Team Lead(s):</strong> Tyler Zetty
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
-                        href="mailto:whhollan@mtu.edu">whhollan@mtu.edu</a></strong>
+                        href="mailto:tjzetty@mtu.edu">tjzetty@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -172,10 +172,10 @@ export default class CurrentProjects extends React.Component {
                       appointments, small activities, provide meals, help with bills, etc. This website
                       is being constructed by members of HIDE at MTU, started in 2021.
                       <br/><br/>
-                      <strong>Team Lead(s):</strong> Mike Boisvert
+                      <strong>Team Lead(s):</strong> Tom Berg
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
-                        href="mailto:mdboisve@mtu.edu">mdboisve@mtu.edu</a></strong>
+                        href="mailto:tomberg@mtu.edu">tomberg@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -203,10 +203,9 @@ export default class CurrentProjects extends React.Component {
                       <br/><br/>
                       <strong>HIDE Website:</strong> The website you are on right now!
                       <br/><br/>
-                      <strong>ArcelorMittal / Cleveland Cliffs:</strong> A web-based application and database to enhance the management of ArcelorMittal’s
-                      technical service organization based on territories.
+                      {/*<strong>ArcelorMittal / Cleveland Cliffs:</strong> A web-based application and database to enhance the management of ArcelorMittal’s*/}
+                      {/*technical service organization based on territories.*/}
 
-                      <br/><br/>
                       <strong>Team Lead(s):</strong> Charles Vidro
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a

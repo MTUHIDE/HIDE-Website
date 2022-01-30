@@ -33,6 +33,9 @@ function Management() {
                             <li data-target="#managementCarousel" data-slide-to="6"/>
                             <li data-target="#managementCarousel" data-slide-to="7"/>
                             <li data-target="#managementCarousel" data-slide-to="8"/>
+                            <li data-target="#managementCarousel" data-slide-to="9"/>
+                            <li data-target="#managementCarousel" data-slide-to="10"/>
+                            <li data-target="#managementCarousel" data-slide-to="11"/>
                         </ol>
                     </div>
                     <div className="carousel-inner">
@@ -45,6 +48,9 @@ function Management() {
                         <ManagerCard name="Tyler Zetty" imagePath="/img/tyler_z.png" role="CCLC Queue Team Lead" email="tjzetty@mtu.edu" active=""/>
                         <ManagerCard name="Jason Hoffman" imagePath="/img/jason_h.png" role="Chem Store Team Lead" email="jasonhof@mtu.edu" active=""/>
                         <ManagerCard name="Tom Berg" imagePath="/img/tom_b.png" role="Little Brothers Team Lead" email="tomberg@mtu.edu" active=""/>
+                        <ManagerCard name="Ivona Gorgioski" imagePath="/img/ivona_g.jpg" role="UX Team Lead" email="igorgios@mtu.edu " active=""/>
+                        <ManagerCard name="Eva Muller" imagePath="/img/eva_m.jpg" role="GDLS Team Co-Lead" email="emmuller@mtu.edu " active=""/>
+                        <ManagerCard name="Jonathan Rabideau" imagePath="/img/no_profile.png" role="GDLS Team Co-Lead" email="jarabide@mtu.edu " active=""/>
                     </div>
 
                     <a className="left carousel-control" href="#managementCarousel" data-slide="prev">

@@ -30,7 +30,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: deptspanel2.it.mtu.edu
-        ftp-username: deploy@hide.cs.mtu.edu
+        ftp-server: hide.cs.mtu.edu
+        ftp-username: hidecs@hide.cs.mtu.edu
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/

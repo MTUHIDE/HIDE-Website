@@ -34,3 +34,4 @@ jobs:
         ftp-username: hidecs@hide.cs.mtu.edu
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
+        ARGS: --verbose

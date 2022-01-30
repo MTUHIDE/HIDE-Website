@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run react build script
-      run: yarn && yarn build
+      run: cd hide && yarn && yarn build && cd ..
       env:
         CI: false
 

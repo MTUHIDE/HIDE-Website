@@ -28,7 +28,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         ftp-server: hide.cs.mtu.edu
         ftp-username: hidecs@hide.cs.mtu.edu

@@ -33,10 +33,8 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        server: hide.cs.mtu.edu
-        username: hidecs@hide.cs.mtu.edu
-        password: ${{ secrets.FTP_PASSWORD }}
+        ftp-server: ftp://hide.cs.mtu.edu
+        ftp-username: hidecs@hide.cs.mtu.edu
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
-        protocol: ftp
-        log-level: verbose
-        security: loose
+        git-ftp-args: --insecure

@@ -19,6 +19,9 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      with:
+        lfs: true
+        fetch-depth: 0
 
     # Runs a single command using the runners shell
     - name: Run react build script
@@ -28,7 +31,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         server: hide.cs.mtu.edu
         username: hidecs@hide.cs.mtu.edu

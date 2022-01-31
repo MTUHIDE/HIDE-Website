@@ -30,14 +30,10 @@ jobs:
         CI: false
 
     # Runs a set of commands using the runners shell
-    - name: FTP Deployer
-      uses: sand4rt/ftp-deployer@v1.3
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        sftp: false
         host: hide.cs.mtu.edu
-        port: 21
-        username: hidecs@hide.cs.mtu.edu
+        user: hidecs@hide.cs.mtu.edu
         password: ${{ secrets.FTP_PASSWORD }}
-        local_folder: build/
-        cleanup: false
-        pasive: false
+        localDir: build/

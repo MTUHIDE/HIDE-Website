@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/hide/node_modules
-/hide/.pnp
-/hide.pnp.js
+node_modules
+.pnp
+.pnp.js
 
 # testing
-/hide/coverage
+coverage
 
 # production
-/hide/build
+build
 
 # misc
 .DS_Store
@@ -21,8 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-hide/package-lock.json
-hide/yarn.lock
+package-lock.json
+yarn.lock
 
 #IntelliJ
 .idea/

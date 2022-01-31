@@ -9,7 +9,7 @@ This site uses [React](https://reactjs.org/) for the front end.
 1. Install [NodeJS](https://nodejs.org/en/).
 2. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
 2. Run ```yarn install```.
-3. CD to HIDE-Website/hide and run the ```yarn start``` command to start a local server.
+3. Run the ```yarn start``` command to start a local server.
 4. Open <http://localhost:3000/> to see the app.
 
 ## Contributing

@@ -37,4 +37,4 @@ jobs:
         ftp-username: hidecs@hide.cs.mtu.edu
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
-        git-ftp-args: --insecure
+        git-ftp-args: --insecure --proxy ftp://hide.cs.mtu.edu:21

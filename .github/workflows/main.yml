@@ -30,7 +30,7 @@ jobs:
         CI: false
 
     # Runs a set of commands using the runners shell
-    - name: FTP-Deployer
+    - name: FTP Deployer
       uses: sand4rt/ftp-deployer@v1.3
       with:
         sftp: false

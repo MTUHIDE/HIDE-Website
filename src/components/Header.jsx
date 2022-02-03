@@ -24,6 +24,7 @@ function Header() {
                         <a className="logoNav" href="/#top"><img src={window.location.origin + '/HIDE_Logo.png'}
                                                                  alt="HIDE logo"/></a>
                         <a className="navLink" href="/#about">About</a>
+                        <a className="navLink" href="/#events">Events</a>
                         <div className="dropdown">
                             <a className="dropbtn" href="/#projects">
                                 Projects<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><i className="fa fa-caret-down"></i>

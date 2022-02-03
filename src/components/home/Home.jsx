@@ -2,9 +2,9 @@ import React from 'react';
 import './Home.css';
 import Management from "./Management";
 import Faq from "./Faq"
-import { Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import ProjectSummaries from "./ProjectSummaries";
+import UpcomingEvents from "../events/Events";
 
 export default class Home extends React.Component {
   render() {
@@ -69,8 +69,8 @@ export default class Home extends React.Component {
                       </div>
                   </section>
 
-                 <ProjectSummaries/>
-
+                  <UpcomingEvents/>
+                  <ProjectSummaries/>
                   <Management/>
                   <Faq/>
                   <Contact/>

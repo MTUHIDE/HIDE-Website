@@ -2,6 +2,7 @@ import React from 'react';
 import '../home/Home.css';
 import Contact from "../Contact/Contact";
 import Carousel from "../carrousel/Carousel";
+import {Link} from "react-router-dom";
 
 export default class CurrentProjects extends React.Component {
 
@@ -252,14 +253,16 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          {/*Link to Past Projects page (currently un-implemented)*/}
-          {/*<div className="row justify-content-center" id="pastprojects">*/}
-          {/*    <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">*/}
-          {/*    <button type="button" className="btn btn-lg btn-block">*/}
-          {/*        Past Projects*/}
-          {/*    </button>*/}
-          {/*    </div>*/}
-          {/*</div>*/}
+          <div className="row justify-content-center" id="pastprojects">
+              <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                <h5>See what we have worked on in the past!</h5>
+                <Link to="/pastprojects">
+                  <button type="button" className="btn btn-block" id={"learn-more-light"}>
+                    <h5>Past Projects</h5>
+                  </button>
+                </Link>
+              </div>
+          </div>
 
           <Contact/>
 

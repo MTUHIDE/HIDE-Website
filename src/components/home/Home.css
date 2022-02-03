@@ -28,6 +28,7 @@
 .h1shaddow {
     font-size: 100px;
     letter-spacing: 20px;
+    margin-right: -20px;
 }
 
 #currentProjectsHero .hero-content {
@@ -363,7 +364,7 @@
     box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
 }
 
-section.features-extra.section-padding.color2, #pastprojects,{
+section.features-extra.section-padding.color2, #pastprojects {
     background: #F3F4F8;
 }
 #pastprojects button{

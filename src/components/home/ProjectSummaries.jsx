@@ -71,8 +71,7 @@ const ProjectSummaries = () => {
         <div className="row">
           <ProjectSummary title="LB: Little Brothers" isLeft={true}>
             <p>Little Brothers is a program that helps the elderly travel to doctor's
-              appointments, small activities, provide meals, help with bills, etc. This website
-              is being constructed by members of HIDE at MTU, started in 2021.</p>
+              appointments, small activities, provide meals, help with bills, etc.</p>
           </ProjectSummary>
 
           <ProjectSummary title="GDLS: Web Scraping and Image Labeling" isLeft={false}>

@@ -13,8 +13,7 @@ export default class PastProjects extends React.Component {
                     <section className="hero" id="currentProjectsHero">
                         <div className="container">
                             <div className="row">
-                                <div className="blur"/>
-                                <div className="col-md-10 col-md-offset-1">
+                                <div className="blur">
                                     <div className="hero-content text-center">
                                         <h1 className="h1shaddow">HIDE</h1>
                                         <p className="intro" style={{fontSize: 30}}>Past Projects</p>
@@ -79,16 +78,16 @@ export default class PastProjects extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <div className="row justify-content-center" id="pastprojects">
-                        <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
-                            <h5>See the exciting projects we are working on right now!</h5>
-                            <Link to="/currentprojects">
-                                <button type="button" className="btn btn-lg btn-block" id={"learn-more-light"}>
-                                    <h5>Current Projects</h5>
-                                </button>
-                            </Link>
-                        </div>
-                    </div>
+                    {/*<div className="row justify-content-center">*/}
+                    {/*    <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">*/}
+                    {/*        <br/><h5>See the exciting projects we are working on right now!</h5><br/>*/}
+                    {/*        <Link to="/currentprojects">*/}
+                    {/*            <button type="button" className="btn" id={"learn-more-light"}>*/}
+                    {/*                <h5>Current Projects</h5>*/}
+                    {/*            </button>*/}
+                    {/*        </Link>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     <Contact/>
 

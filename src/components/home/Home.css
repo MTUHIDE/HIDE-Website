@@ -31,13 +31,19 @@
     margin-right: -20px;
 }
 
-#currentProjectsHero .hero-content {
-    padding-top: 150px !important;
-}
-#top .hero-content {
-    padding-top: 220px !important;
+.hero .hero-content {
+    padding-top: 8%;
+    margin: auto;
 }
 
+.hero p.subtitle {
+    margin: 0 0;
+}
+
+.hero a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
 .blur{
     width: 60%;
     height: 70%;
@@ -59,6 +65,23 @@
     margin-top: 10px;
     margin-bottom: 10px;
     height: 75px;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+.subtitle2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 50px 10px;
+}
+
+#about img{
+    max-height: 750px;
+    width: 100%;
 }
 
 .imageCentered {
@@ -213,8 +236,8 @@
     display: none;
 }
 
-/* When the screen is bigger than 600 pixels wide, make navbar fixed */
-@media screen and (min-width: 601px) {
+/* When the screen is bigger than 680 pixels wide, make navbar fixed */
+@media screen and (min-width: 681px) {
     .topnav {
         position: fixed;
         background-color: #232731;
@@ -226,8 +249,8 @@
     }
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+/* When the screen is less than 680 pixels wide, hide all links, except for the first one. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 680px) {
     .blur {
         width: 80%;
         height: 60%;
@@ -261,10 +284,16 @@
     section.fixed {
 
     }
+    .subtitle2 {
+        padding: 20px 10px;
+    }
+    .hero h1 {
+        font-size: 70px;
+    }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
     .topnav.responsive {
         position: fixed;
     }

@@ -22,6 +22,33 @@ export default class PastProjects extends React.Component {
                             </div>
                         </div>
                     </section>
+                    <section className="features-extra section-padding color1" id="huskyhunt">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">HuskyHunt</h3>
+                                        <p>Buying/Selling/Carpooling site for the MTU campus. We launched in Spring 2021. Mostly
+                                            written in Django.
+                                            <br/><br/>
+                                            Visit the site: <strong><a href="https://huskyhunt.com/"
+                                                                       rel="noopener noreferrer"
+                                                                       target="_blank">huskyhunt.com</a></strong>
+                                            <br/><br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"huskyhunt"}
+                                        picturePaths={[
+                                            "/img/pastprojects/huskyhunt_screenshot.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section className="features-extra section-padding color2" id="votingbooth">
                         <div className="container sm-padding">
                             <div className="row flex-vertically">
@@ -51,27 +78,107 @@ export default class PastProjects extends React.Component {
                             </div>
                         </div>
                     </section>
-                    <section className="features-extra section-padding color1" id="huskyhunt">
+                    <section className="features-extra section-padding color1" id="arcelormittal">
                         <div className="container sm-padding">
                             <div className="row flex-vertically">
                                 <div className="col-md-5 col-sm-12">
                                     <div className="feature-list">
-                                        <h3 className="about">HuskyHunt</h3>
-                                        <p>Buying/Selling/Carpooling site for the MTU campus. We launched in Spring 2021. Mostly
-                                            written in Django.
-                                            <br/><br/>
-                                            Visit the site: <strong><a href="https://huskyhunt.com/"
-                                                            rel="noopener noreferrer"
-                                                            target="_blank">huskyhunt.com</a></strong>
+                                        <h3 className="about">ArcelorMittal/Cleveland Cliffs TSE Mapping Project</h3>
+                                        <p>This project is a geolocation visualization web-based application and database
+                                            to enhance the management of ArcelorMittal/Cleveland Cliffs' technical service organization.
+                                            <br/>The envisioned system includes a map showing customers by locations,
+                                            and the technical services engineers (TSEs) assigned to each customer.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"arcelormittal"}
+                                        picturePaths={[
+                                            "/img/pastprojects/arcelormittal1.png",
+                                            "/img/pastprojects/arcelormittal2.png",
+                                            "/img/pastprojects/arcelormittal3.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color2" id="cocotemp">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">CoCo-Temp</h3>
+                                        <p>Coco-Temp is a citizen science project focused on finding the links
+                                            that buildings, watersheds or other parts of the environment have
+                                            on the microclimate temperature.
+                                            <br/>This includes a web application that will be used by users to
+                                            upload their temperature data and be used to compare with other users
+                                            temperature data, as well as a desktop application to communicate between
+                                            the hardware device and the web app.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"cocotemp"}
+                                        picturePaths={[
+                                            "/img/pastprojects/cocotemp1.png",
+                                            "/img/pastprojects/cocotemp2.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color1" id="timeslot">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">TimeSlot</h3>
+                                        <p>Online appointment scheduling and management for learning centers across campus.
+                                            Currently in beta testing at the Math Learning Center and Multiliteracy Center.
                                             <br/><br/>
                                         </p>
                                     </div>
                                 </div>
                                 <div className="col-md-7 col-sm-12 center">
                                     <Carousel
-                                        name={"huskyhunt"}
+                                        name={"timeslot"}
                                         picturePaths={[
-                                            "/img/pastprojects/huskyhunt_screenshot.png",
+                                            "/img/pastprojects/timeslot1.png",
+                                            "/img/pastprojects/timeslot2.png",
+                                            "/img/pastprojects/timeslot3.png",
+                                            "/img/pastprojects/timeslot4.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color2" id="tempist">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">Tempi.st</h3>
+                                        <p>Sponsored by GVSC, this project aims to utilize Raspberry Pis to collect weather data
+                                            in real-time for its given location and to send the collected data to a user an a device
+                                            such as a phone, computer, or tablet in the form of an alert or by the user opening a
+                                            web page.
+                                            <br/><br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"tempist"}
+                                        picturePaths={[
+                                            "/img/pastprojects/tempist1.png",
+                                            "/img/pastprojects/tempist2.png",
+                                            "/img/pastprojects/tempist3.png",
                                         ]}
                                     />
                                 </div>

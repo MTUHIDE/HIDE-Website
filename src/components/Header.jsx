@@ -31,7 +31,7 @@ function Header() {
                             </a>
                                 <div className="dropdown-content">
                                     <Link to="/currentprojects"><i className="fa fa-angle-right"></i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Current Projects</Link>
-                                    {/*<Link to="/currentprojects">Past Projects</Link>*/}
+                                    <Link to="/pastprojects"><i className="fa fa-angle-right"></i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Past Projects</Link>
                                 </div>
                         </div>
                         <a className="navLink" href="/#management">Management</a>

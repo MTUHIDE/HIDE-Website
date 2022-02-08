@@ -8,6 +8,7 @@ import ScrollToTop from 'react-router-scroll-top'
 import './App.css';
 import Home from './components/home/Home';
 import CurrentProjects from './components/current_projects/CurrentProjects';
+import PastProjects from './components/past_projects/PastProjects';
 import Header from './components/Header'
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
             <Switch>
               <Route path="/currentprojects">
                 <CurrentProjects/>
+              </Route>
+              <Route path="/pastprojects">
+                <PastProjects/>
               </Route>
               <Route path="/">
                 <Home/>

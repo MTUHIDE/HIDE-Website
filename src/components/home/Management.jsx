@@ -50,7 +50,7 @@ function Management() {
                         <ManagerCard name="Tom Berg" imagePath="/img/tom_b.png" role="Little Brothers Team Lead" email="tomberg@mtu.edu" active=""/>
                         <ManagerCard name="Ivona Gorgioski" imagePath="/img/ivona_g.jpg" role="UX Team Lead" email="igorgios@mtu.edu " active=""/>
                         <ManagerCard name="Eva Muller" imagePath="/img/eva_m.jpg" role="GDLS Team Co-Lead" email="emmuller@mtu.edu " active=""/>
-                        <ManagerCard name="Jonathan Rabideau" imagePath="/img/no_profile.png" role="GDLS Team Co-Lead" email="jarabide@mtu.edu " active=""/>
+                        <ManagerCard name="Jonathan Rabideau" imagePath="/img/jon_r.jpg" role="GDLS Team Co-Lead" email="jarabide@mtu.edu " active=""/>
                     </div>
 
                     <a className="left carousel-control" href="#managementCarousel" data-slide="prev">

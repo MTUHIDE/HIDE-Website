@@ -2,6 +2,7 @@ import React from 'react';
 import '../home/Home.css';
 import Contact from "../Contact/Contact";
 import Carousel from "../carrousel/Carousel";
+import {Link} from "react-router-dom";
 
 export default class CurrentProjects extends React.Component {
 
@@ -12,8 +13,7 @@ export default class CurrentProjects extends React.Component {
           <section className="hero" id="currentProjectsHero">
             <div className="container">
               <div className="row">
-                <div className="blur"/>
-                <div className="col-md-10 col-md-offset-1">
+                <div className="blur">
                   <div className="hero-content text-center">
                     <h1 className="h1shaddow">HIDE</h1>
                     <p className="intro" style={{fontSize: 30}}>Current Projects</p>
@@ -252,12 +252,42 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          {/*Link to Past Projects page (currently un-implemented)*/}
-          {/*<div className="row justify-content-center" id="pastprojects">*/}
+          <section className="features-extra section-padding color2" id="gdls">
+            <div className="container sm-padding">
+              <div className="row flex-vertically">
+                <div className="col-md-5 col-sm-12">
+                  <div className="feature-list">
+                    <h3 className="about">GDLS: Web Scraping and Image Labeling</h3>
+                    <p>Sponsored by General Dynamics Land Systems (GDLS), this is a project based around developing
+                      tools for web scraping and image labeling.
+                      <br/><br/>
+                      <strong>Team Lead(s):</strong> Jonathan Rabideau, Eva Muller
+                      <br/><br/>Want to learn more?
+                      <br/>Contact: <strong><a
+                          href="mailto:jarabide@mtu.edu">jarabide@mtu.edu</a></strong> and
+                        <strong><a href="mailto:emmuller@mtu.edu"> emmuller@mtu.edu</a></strong>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-7 col-sm-12 center">
+                  <Carousel
+                      name={"gdls"}
+                      picturePaths={[
+                        "/img/currentprojects/gdls1.jpg"
+                      ]}
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          {/*<div className="row justify-content-center">*/}
           {/*    <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">*/}
-          {/*    <button type="button" className="btn btn-lg btn-block">*/}
-          {/*        Past Projects*/}
-          {/*    </button>*/}
+          {/*      <br/><h5>See what we have worked on in the past!</h5><br/>*/}
+          {/*      <Link to="/pastprojects">*/}
+          {/*        <button type="button" className="btn" id={"learn-more-light"}>*/}
+          {/*          <h5>Past Projects</h5>*/}
+          {/*        </button>*/}
+          {/*      </Link>*/}
           {/*    </div>*/}
           {/*</div>*/}
 

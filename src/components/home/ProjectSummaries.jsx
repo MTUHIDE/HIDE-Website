@@ -71,15 +71,19 @@ const ProjectSummaries = () => {
         <div className="row">
           <ProjectSummary title="LB: Little Brothers" isLeft={true}>
             <p>Little Brothers is a program that helps the elderly travel to doctor's
-              appointments, small activities, provide meals, help with bills, etc. This website
-              is being constructed by members of HIDE at MTU, started in 2021.</p>
+              appointments, small activities, provide meals, help with bills, etc.</p>
           </ProjectSummary>
 
-          <div className="col-md-6 col-sm-12 col-xs-12 rightcol">
-            <img
-            src="https://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"
-            style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>
-          </div>
+          <ProjectSummary title="GDLS: Web Scraping and Image Labeling" isLeft={false}>
+            <p>Sponsored by General Dynamics Land Systems (GDLS), this is a project based around developing
+            tools for web scraping and image labeling.</p>
+          </ProjectSummary>
+        </div>
+          {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}
+          {/*  <img*/}
+          {/*  src="https://www.mtu.edu/mtu_resources/images/download-central/logos/full-wordmark-stacked/blacktext-goldbar.png"*/}
+          {/*  style={{height: 150 + 'px'}} alt={"Michigan Technological University"}/>*/}
+          {/*</div>*/}
 
           <br/>
             <div className="col-md-12" style={{padding: "20px 0"}}>
@@ -91,7 +95,6 @@ const ProjectSummaries = () => {
                 </Link>
               </div>
             </div>
-        </div>
       </div>
     </section>
   );

@@ -15,13 +15,13 @@ export default class Home extends React.Component {
                   <section className="hero">
                       <div className="container">
                           <div className="row">
-                              <div className="blur"></div>
-                              <div className="col-md-10 col-md-offset-1">
-                                  <div className="hero-content text-center">
-                                      <h1 className="h1shaddow">HIDE</h1>
-                                      <p className="intro">Humane Interface Design Enterprise</p>
-                                      <a href="#about" className="btn" id="learn-more">Learn more</a>
-                                  </div>
+                              <div className="blur">
+                                      <div className="hero-content">
+                                          <h1 className="h1shaddow">HIDE</h1>
+                                          <p className="subtitle"><strong>Humane Interface Design Enterprise</strong></p>
+                                          <p className="subtitle2">Student Enterprise at <a href="https://www.mtu.edu/" target="blank">Michigan Technological University</a></p>
+                                          <p><a href="#about" className="btn" id="learn-more">Learn more</a></p>
+                                      </div>
                               </div>
                           </div>
                       </div>
@@ -29,8 +29,8 @@ export default class Home extends React.Component {
 
                   <section className="features-extra section-padding" id="about">
                       <div className="container">
-                          <div className="row">
-                              <div className="col-md-5">
+                          {/*<div className="row">*/}
+                          {/*    <div className="col-md-12">*/}
                                   <div className="feature-list">
                                       <h3 className="about">About Us</h3>
                                       <p>The <strong>Humane Interface Design Enterprise</strong> is a student-run
@@ -57,16 +57,19 @@ export default class Home extends React.Component {
                                           members have the opportunity to work on unique projects.
                                       </p>
                                   </div>
-                              </div>
-                          </div>
+                          {/*    </div>*/}
+                          {/*</div>*/}
                       </div>
-                      <div className="macbook-wrap wp3 animated fadeInRight"/>
-                      <div className="responsive-feature-img">
-                          <img
-                               // src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}
-                              src={"/img/hide_groupphoto.png"}
-                              alt="responsive devices"/>
+                      <div className="container">
+                          <img src={"/img/groupphoto_rz.jpg"} alt=""/>
                       </div>
+                      {/*<div className="macbook-wrap wp3 animated fadeInRight"/>*/}
+                      {/*<div className="responsive-feature-img">*/}
+                      {/*    <img*/}
+                      {/*         // src={"https://upload.wikimedia.org/wikipedia/commons/8/80/User-experience-diagram.png"}*/}
+                      {/*        src={"/img/hide_groupphoto.png"}*/}
+                      {/*        alt="responsive devices"/>*/}
+                      {/*</div>*/}
                   </section>
 
                   <UpcomingEvents/>

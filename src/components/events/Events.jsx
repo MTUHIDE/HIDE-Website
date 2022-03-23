@@ -10,7 +10,9 @@ const UpcomingEvents = () => {
             <h3>Upcoming Events</h3>
           </div>
         </div>
-          <Event title={"Recruitment Meeting"} location={"Rekhi 214 or Zoom"} when={"March 23rd from 6pm to 7pm."} />
+          <Event title={"Recruitment Meeting"} location={"Rekhi 214 or Zoom"} when={"March 30th from 6pm to 7pm."}>
+            <p style={{color: "red"}}><strong>*Rescheduled (previously March 23rd)</strong></p>
+          </Event>
           <Event title={"General Body Meetings"} location={"Rekhi 214 or Zoom"} when={"Every Wednesday of the semester from 6pm to 7pm."}>
             <p><strong><a href={"https://michigantech.zoom.us/j/86891464621"} target="_blank" rel="noopener noreferrer">Join Zoom Meeting. <i className="fa fa-external-link" /></a></strong></p>
           </Event>

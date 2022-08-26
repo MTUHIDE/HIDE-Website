@@ -38,7 +38,7 @@ function Management() {
                     </div>
                     <div className="carousel-inner">
                         <ManagerCard name="Abby Myers" imagePath="/img/abby_m.jpg" role="President" email="abigailm@mtu.edu" active="active"/>
-                        <ManagerCard name="Eva Muller" imagePath="/img/eva_m.jpg" role="Vice President" email="emmuller@mtu.edu" active=""/>
+                        <ManagerCard name="Eva Muller" imagePath="/img/eva_m.png" role="Vice President" email="emmuller@mtu.edu" active=""/>
                         <ManagerCard name="Jerry Jones" imagePath="/img/jerry_j.png" role="Treasurer" email="jerryjon@mtu.edu" active=""/>
                         <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
                         <ManagerCard name="Tyler Zetty" imagePath="/img/tyler_z.png" role="CCLC Queue Team Lead" email="tjzetty@mtu.edu" active=""/>

@@ -38,7 +38,7 @@ function App() {
             <div className="col-md-12">
               <div className="footer-links">
                 <p>
-                  Copyright © 2021 Humane Interface Design Enterprise</p>
+                  Copyright © 2022 Humane Interface Design Enterprise</p>
               </div>
             </div>
           </div>

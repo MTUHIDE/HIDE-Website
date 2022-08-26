@@ -10,11 +10,11 @@ const UpcomingEvents = () => {
             <h3>Upcoming Events</h3>
           </div>
         </div>
-          <Event title={"Recruitment Meeting"} location={"Rekhi 214 or Zoom"} when={"March 30th from 6pm to 7pm."}>
-            <p style={{color: "red"}}><strong>*Rescheduled (previously March 23rd)</strong></p>
+          <Event title={"First General Body Meeting Fall 2022"} location={"Rekhi 214 or Zoom (by request)"} when={"August 31st, 2022 from 6pm to 7pm."}>
+            <p><strong><a href={"https://forms.gle/gXkiwDcF3AQVSMb57"} target="_blank" rel="noopener noreferrer">Request Zoom Meeting Invite. <i className="fa fa-external-link" /></a></strong></p>
           </Event>
-          <Event title={"General Body Meetings"} location={"Rekhi 214 or Zoom"} when={"Every Wednesday of the semester from 6pm to 7pm."}>
-            <p><strong><a href={"https://michigantech.zoom.us/j/86891464621"} target="_blank" rel="noopener noreferrer">Join Zoom Meeting. <i className="fa fa-external-link" /></a></strong></p>
+          <Event title={"General Body Meetings"} location={"Rekhi 214 or Zoom (by request)"} when={"Every Wednesday of the semester from 6pm to 7pm."}>
+            <p><strong><a href={"https://forms.gle/gXkiwDcF3AQVSMb57"} target="_blank" rel="noopener noreferrer">Request Zoom Meeting Invite. <i className="fa fa-external-link" /></a></strong></p>
           </Event>
           {/*<Event title={"Winter Wonderhack"} location={"Van Pelt and Opie Library"} when={"February 18th through 20th."}>*/}
             {/*<p>Winter Wonderhack is a 36 hour event where people from all different backgrounds come together, form teams around a problem or idea, and collaboratively plan, design, or code a unique solution from scratch.</p>*/}

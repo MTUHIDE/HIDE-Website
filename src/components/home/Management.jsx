@@ -34,23 +34,19 @@ function Management() {
                             <li data-target="#managementCarousel" data-slide-to="7"/>
                             <li data-target="#managementCarousel" data-slide-to="8"/>
                             <li data-target="#managementCarousel" data-slide-to="9"/>
-                            <li data-target="#managementCarousel" data-slide-to="10"/>
-                            <li data-target="#managementCarousel" data-slide-to="11"/>
                         </ol>
                     </div>
                     <div className="carousel-inner">
-                        <ManagerCard name="Charles Vidro" imagePath="/img/charles_v.jpg" role="President / Maintenance Team Lead" email="cjvidro@mtu.edu" active="active"/>
-                        <ManagerCard name="Abby Myers" imagePath="/img/abby_m.jpg" role="Vice President / Health Resource Hub Lead" email="abigailm@mtu.edu" active=""/>
+                        <ManagerCard name="Abby Myers" imagePath="/img/abby_m.jpg" role="President" email="abigailm@mtu.edu" active="active"/>
+                        <ManagerCard name="Eva Muller" imagePath="/img/eva_m.jpg" role="Vice President" email="emmuller@mtu.edu" active=""/>
                         <ManagerCard name="Jerry Jones" imagePath="/img/jerry_j.png" role="Treasurer" email="jerryjon@mtu.edu" active=""/>
-                        <ManagerCard name="Ian Lawrie" imagePath="/img/ian_l.jpg" role="WWH Lead Organizer / PillowTalk Team Lead" email="iplawrie@mtu.edu" active=""/>
                         <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
-                        <ManagerCard name="Joe Wood" imagePath="/img/joe_w.png" role="GVSC Team Lead" email="jodwood@mtu.edu" active=""/>
                         <ManagerCard name="Tyler Zetty" imagePath="/img/tyler_z.png" role="CCLC Queue Team Lead" email="tjzetty@mtu.edu" active=""/>
-                        <ManagerCard name="Jason Hoffman" imagePath="/img/jason_h.png" role="Chem Store Team Lead" email="jasonhof@mtu.edu" active=""/>
+                        <ManagerCard name="Zane Smalley" imagePath="/img/no_profile.png" role="Chem Store Team Lead" email="" active=""/>
+                        <ManagerCard name="Benjamin Wittrup" imagePath="/img/no_profile.png" role="GDLS Team Co-Lead" email="" active=""/>
+                        <ManagerCard name="Patrick Janssen" imagePath="/img/no_profile.png" role="GDLS Team Co-Lead" email="" active=""/>
+                        <ManagerCard name="Joe Wood" imagePath="/img/joe_w.png" role="GVSC Team Lead" email="jodwood@mtu.edu" active=""/>
                         <ManagerCard name="Tom Berg" imagePath="/img/tom_b.png" role="Little Brothers Team Lead" email="tomberg@mtu.edu" active=""/>
-                        <ManagerCard name="Ivona Gorgioski" imagePath="/img/ivona_g.jpg" role="UX Team Lead" email="igorgios@mtu.edu " active=""/>
-                        <ManagerCard name="Eva Muller" imagePath="/img/eva_m.jpg" role="GDLS Team Co-Lead" email="emmuller@mtu.edu " active=""/>
-                        <ManagerCard name="Jonathan Rabideau" imagePath="/img/jon_r.jpg" role="GDLS Team Co-Lead" email="jarabide@mtu.edu " active=""/>
                     </div>
 
                     <a className="left carousel-control" href="#managementCarousel" data-slide="prev">

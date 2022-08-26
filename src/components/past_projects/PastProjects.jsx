@@ -22,6 +22,61 @@ export default class PastProjects extends React.Component {
                             </div>
                         </div>
                     </section>
+                    <section className="features-extra section-padding color1" id="pillowtalk">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">Pillow Talk</h3>
+                                        <p>Research project under Dr. Vertanen to build a voice controlled, inflatable pillow
+                                            for a man living with ALS. This is a great project for anyone who is interested in
+                                            hardware/software interface.
+                                            {/*<br/><br/>*/}
+                                            {/*<strong>Team Lead(s):</strong> Ian Lawrie*/}
+                                            {/*<br/><br/>Want to learn more?*/}
+                                            {/*<br/>Contact: <strong><a*/}
+                                            {/*    href="mailto:iplawrie@mtu.edu">iplawrie@mtu.edu</a></strong>*/}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"pillowtalk"}
+                                        picturePaths={[
+                                            "/img/currentprojects/pillowtalk_screenshot1.png",
+                                            "/img/currentprojects/pillowtalk_screenshot2.png"
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color2" id="health_resource_hub">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">Health Resource Hub</h3>
+                                        <p>Provides information about important community resources such as food, housing, transit, health, education, and more. Collaborating with IT Oxygen enterprise.
+                                            {/*<br/><br/>*/}
+                                            {/*<strong>Team Lead(s):</strong> Abby Myers*/}
+                                            {/*<br/><br/>Want to learn more?*/}
+                                            {/*<br/>Contact: <strong><a*/}
+                                            {/*    href="mailto:abigailm@mtu.edu">abigailm@mtu.edu</a></strong>*/}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"healthResourceHub"}
+                                        picturePaths={[
+                                            "/img/code_background2.jpeg"
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section className="features-extra section-padding color1" id="huskyhunt">
                         <div className="container sm-padding">
                             <div className="row flex-vertically">

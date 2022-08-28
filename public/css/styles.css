@@ -361,6 +361,7 @@ Hero
     background-color: #232731;
     border-color: #FFFFFF;
     padding: 15px 60px !important;
+    text-decoration: none;
 }
 #learn-more-light{
     transition: 0.2s ease;

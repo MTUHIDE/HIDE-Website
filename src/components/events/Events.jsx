@@ -1,5 +1,5 @@
 import React from "react";
-import Event from "../../../../../Users/mulle/OneDrive/Desktop/Repos/HIDE-Website/src/components/events/Event";
+import Event from "./Event"
 
 const UpcomingEvents = () => {
   return (

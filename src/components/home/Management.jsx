@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../../../Users/mulle/OneDrive/Desktop/Repos/HIDE-Website/src/components/home/Home.css';
+import './Home.css';
 
 function ManagerCard(props) {
         return (

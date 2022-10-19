@@ -1,11 +1,10 @@
 import React from 'react';
-import '../../../../../Users/mulle/OneDrive/Desktop/Repos/HIDE-Website/src/components/home/Home.css';
+import './Home.css';
 import Management from "./Management";
-import Faq from "../../../../../Users/mulle/OneDrive/Desktop/Repos/HIDE-Website/src/components/home/Faq"
+import Faq from "./Faq"
 import Contact from "../Contact/Contact";
-import ProjectSummaries from "../../../../../Users/mulle/OneDrive/Desktop/Repos/HIDE-Website/src/components/home/ProjectSummaries";
+import ProjectSummaries from "./ProjectSummaries";
 import UpcomingEvents from "../events/Events";
-import Carousel from "../../../../../Users/mulle/OneDrive/Desktop/Repos/HIDE-Website/src/components/carrousel/Carousel";
 
 export default class Home extends React.Component {
   render() {

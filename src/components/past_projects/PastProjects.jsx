@@ -2,7 +2,6 @@ import React from 'react';
 import '../home/Home.css';
 import Contact from "../Contact/Contact";
 import Carousel from "../carrousel/Carousel";
-import {Link} from "react-router-dom";
 
 export default class PastProjects extends React.Component {
 

@@ -87,7 +87,7 @@ export default class CurrentProjects extends React.Component {
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
                           href="mailto:bowittru@mtu.edu">bowittru@mtu.edu</a></strong> and
-                      <strong><a href="mailto:pdjansse@mtu.edu">pdjansse@mtu.edu</a></strong>
+                      <strong><a href="mailto:pdjansse@mtu.edu"> pdjansse@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          <section className="features-extra section-padding color2" id="hf">
+          <section className="features-extra section-padding color1" id="hf">
             <div className="container sm-padding">
               <div className="row flex-vertically">
                 <div className="col-md-5 col-sm-12">
@@ -144,7 +144,7 @@ export default class CurrentProjects extends React.Component {
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
                           href="mailto:ndgentry@mtu.edu">ndgentry@mtu.edu</a></strong> and
-                        <strong><a href="mailto:obodwyer@mtu.edu">obodwyer@mtu.edu</a></strong>
+                        <strong><a href="mailto:obodwyer@mtu.edu"> obodwyer@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          <section className="features-extra section-padding color1" id="lb">
+          <section className="features-extra section-padding color2" id="lb">
             <div className="container sm-padding">
               <div className="row flex-vertically">
                 <div className="col-md-5 col-sm-12">
@@ -214,7 +214,7 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          <section className="features-extra section-padding color1" id="traversecity">
+          <section className="features-extra section-padding color2" id="traversecity">
             <div className="container sm-padding">
               <div className="row flex-vertically">
                 <div className="col-md-5 col-sm-12">
@@ -226,7 +226,7 @@ export default class CurrentProjects extends React.Component {
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
                           href="mailto:brstloui@mtu.edu">brstloui@mtu.edu</a></strong> and
-                        <strong><a href="mailto:lnroot@mtu.edu">lnroot@mtu.edu</a></strong>
+                        <strong><a href="mailto:lnroot@mtu.edu"> lnroot@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -256,7 +256,7 @@ export default class CurrentProjects extends React.Component {
                       <br/><br/>Want to learn more?
                       <br/>Contact: <strong><a
                           href="mailto:owcramer@mtu.edu">owcramer@mtu.edu</a></strong> and
-                      <strong><a href="mailto:tlperr@mtu.edu">tlperr@mtu.edu</a></strong>
+                      <strong><a href="mailto:tlperr@mtu.edu"> tlperr@mtu.edu</a></strong>
                     </p>
                   </div>
                 </div>
@@ -274,7 +274,7 @@ export default class CurrentProjects extends React.Component {
               </div>
             </div>
           </section>
-          <section className="features-extra section-padding color1" id="cs">
+          <section className="features-extra section-padding color2" id="cs">
             <div className="container sm-padding">
               <div className="row flex-vertically">
                 <div className="col-md-5 col-sm-12">

@@ -58,9 +58,9 @@ function Management() {
                         <ManagerCard name="Nathan Gentry" imagePath="/img/no_profile.png" role="Human Factors Co-Team Lead" email="ndgentry@mtu.edu" active=""/>
                         <ManagerCard name="Olivia O'Dwyer" imagePath="/img/olivia_o.jpg" role="Human Factors Co-Team Lead" email="obodwyer@mtu.edu" active=""/>
                         <ManagerCard name="Justin Milliman" imagePath="/img/justin_m.jpg" role="Little Brothers Team Lead" email="jlmillim@mtu.edu" active=""/>
-                        <ManagerCard name="Logan Woznak" imagePath="/img/no_profile.png" role="SLS Team Lead" email="ljwoznak@mtu.edu" active=""/>
+                        <ManagerCard name="Logan Woznak" imagePath="/img/logan_w.jpg" role="SLS Team Lead" email="ljwoznak@mtu.edu" active=""/>
                         <ManagerCard name="Brandon St. Louis" imagePath="/img/brandon_l.png" role="Traverse City Electric Co-Team Lead" email="brstloui@mtu.edu" active=""/>
-                        <ManagerCard name="Lela Root" imagePath="/img/no_profile.png" role="Traverse City Electric Co-Team Lead" email="lnroot@mtu.edu" active=""/>
+                        <ManagerCard name="Lela Root" imagePath="/img/lela_r.jpg" role="Traverse City Electric Co-Team Lead" email="lnroot@mtu.edu" active=""/>
                         <ManagerCard name="Owen Cramer" imagePath="/img/owen_c.jpg" role="YooPapers Co-Team Lead" email="owcramer@mtu.edu" active=""/>
                         <ManagerCard name="Tim Perr" imagePath="/img/tim_p.jpg" role="YooPapers Co-Team Lead" email="tlperr@mtu.edu" active=""/>
                     </div>

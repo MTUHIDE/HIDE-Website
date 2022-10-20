@@ -27,12 +27,11 @@ const UpcomingEvents = () => {
           </div>
           <div className="col-md-4 col-sm-12">
             <h4 style={{padding: 10}}>Latest LinkedIn News</h4>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6981043055579594752" height="350"
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6988667993606004737" height="350"
                     width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
-            {/*<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6973268799496105985" height="350"*/}
+            {/*<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6981043055579594752" height="350"*/}
             {/*        width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>*/}
-              {/*<iframe className="responsive-iframe" src="https://www.linkedin.com/embed/feed/update/urn:li:share:6969435332698136577"*/}
-              {/*        width="100%" height="350" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>*/}
+
           </div>
         </div>
           {/*<Event title={"Winter Wonderhack"} location={"Van Pelt and Opie Library"} when={"February 18th through 20th."}>*/}

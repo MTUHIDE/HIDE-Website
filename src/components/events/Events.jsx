@@ -16,9 +16,9 @@ const UpcomingEvents = () => {
             {/*  <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or*/}
             {/*    <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>*/}
             {/*</Event>*/}
-            <Event title={"Recruitment Meeting"} location={"Fisher 329 or Zoom (by request)"} when={"Wednesday, October 19th from 6pm to 7pm."}>
-              <p><strong>Interested in joining? Come get free pizza and learn more about HIDE! Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or
-                <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>
+            <Event title={"Fall 2022 Final Presentations"} location={"Fisher 329 or Zoom (by request)"} when={"Wednesday, November 30th and Wednesday, December 6th from 6pm to 7pm."}>
+              <p><strong>All are welcome to attend! Contact
+                <a href="mailto:abigailm@mtu.edu"> Abby Myers </a> or <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>
             </Event>
             <Event title={"General Body Meetings"} location={"Fisher 329 or Zoom (by request)"} when={"Every Wednesday from 6pm to 7pm."}>
               <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or
@@ -27,8 +27,10 @@ const UpcomingEvents = () => {
           </div>
           <div className="col-md-4 col-sm-12">
             <h4 style={{padding: 10}}>Latest LinkedIn News</h4>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6988667993606004737" height="350"
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7003812978378649600" height="350"
                     width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
+            {/*<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6988667993606004737" height="350"*/}
+            {/*        width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>*/}
             {/*<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6981043055579594752" height="350"*/}
             {/*        width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>*/}
 

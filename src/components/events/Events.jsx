@@ -12,13 +12,9 @@ const UpcomingEvents = () => {
         </div>
         <div className="row vertical-align">
           <div className="col-md-8 col-sm-12">
-            {/*<Event title={"First General Body Meeting Fall 2022"} location={"Rekhi 214 or Zoom (by request)"} when={"August 31st, 2022 from 6pm to 7pm."}>*/}
-            {/*  <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or*/}
-            {/*    <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>*/}
-            {/*</Event>*/}
-            <Event title={"Fall 2022 Final Presentations"} location={"Fisher 329 or Zoom (by request)"} when={"Wednesday, November 30th and Wednesday, December 6th from 6pm to 7pm."}>
-              <p><strong>All are welcome to attend! Contact
-                <a href="mailto:abigailm@mtu.edu"> Abby Myers </a> or <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>
+            <Event title={"First General Body Meeting Spring 2023"} location={"Fisher 329 or Zoom (by request)"} when={"January 1st, 2023 from 6pm to 7pm."}>
+              <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or
+                <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>
             </Event>
             <Event title={"General Body Meetings"} location={"Fisher 329 or Zoom (by request)"} when={"Every Wednesday from 6pm to 7pm."}>
               <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or

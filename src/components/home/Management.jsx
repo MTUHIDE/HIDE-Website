@@ -51,7 +51,7 @@ function Management() {
                         <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
                         <ManagerCard name="Tyler Zetty" imagePath="/img/tyler_z.png" role="CCLC Queue Team Lead" email="tjzetty@mtu.edu" active=""/>
                         <ManagerCard name="Zane Smalley" imagePath="/img/zane_s.png" role="Chem Store Team Lead" email="zasmalle@mtu.edu" active=""/>
-                        <ManagerCard name="Andrea Sarabia" imagePath="/img/andrea_s.jpg" role="CS Dept Scheduling App Team Lead" email="aesarabi@mtu.edu" active=""/>
+                        <ManagerCard name="Dee Paulson" imagePath="/img/dee_p.jpg" role="CS Dept Scheduling App Team Lead" email="dcpaulso@mtu.edu" active=""/>
                         <ManagerCard name="Benjamin Wittrup" imagePath="/img/ben_w.png" role="GDLS Team Co-Lead" email="bowittru@mtu.edu" active=""/>
                         <ManagerCard name="Patrick Janssen" imagePath="/img/patrick_j.jpg" role="GDLS Team Co-Lead" email="pdjansse@mtu.edu" active=""/>
                         <ManagerCard name="Joe Wood" imagePath="/img/joe_w.png" role="GVSC Team Lead" email="jodwood@mtu.edu" active=""/>

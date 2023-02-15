@@ -60,8 +60,17 @@ export default class Home extends React.Component {
                           {/*    </div>*/}
                           {/*</div>*/}
                       </div>
+
                       <div className="container">
-                          <img src={"/img/groupphoto_rz.jpg"} alt=""/>
+                          {/*<Carousel*/}
+                          {/*    className="carousel"*/}
+                          {/*    name={"home"}*/}
+                          {/*    picturePaths={[*/}
+                          {/*        "/img/home/group_photo.jpg",*/}
+                          {/*        "/img/home/group_photo_wide.jpg"*/}
+                          {/*    ]}*/}
+                          {/*/>*/}
+                          <img src={"/img/home/group_photo.jpg"} alt=""/>
                       </div>
                       {/*<div className="macbook-wrap wp3 animated fadeInRight"/>*/}
                       {/*<div className="responsive-feature-img">*/}

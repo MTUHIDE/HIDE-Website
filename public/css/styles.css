@@ -170,6 +170,19 @@ ul li {
     background-color: #000;
     border-radius: 4px; }
 
+.vertical-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Extra small devices (767px and down) */
+@media (max-width: 767px) {
+    .row.vertical-align {
+        display: block; /* Turn off the flexible box layout */
+    }
+}
+
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -361,6 +374,7 @@ Hero
     background-color: #232731;
     border-color: #FFFFFF;
     padding: 15px 60px !important;
+    text-decoration: none;
 }
 #learn-more-light{
     transition: 0.2s ease;

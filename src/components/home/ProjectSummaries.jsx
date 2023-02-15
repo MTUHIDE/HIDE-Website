@@ -32,13 +32,37 @@ const ProjectSummaries = () => {
           </ProjectSummary>
         </div>
         <div className="row">
+          <ProjectSummary title="Human Factors Team" isLeft={false}>
+            <p>Team of UX designers working on various projects
+              (CCLC Queue, Chemstore, Pillowtalk, and little brothers).</p>
+          </ProjectSummary>
           <ProjectSummary title="LB: Little Brothers" isLeft={true}>
             <p>Little Brothers is a program that helps the elderly travel to doctor's
               appointments, small activities, provide meals, help with bills, etc.</p>
           </ProjectSummary>
-          <ProjectSummary title="Human Factors Team" isLeft={true}>
-            <p>Team of UX designers working on various projects
-              (CCLC Queue, Chemstore, Pillowtalk, and little brothers).</p>
+        </div>
+        <div className="row">
+          <ProjectSummary title="SLS Website" isLeft={false}>
+            <p>MTU's Sound and Lighting Services has an employee website for keeping track
+              of upcoming events and supply stock. This project focuses on updating that
+              website and adding new features.</p>
+          </ProjectSummary>
+          <ProjectSummary title="Traverse City Electric" isLeft={true}>
+            <p>Traverse City has a new network of electric vehicle charging stations. They
+              would like a website that educates the public on electric vehicles and provides
+              a map of where to find the charging stations.</p>
+          </ProjectSummary>
+        </div>
+        <div className="row">
+          <ProjectSummary title="YooPapers" isLeft={false}>
+            <p>YooPapers is an app for assisting in due process serving court papers. The primary
+              users will be the administrators entering locations, and the individuals following
+              GPS directions to the entered locations to serve the papers.</p>
+          </ProjectSummary>
+          <ProjectSummary title="CS Dept Scheduling App" isLeft={true}>
+            <p>The CS department is in need of a scheduling application. This application will keep
+              track of class data (such as credits, prerequisites, and scheduling conflicts), as well
+              as faculty data (such as teaching history).</p>
           </ProjectSummary>
         </div>
           {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}

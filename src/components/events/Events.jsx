@@ -12,7 +12,10 @@ const UpcomingEvents = () => {
         </div>
         <div className="row vertical-align">
           <div className="col-md-8 col-sm-12">
-            <Event title={"Enterprise Day Spring 2023"} location={"MUB Ballroom"} when={"February 16th, 2023 from 6pm to 8pm."}>
+            <Event title={"Recruitment Meeting"} location={"Location TBD"} when={"March 15th, 2023 from 6pm to 7pm."}>
+              <p>Come to our recruitment meeting to learn more about HIDE and how to join! Pizza and drinks provided.</p>
+              <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or
+                <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>
             </Event>
             <Event title={"Winter Wonderhack 2023"} location={"Van Pelt and Opie Library"} when={"March 17th through 19th."}>
             <p>Winter Wonderhack is a 36 hour event where people from all different backgrounds come together, form teams around a problem or idea, and collaboratively plan, design, or code a unique solution from scratch.</p>

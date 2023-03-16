@@ -32,7 +32,7 @@
 }
 
 .hero .hero-content {
-    padding-top: 8%;
+    padding-top: 5%;
     margin: auto;
 }
 
@@ -59,6 +59,24 @@
     /*-ms-filter: blur(10px);*/
 }
 
+.blur2{
+    width: 90%;
+    height: 5%;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 0;
+    background-color: rgba(25, 28, 34, 0.8);
+}
+
+.alertText {
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 3px 10px;
+}
 .headerStyle {
     border-bottom: none;
     padding: 0px 0px;
@@ -254,8 +272,11 @@
     .blur {
         width: 80%;
         height: 60%;
-        top: 24%;
+        top: 30%;
         left: 10%;
+    }
+    .blur2 {
+        height: 10%;
     }
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;

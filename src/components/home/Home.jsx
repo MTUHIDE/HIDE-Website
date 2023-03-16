@@ -15,6 +15,10 @@ export default class Home extends React.Component {
                   <section className="hero">
                       <div className="container">
                           <div className="row">
+                              <div className="blur2">
+                                  <p className="alertText"><strong>Missed the Recruitment Meeting? </strong><a href="https://michigantech.zoom.us/rec/share/j7IvT9FnlS1GIl6BZxngPMDistP4wn1cV_d6LqBn5IjKmGw88DCZ-UzFXrP01rC8.dwtst62rJaEJdI0m" target="_blank" rel="noopener noreferrer" >Recording</a> (Code: 6$Q+FWK4)
+                                      and <a href="/March-15.pdf" target="_blank" rel="noopener noreferrer" >Slides</a>.</p>
+                              </div>
                               <div className="blur">
                                       <div className="hero-content">
                                           <h1 className="h1shaddow">HIDE</h1>

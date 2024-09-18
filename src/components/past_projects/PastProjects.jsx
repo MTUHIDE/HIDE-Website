@@ -239,6 +239,102 @@ export default class PastProjects extends React.Component {
                             </div>
                         </div>
                     </section>
+                    <section className="features-extra section-padding color1" id="cclcqueue">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">CCLC Queue</h3>
+                                        <p>A web application built into Canvas which will provide a question/answer queue for the CCLC.
+                                            <br/><br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"cclcqueue"}
+                                        picturePaths={[
+                                            "/img/currentprojects/cclcqueue1.png",
+                                        ]}
+                                    /> 
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color2" id="gdls">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">GDLS</h3>
+                                        <p>Sponsored by General Dynamics Land Systems (GDLS), this is a project based
+                                            around developing tools for web scraping and image labeling.
+                                            <br/><br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"gdls"}
+                                        picturePaths={[
+                                            "/img/currentprojects/gdls1.jpg",
+                                            "/img/currentprojects/gdls1.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color1" id="gvsc">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">GVSC</h3>
+                                        <p>Developing a web application to help the GVSC team manage their data and
+                                            streamline their processes.
+                                            <br/><br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col-sm-12 center">
+                                    <Carousel
+                                        name={"gvsc"}
+                                        picturePaths={[
+                                            "/img/currentprojects/gvsc1.png",
+                                            "/img/currentprojects/gvsc2.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="features-extra section-padding color2" id="tcev">
+                        <div className="container sm-padding">
+                            <div className="row flex-vertically">
+                                <div className="col-md-5 col-sm-12">
+                                    <div className="feature-list">
+                                        <h3 className="about">Traverse City Electric Vehicles</h3>
+                                        <p>A website for Traverse City’s new network of electric vehicle infrastructure. 
+                                            It displays EV info & resources, alongside a map of charging stations."
+                                            <br/><br/>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 col=sm-12 center">
+                                    <Carousel
+                                        name={"tcev"}
+                                        picturePaths={[
+                                            "/img/currentprojects/tcev1.png",
+                                            "/img/currentprojects/tcev2.png",
+                                            "/img/currentprojects/tcev3.png",
+                                            "/img/currentprojects/tcev4.png",
+                                        ]}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     {/*<div className="row justify-content-center">*/}
                     {/*    <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">*/}
                     {/*        <br/><h5>See the exciting projects we are working on right now!</h5><br/>*/}

@@ -16,8 +16,8 @@ This site uses [React](https://reactjs.org/) for the front end.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 **Contacts:** 
- - Charles Vidro - <cjvidro@mtu.edu>
- - Eva Muller - <emmuller@mtu.edu>
+ - Jacob Brendemuehl - <jkbrende@mtu.edu>
+ - Caden Kienitz - <cdkienit@mtu.edu>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

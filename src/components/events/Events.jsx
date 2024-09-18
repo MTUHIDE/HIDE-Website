@@ -21,9 +21,9 @@ const UpcomingEvents = () => {
             <p>Winter Wonderhack is a 36 hour event where people from all different backgrounds come together, form teams around a problem or idea, and collaboratively plan, design, or code a unique solution from scratch.</p>
             <p><strong><a href={"https://winterwonderhack.com"} target="_blank" rel="noopener noreferrer">Click here to view more info! <i className="fa fa-external-link" /></a></strong></p>
             </Event>
-            <Event title={"General Body Meetings"} location={"Fisher 329 or Zoom (by request)"} when={"Every Wednesday from 6pm to 7pm."}>
-              <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or
-                <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>
+            <Event title={"General Body Meetings"} location={"MEEM 111 or Zoom (by request)"} when={"Every Wednesday from 6pm to 7pm."}>
+              <p><strong>Contact <a href="mailto:jkbrende@mtu.edu">Jacob Brendemuehl </a> or
+                <a href="mailto:cdkienit@mtu.edu"> Caden Kienitz </a> to request the Zoom link.</strong></p>
             </Event>
           </div>
           <div className="col-md-4 col-sm-12">

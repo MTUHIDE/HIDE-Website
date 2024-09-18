@@ -40,27 +40,32 @@ function Management() {
                             <li data-target="#managementCarousel" data-slide-to="13"/>
                             <li data-target="#managementCarousel" data-slide-to="14"/>
                             <li data-target="#managementCarousel" data-slide-to="15"/>
+                            <li data-target="#managementCarousel" data-slide-to="16"/>
+                            <li data-target="#managementCarousel" data-slide-to="17"/>
                             {/*Add for each management card*/}
                         </ol>
                     </div>
                     <div className="carousel-inner">
                         {/*Crop images to a square, convert JPG to jpg if issues*/}
-                        <ManagerCard name="Abby Myers" imagePath="/img/abby_m.jpg" role="President" email="abigailm@mtu.edu" active="active"/>
-                        <ManagerCard name="Eva Muller" imagePath="/img/eva_m.png" role="Vice President" email="emmuller@mtu.edu" active=""/>
-                        <ManagerCard name="Jerry Jones" imagePath="/img/jerry_j.png" role="Treasurer/GVSC Team Lead" email="jerryjon@mtu.edu" active=""/>
+                        <ManagerCard name="Jacob Brendemuehl" imagePath="/img/fall24_mgmt/jacob_b.jpg" role="President" email="jkbrende@mtu.edu" active="active"/>
+                        <ManagerCard name="Caden Kienitz" imagePath="/img/fall24_mgmt/caden_k.jpg" role="Vice President" email="cdkienit@mtu.edu" active=""/>
+                        <ManagerCard name="Jah Multani" imagePath="/img/fall24_mgmt/jah_m.jpg" role="Treasurer" email="jsmultan@mtu.edu" active=""/>
                         <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
-                        <ManagerCard name="Jeremiah Kollodge" imagePath="/img/jeremiah_k.jpg" role="CCLC Queue Team Lead" email="jtkollod@mtu.edu" active=""/>
-                        <ManagerCard name="Zane Smalley" imagePath="/img/zane_s.png" role="Chem Store Team Lead" email="zasmalle@mtu.edu" active=""/>
-                        <ManagerCard name="Dee Paulson" imagePath="/img/dee_p.jpg" role="CS Dept Scheduling App Team Lead" email="dcpaulso@mtu.edu" active=""/>
-                        <ManagerCard name="Patrick Janssen" imagePath="/img/patrick_j.jpg" role="GDLS Team Lead" email="pdjansse@mtu.edu" active=""/>
-                        <ManagerCard name="Olivia O'Dwyer" imagePath="/img/olivia_o.jpg" role="Human Factors Team Lead" email="obodwyer@mtu.edu" active=""/>
-                        <ManagerCard name="Debbie Brink" imagePath="/img/debbie_b.png" role="Little Brothers Co-Team Lead" email="dfbrink@mtu.edu" active=""/>
-                        <ManagerCard name="Sid Regmi" imagePath="/img/sid_r.png" role="Little Brothers Co-Team Lead" email="ssregmi@mtu.edu" active=""/>
-                        <ManagerCard name="Logan Woznak" imagePath="/img/logan_w.jpg" role="SLS Team Lead" email="ljwoznak@mtu.edu" active=""/>
-                        <ManagerCard name="Brandon St. Louis" imagePath="/img/brandon_l.png" role="Traverse City Electric Co-Team Lead" email="brstloui@mtu.edu" active=""/>
-                        <ManagerCard name="Lela Root" imagePath="/img/lela_r.jpg" role="Traverse City Electric Co-Team Lead" email="lnroot@mtu.edu" active=""/>
-                        <ManagerCard name="Owen Cramer" imagePath="/img/owen_c.jpg" role="YooPapers Co-Team Lead" email="owcramer@mtu.edu" active=""/>
-                        <ManagerCard name="Tim Perr" imagePath="/img/tim_p.jpg" role="YooPapers Co-Team Lead" email="tlperr@mtu.edu" active=""/>
+                        <ManagerCard name="Yasmin Fitzgerald" imagePath="/img/fall24_mgmt/yasmin_f.jpg" role="Chem Store Team Lead" email="ysfitzge@mtu.edu" active=""/>
+                        <ManagerCard name="Justin Christenson" imagePath="/img/fall24_mgmt/justin_c.jpg" role="CS Dept Scheduling App Co-Team Lead" email="jwchrist@mtu.edu" active=""/>
+                        <ManagerCard name="Andrew Koman" imagePath="/img/fall24_mgmt/andrew_k.jpg" role="CS Dept Scheduling App Co-Team Lead" email="ajkoman@mtu.edu" active=""/>
+                        <ManagerCard name="Caleb Johnson" imagePath="/img/fall24_mgmt/caleb_j.jpg" role="Human Factors Team Lead" email="cabjohns@mtu.edu" active=""/>
+                        <ManagerCard name="Vincent Yang" imagePath="/img/fall24_mgmt/vincent_y.jpg" role="Little Brothers Team Lead" email="vyang@mtu.edu" active=""/>
+                        <ManagerCard name="Owen Cramer" imagePath="/img/fall24_mgmt/owen_c.jpg" role="Yoopapers Co-Team Lead" email="owcramer@mtu.edu" active=""/>
+                        <ManagerCard name="Luis Vervaet" imagePath="/img/fall24_mgmt/luis_v.jpg" role="Yoopapers Co-Team Lead" email="lrvervae@mtu.edu" active=""/>
+                        <ManagerCard name="Valen Kurmaniak" imagePath="/img/fall24_mgmt/valen_k.jpg" role="SLS Team Lead" email="vkkurman@mtu.edu" active=""/>
+                        <ManagerCard name="TBD" imagePath="/img/fall24_mgmt/" role="Gardner rifle Club Team Lead" email="jkbrende@mtu.edu" active=""/>
+                        <ManagerCard name="Christopher Rochon" imagePath="/img/fall24_mgmt/christopher_r.jpg" role="HCHS Team Lead" email="tlperr@mtu.edu" active=""/>
+                        <ManagerCard name="Dylan Hojnoski" imagePath="/img/fall24_mgmt/dylan_h.jpg" role="MTU Courses Team Lead" email="dahjnos@mtu.edu" active=""/>
+                        <ManagerCard name="TBD" imagePath="/img/fall24_mgmt/" role="Herp Atlas Team Lead" email="jkbrende@mtu.edu" active=""/>
+                        <ManagerCard name="TBD" imagePath="/img/fall24_mgmt/" role="Machine Shop Check-In Team Lead" email="jkbrende@mtu.edu" active=""/>
+                        <ManagerCard name="TBD" imagePath="/img/fall24_mgmt/" role="SERC Team Lead" email="jkbrende@mtu.edu" active=""/>
+
                     </div>
                     <a className="left carousel-control" href="#managementCarousel" data-slide="prev">
                         <span className="glyphicon glyphicon-chevron-left"/>

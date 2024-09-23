@@ -82,8 +82,8 @@ export default class CurrentProjects extends React.Component {
                           id={"grc"}
                           description={"Recreate an outdated application used by the Gardner Rifle Club for scoring," +
                           "scheduling, and membership tracking using a modern framework."}
-                          name={"TBD"}
-                          email={""}
+                          name={"Brayden Gilland"}
+                          email={"bngillan@mtu.edu"}
                           pictures={[]}
           />
           <CurrentProject isDark={true}
@@ -121,8 +121,8 @@ export default class CurrentProjects extends React.Component {
                           description={"A mobile web application for recording real-time field observations of herpetofauna" +
                           " (amphibians and reptiles) for Michigan Herp Atlas. This program will directly feed into the online " +
                           " database for a variety of users including citizen scientists, researchers, academics, agencies and nonprofits."}
-                          name={"TBD"}
-                          email={"jkbrende@mtu.edu"}
+                          name={"Danica Wrobel and Kiran Kumar"}
+                          email={"dbwrobel@mtu.edu"}
                           pictures={["/img/currentprojects/herpatlas.png"]}
           />
           <CurrentProject isDark={true}
@@ -130,8 +130,8 @@ export default class CurrentProjects extends React.Component {
                           id={"mscheckin"}
                           description={"Made for a machine shop at Michigan Tech. A checkout system that uses a QR code on each machine to verify that a student " +
                           "has met all the required training before usage."}
-                          name={"TBD"}
-                          email={"jkbrende@mtu.edu"}
+                          name={"Patrick Janssen"}
+                          email={"pdjansse@mtu.edu"}
                           pictures={[""]}
           />
           <CurrentProject isDark={false}
@@ -139,8 +139,8 @@ export default class CurrentProjects extends React.Component {
                           id={"serc"}
                           description={"An application that can detect activity in confusing visual background." +
                           " Uses advanced image processing that can detect humans obscured by camouflage."}
-                          name={"TBD"}
-                          email={"jkbrende@mtu.edu"}
+                          name={"Ashley Baird"}
+                          email={"ambaird@mtu.edu"}
                           pictures={[""]}
           />
           {/*<div className="row justify-content-center">*/}

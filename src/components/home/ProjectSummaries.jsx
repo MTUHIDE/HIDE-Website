@@ -12,13 +12,13 @@ const ProjectSummaries = () => {
           </div>
         </div>
         <div className="row">
-          <ProjectSummary title="CCLC Queue" isLeft={false}>
-            <p>A web application built into Canvas which will provide a question/answer
-              queue for the CCLC.</p>
-          </ProjectSummary>
           <ProjectSummary title="Chem Store" isLeft={true}>
             <p>A web application that keeps track of the inventory of chemicals on campus.
               Users can search for chemicals, log transfers, request chemicals, and more!</p>
+          </ProjectSummary>
+          <ProjectSummary title="Gardner Rifle Club" isLeft={false}>
+            <p>Recreate an outdated application used by the Gardner Rifle Club for scoring,scheduling, 
+              and membership tracking using a modern framework.</p>
           </ProjectSummary>
         </div>
         <div className="row">
@@ -27,19 +27,18 @@ const ProjectSummaries = () => {
               track of class data (such as credits, prerequisites, and scheduling conflicts), as well
               as faculty data (such as teaching history).</p>
           </ProjectSummary>
-          <ProjectSummary title="GDLS" isLeft={false}>
-            <p>Sponsored by General Dynamics Land Systems (GDLS), this is a project based around developing
-              tools for web scraping and image labeling.</p>
+          <ProjectSummary title="Keewenaw Historical Society" isLeft={false}>
+            <p>An android app for their kiosk which people can use to search for people, wars, 
+              and other events in their database. It will also be capable of displaying more than 40,000 photos.</p>
           </ProjectSummary>
         </div>
         <div className="row">
-          <ProjectSummary title="GVSC" isLeft={true}>
-            <p>A simulation project for the Ground Vehicle Systems Center (GVSC). A simple real-time strategy game
-              (RTS) with separate different HUD options to test the effectiveness of VR HUD’s design and user ergonomics.</p>
-          </ProjectSummary>
-          <ProjectSummary title="Human Factors Team" isLeft={false}>
+          <ProjectSummary title="Human Factors Team" isLeft={true}>
             <p> This team focuses on UI/UX-centered design for HIDE's interface projects and collaboration with
               other enterprises.</p>
+          </ProjectSummary>
+          <ProjectSummary title="MTU Courses" isLeft={false}>
+            <p>An application that will present MTU course information in a more user-friendly manner than banweb.</p>
           </ProjectSummary>
         </div>
         <div className="row">
@@ -54,16 +53,27 @@ const ProjectSummaries = () => {
           </ProjectSummary>
         </div>
         <div className="row">
-          <ProjectSummary title="Traverse City Electric" isLeft={true}>
-            <p>A website for Traverse City’s new network of electric vehicle infrastructure. It displays EV info &
-              resources, alongside a map of charging stations.</p>
-          </ProjectSummary>
-          <ProjectSummary title="YooPapers" isLeft={false}>
+          <ProjectSummary title="YooPapers" isLeft={true}>
             <p>An app for assisting in due process serving court papers. The primary
               users will be the administrators entering locations, and the individuals following
               GPS directions to the entered locations to serve the papers.</p>
           </ProjectSummary>
-
+          <ProjectSummary title="Herp Atlas" isLeft={false}>
+            <p>A mobile web application for recording real-time field observations of herpetofauna 
+              (amphibians and reptiles) for Michigan Herp Atlas. This program will directly feed into 
+              the online database for a variety of users including citizen scientists, researchers, 
+              academics, agencies and nonprofits.</p>
+          </ProjectSummary>
+        </div>
+        <div className="row">
+          <ProjectSummary title="SERC" isLeft={true}>
+            <p>An application that can detect activity in confusing visual background. Uses advanced 
+              image processing that can detect humans obscured by camouflage.</p>
+          </ProjectSummary>
+          <ProjectSummary title="Machine Shop Check-In" isLeft={false}>
+            <p>A web application that will allow students to check in and out of the machine shop, 
+              as well as reserve equipment and tools.</p>
+          </ProjectSummary>
         </div>
           {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}
           {/*  <img*/}

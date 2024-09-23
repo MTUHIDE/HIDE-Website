@@ -17,9 +17,10 @@ const UpcomingEvents = () => {
             {/*  <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or*/}
             {/*    <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>*/}
             {/*</Event>*/}
-            <Event title={"Winter Wonderhack 2023"} location={"Van Pelt and Opie Library"} when={"March 17th through 19th."}>
-            <p>Winter Wonderhack is a 36 hour event where people from all different backgrounds come together, form teams around a problem or idea, and collaboratively plan, design, or code a unique solution from scratch.</p>
-            <p><strong><a href={"https://winterwonderhack.com"} target="_blank" rel="noopener noreferrer">Click here to view more info! <i className="fa fa-external-link" /></a></strong></p>
+            <Event title={"Recruitment Meeting"} location={"MEEM111 (S/C)"} when={"October 9th"}>
+            <p>For any students looking to learn more about our enterprise. Come to our recruitment event on October 9th! We will have free pizza and drinks for attendants
+              as well as a presentation on what we do and how to join. Can't make it in person? No problem! We will also have a zoom link available.</p>
+            <p><strong><a href={"mailto:jkbrende@mtu.edu"}>Click here to request the zoom link</a></strong></p>
             </Event>
             <Event title={"General Body Meetings"} location={"MEEM 111 or Zoom (by request)"} when={"Every Wednesday from 6pm to 7pm."}>
               <p><strong>Contact <a href="mailto:jkbrende@mtu.edu">Jacob Brendemuehl </a> or

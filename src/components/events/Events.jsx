@@ -17,7 +17,7 @@ const UpcomingEvents = () => {
             {/*  <p><strong>Contact <a href="mailto:abigailm@mtu.edu">Abby Myers </a> or*/}
             {/*    <a href="mailto:jerryjon@mtu.edu"> Jerry Jones </a> to request the Zoom link.</strong></p>*/}
             {/*</Event>*/}
-            <Event title={"Recruitment Meeting"} location={"MEEM111 (S/C)"} when={"October 9th"}>
+            <Event title={"Recruitment Meeting"} location={"Fisher 139"} when={"October 9th"}>
             <p>For any students looking to learn more about our enterprise. Come to our recruitment event on October 9th! We will have free pizza and drinks for attendants
               as well as a presentation on what we do and how to join. Can't make it in person? No problem! We will also have a zoom link available.</p>
             <p><strong><a href={"mailto:jkbrende@mtu.edu"}>Click here to request the zoom link</a></strong></p>

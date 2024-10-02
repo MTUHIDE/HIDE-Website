@@ -16,7 +16,7 @@ export default class Home extends React.Component {
                       <div className="container">
                           <div className="row">
                               <div className="blur2">
-                                  <p className="alertText"><strong>Come to our recruitment meeting October 9th in MEEM 111 (S/C)! </strong></p>
+                                  <p className="alertText"><strong>Come to our recruitment meeting October 9th in Fisher 139! </strong></p>
                               </div>
                               <div className="blur">
                                       <div className="hero-content">

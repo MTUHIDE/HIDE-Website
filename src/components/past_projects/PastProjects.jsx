@@ -85,10 +85,6 @@ export default class PastProjects extends React.Component {
                                         <p>Buying/Selling/Carpooling site for the MTU campus. We launched in Spring 2021. Mostly
                                             written in Django.
                                             <br/><br/>
-                                            Visit the site: <strong><a href="https://huskyhunt.com/"
-                                                                       rel="noopener noreferrer"
-                                                                       target="_blank">huskyhunt.com</a></strong>
-                                            <br/><br/>
                                         </p>
                                     </div>
                                 </div>

@@ -56,7 +56,7 @@ export default function Faq() {
                     />
                     <FaqAccordion
                         question = "I want to wait to see how much course load I am dealing with before signing up for the Enterprise course. Can I join a couple weeks into the semester?"
-                        answer = "We prefer if students join at the start of the semester."
+                        answer = "We prefer if students join at the start of the semester. However if you are interested in joining after the semester has started, please email HIDE Management"
                     />
                 </div>
             </section>

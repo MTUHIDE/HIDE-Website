@@ -8,9 +8,9 @@ const Contact = () => {
                     <div className="row">
                       <div className="col-md-6 col-md-offset-3">
                         <h3>Contact</h3>
-                        <p>Our general meetings are <strong>Wednesdays from 6-7pm in MEEM 111 or on Zoom (by request).
-                          Contact <a href="mailto:jkbrende@mtu.edu">Jacob Brendemuehl </a> or
-                          <a href="mailto:cdkienit@mtu.edu"> Caden Kienitz </a> to request the Zoom link.
+                        <p>Our general meetings are <strong>Wednesdays from 7-8pm in Fisher 328 or on Zoom (by request).
+                          Contact <a href="mailto:ysfitzge@mtu.edu"> Yasmin Fitzgerald </a> or
+                          <a href="mailto:dbwrobel@mtu.edu"> Danica Wrobel </a> to request the Zoom link.
                         </strong> Prospective
                           students are encouraged to attend.
                           For more information, please contact <strong><a

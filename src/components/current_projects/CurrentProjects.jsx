@@ -26,7 +26,7 @@ export default class CurrentProjects extends React.Component {
                           id={"chemstore"}
                           description={"A web application that keeps track of the inventory of chemicals on campus.\n" +
                           "Users can search for chemicals, log transfers, request chemicals, and more!"}
-                          name={"Yasmin Fitzgerald"}
+                          name={"Yasmin Fitzgerald and Ben Ryan"}
                           email={"ysfitzge@mtu.edu"}
                           pictures={[
                             "/img/currentprojects/chemstore_screenshot.png",
@@ -38,8 +38,8 @@ export default class CurrentProjects extends React.Component {
                           description={"A scheduling application for the CS Department that will keep track of class " +
                           "data (such as credits, prerequisites, and scheduling conflicts), as well as faculty data " +
                           "(such as teaching history)."}
-                          name={"Justin Christenson and Andrew Koman"}
-                          email={"jwchrist@mtu.edu"}
+                          name={"Zach Starry"}
+                          email={"ztstarry@mtu.edu"}
                           pictures={["/img/currentprojects/CSschedulingGrid.png",
                             "/img/currentprojects/CSschedulingList.png"]}
           />
@@ -48,8 +48,8 @@ export default class CurrentProjects extends React.Component {
                           id={"hf"}
                           description={"This team focuses on UI/UX-centered design for HIDE's interface projects " +
                           "and collaboration with other enterprises."}
-                          name={"Caleb Johnson"}
-                          email={"cabjohns@mtu.edu"}
+                          name={"Ethan Deur, Morgan Aufdencamp, Katrina Carlson, Hudson Look"}
+                          email={"ejdeur@mtu.edu"}
                           pictures={[
                             "/img/currentprojects/hf.jpg",
                           ]}
@@ -59,8 +59,8 @@ export default class CurrentProjects extends React.Component {
                           id={"lb"}
                           description={"A web application designed to streamline the medical transportation services " +
                           "that LBFE offers free-of-charge to elderly Houghton and Keweenaw Counties residents age 60+."}
-                          name={"Vincent Yang"}
-                          email={"vyang@mtu.edu"}
+                          name={"Zak Senske"}
+                          email={"zjsenske@mtu.edu"}
                           pictures={[
                             "/img/currentprojects/lb1.jpg",
                             "/img/currentprojects/lb2.jpg",
@@ -93,11 +93,11 @@ export default class CurrentProjects extends React.Component {
                           description={"An app for assisting in due process serving court papers. The primary users " +
                           "will be the administrators entering locations, and the individuals following GPS directions " +
                           "to the entered locations to serve the papers."}
-                          name={"Owen Cramer and Luis Vervaet"}
-                          email={"owcramer@mtu.edu"}
+                          name={"Rhys Brockenshire"}
+                          email={"rwbrocke@mtu.edu"}
                           pictures={["/img/currentprojects/yoopapers.jpg"]}
           />
-          <CurrentProject isDark={true}
+          {/* <CurrentProject isDark={true}
                           title={"Keweenaw Historical Society"}
                           id={"hchs"}
                           description={"An android app for their kiosk which people can use" +
@@ -106,8 +106,8 @@ export default class CurrentProjects extends React.Component {
                           name={"Christopher Rochon"}
                           email={"crrochon@mtu.edu"}
                           pictures={["/img/currentprojects/hchs.jpg"]}
-          />
-          <CurrentProject isDark={false}
+          /> */}
+          {/* <CurrentProject isDark={false}
                           title={"MTU Courses"}
                           id={"mtucourses"}
                           description={"An application that will present MTU course information in a more" +
@@ -115,15 +115,15 @@ export default class CurrentProjects extends React.Component {
                           name={"Dylan Hojnoski"}
                           email={"dahojnos@mtu.edu"}
                           pictures={["/img/currentprojects/mtucourses.png"]}
-          />
+          /> */}
           <CurrentProject isDark={true}
                           title={"Michigan Herp Atlas"}
                           id={"herpatlas"}
                           description={"A mobile web application for recording real-time field observations of herpetofauna" +
                           " (amphibians and reptiles) for Michigan Herp Atlas. This program will directly feed into the online " +
                           " database for a variety of users including citizen scientists, researchers, academics, agencies and nonprofits."}
-                          name={"Danica Wrobel and Kiran Kumar"}
-                          email={"dbwrobel@mtu.edu"}
+                          name={"Alyssa Tripp"}
+                          email={"ajvangor@mtu.edu"}
                           pictures={["/img/currentprojects/herpatlas.png"]}
           />
           <CurrentProject isDark={false}
@@ -131,11 +131,11 @@ export default class CurrentProjects extends React.Component {
                           id={"mscheckin"}
                           description={"Made for a machine shop at Michigan Tech. A checkout system that uses a QR code on each machine to verify that a student " +
                           "has met all the required training before usage."}
-                          name={"Patrick Janssen"}
-                          email={"pdjansse@mtu.edu"}
+                          name={"Michael Kaatz"}
+                          email={"mvkaatz@mtu.edu"}
                           pictures={["/img/currentprojects/mtu_logo.webp"]}
           />
-          <CurrentProject isDark={true}
+          {/* <CurrentProject isDark={true}
                           title={"SERC"}
                           id={"serc"}
                           description={"An application that can detect activity in confusing visual background." +
@@ -143,6 +143,15 @@ export default class CurrentProjects extends React.Component {
                           name={"Ashley Baird"}
                           email={"ambaird@mtu.edu"}
                           pictures={["/img/currentprojects/serc.png"]}
+          /> */}
+          <CurrentProject isDark={true}
+                          title={"Wrestling Club"}
+                          id={"wclub"}
+                          description={"A website that will serve as a hub for the wrestling club. It will educate about the club and its history, " + 
+                          "keep track of events, provide a space for sponsors and fundraising, and hold a media gallery."}
+                          name={"Chloe Scheetz"}
+                          email={"cescheet@mtu.edu"}
+                          pictures={["/img/currentprojects/mtu_logo.webp"]}
           />
           {/*<div className="row justify-content-center">*/}
           {/*    <div className="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">*/}

@@ -27,22 +27,17 @@ const ProjectSummaries = () => {
               track of class data (such as credits, prerequisites, and scheduling conflicts), as well
               as faculty data (such as teaching history).</p>
           </ProjectSummary>
-          <ProjectSummary title="Keewenaw Historical Society" isLeft={false}>
+          {/* <ProjectSummary title="Keewenaw Historical Society" isLeft={false}>
             <p>An android app for their kiosk which people can use to search for people, wars, 
               and other events in their database. It will also be capable of displaying more than 40,000 photos.</p>
-          </ProjectSummary>
-        </div>
-        <div className="row">
-          <ProjectSummary title="Human Factors Team" isLeft={true}>
+          </ProjectSummary> */}
+          <ProjectSummary title="Human Factors Team" isLeft={false}>
             <p> This team focuses on UI/UX-centered design for HIDE's interface projects and collaboration with
               other enterprises.</p>
           </ProjectSummary>
-          <ProjectSummary title="MTU Courses" isLeft={false}>
-            <p>An application that will present MTU course information in a more user-friendly manner than banweb.</p>
-          </ProjectSummary>
         </div>
         <div className="row">
-          <ProjectSummary title="Little Brothers" isLeft={true}>
+        <ProjectSummary title="Little Brothers" isLeft={true}>
             <p>A web application designed to streamline the medical transportation services that LBFE offers
               free-of-charge to elderly Houghton and Keweenaw Counties residents age 60+.</p>
           </ProjectSummary>
@@ -51,9 +46,12 @@ const ProjectSummaries = () => {
               of upcoming events and supply stock. This project focuses on updating that
               website and adding new features.</p>
           </ProjectSummary>
+          {/* <ProjectSummary title="MTU Courses" isLeft={false}>
+            <p>An application that will present MTU course information in a more user-friendly manner than banweb.</p>
+          </ProjectSummary> */}
         </div>
         <div className="row">
-          <ProjectSummary title="YooPapers" isLeft={true}>
+        <ProjectSummary title="YooPapers" isLeft={true}>
             <p>An app for assisting in due process serving court papers. The primary
               users will be the administrators entering locations, and the individuals following
               GPS directions to the entered locations to serve the papers.</p>
@@ -66,13 +64,18 @@ const ProjectSummaries = () => {
           </ProjectSummary>
         </div>
         <div className="row">
-          <ProjectSummary title="SERC" isLeft={true}>
+          {/* <ProjectSummary title="SERC" isLeft={true}>
             <p>An application that can detect activity in confusing visual background. Uses advanced 
               image processing that can detect humans obscured by camouflage.</p>
-          </ProjectSummary>
-          <ProjectSummary title="Machine Shop Check-In" isLeft={false}>
+          </ProjectSummary> */}
+          <ProjectSummary title="Machine Shop Check-In" isLeft={true}>
             <p>A web application that will allow students to check in and out of the machine shop, 
               as well as reserve equipment and tools.</p>
+          </ProjectSummary>
+          <ProjectSummary title="Wrestling Club" isLeft={false}>
+            <p>A website that will serve as a hub for the wrestling club. It will educate about the club 
+              and its history, keep track of events, provide a space for sponsors and fundraising, 
+              and hold a media gallery.</p>
           </ProjectSummary>
         </div>
           {/*<div className="col-md-6 col-sm-12 col-xs-12 rightcol">*/}

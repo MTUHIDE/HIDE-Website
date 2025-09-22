@@ -41,33 +41,29 @@ function Management() {
                             <li data-target="#managementCarousel" data-slide-to="14"/>
                             <li data-target="#managementCarousel" data-slide-to="15"/>
                             <li data-target="#managementCarousel" data-slide-to="16"/>
-                            <li data-target="#managementCarousel" data-slide-to="17"/>
-                            <li data-target="#managementCarousel" data-slide-to="18"/>
                             {/*Add for each management card*/}
                         </ol>
                     </div>
                     <div className="carousel-inner">
                         {/*Crop images to a square, convert JPG to jpg if issues*/}
-                        <ManagerCard name="Jacob Brendemuehl" imagePath="/img/fall24_mgmt/jacob_b.jpg" role="President" email="jkbrende@mtu.edu" active="active"/>
-                        <ManagerCard name="Caden Kienitz" imagePath="/img/fall24_mgmt/caden_k.jpg" role="Vice President" email="cdkienit@mtu.edu" active=""/>
-                        <ManagerCard name="Jah Multani" imagePath="/img/fall24_mgmt/jah_m.jpg" role="Treasurer" email="jsmultan@mtu.edu" active=""/>
-                        <ManagerCard name="Dr. Robert Pastel" imagePath="/img/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
-                        <ManagerCard name="Yasmin Fitzgerald" imagePath="/img/fall24_mgmt/yasmin_f.jpg" role="Chem Store Team Lead" email="ysfitzge@mtu.edu" active=""/>
-                        <ManagerCard name="Justin Christenson" imagePath="/img/fall24_mgmt/justin_c.jpg" role="CS Dept Scheduling App Co-Team Lead" email="jwchrist@mtu.edu" active=""/>
-                        <ManagerCard name="Andrew Koman" imagePath="/img/fall24_mgmt/andrew_k.jpg" role="CS Dept Scheduling App Co-Team Lead" email="ajkoman@mtu.edu" active=""/>
-                        <ManagerCard name="Caleb Johnson" imagePath="/img/fall24_mgmt/caleb_j.jpg" role="Human Factors Team Lead" email="cabjohns@mtu.edu" active=""/>
-                        <ManagerCard name="Vincent Yang" imagePath="/img/fall24_mgmt/vincent_y.jpg" role="Little Brothers Team Lead" email="vyang@mtu.edu" active=""/>
-                        <ManagerCard name="Owen Cramer" imagePath="/img/fall24_mgmt/owen_c.jpg" role="Yoopapers Co-Team Lead" email="owcramer@mtu.edu" active=""/>
-                        <ManagerCard name="Luis Vervaet" imagePath="/img/fall24_mgmt/luis_v.jpg" role="Yoopapers Co-Team Lead" email="lrvervae@mtu.edu" active=""/>
-                        <ManagerCard name="Valen Kurmaniak" imagePath="/img/fall24_mgmt/valen_k.jpg" role="SLS Team Lead" email="vkkurman@mtu.edu" active=""/>
-                        <ManagerCard name="Brayden Gilland" imagePath="/img/fall24_mgmt/brayden_g.jpg" role="Gardner rifle Club Team Lead" email="bngillan@mtu.edu" active=""/>
-                        <ManagerCard name="Christopher Rochon" imagePath="/img/fall24_mgmt/christopher_r.jpg" role="HCHS Team Lead" email="crrochon@mtu.edu" active=""/>
-                        <ManagerCard name="Dylan Hojnoski" imagePath="/img/fall24_mgmt/dylan_h.jpg" role="MTU Courses Team Lead" email="dahjnos@mtu.edu" active=""/>
-                        <ManagerCard name="Danica Wrobel" imagePath="/img/fall24_mgmt/danica_w.jpg" role="Herp Atlas Co-Team Lead" email="dbwrobel@mtu.edu" active=""/>
-                        <ManagerCard name="Kiran Kumar Reddy Vadlapally" imagePath="/img/fall24_mgmt/kiran_k.jpg" role="Herp Atlas Co-Team Lead" email="kvadlapa@mtu.edu" active=""/>
-                        <ManagerCard name="Patrick Janssen" imagePath="/img/fall24_mgmt/patrick_j.png" role="Machine Shop Check-In Team Lead" email="pdjansse@mtu.edu" active=""/>
-                        <ManagerCard name="Ashley Baird" imagePath="/img/fall24_mgmt/ashley_b.jpg" role="SERC Team Lead" email="ambaird@mtu.edu" active=""/>
-
+                        <ManagerCard name="Yasmin Fitzgerald" imagePath="/img/fall25_mgmt/yasmin_f.jpg" role="President" email="ysfitzge@mtu.edu" active="active"/>
+                        <ManagerCard name="Danica Wrobel" imagePath="/img/fall25_mgmt/Danica_Wrobel.jpg" role="Vice President" email="dbwrobel@mtu.edu" active=""/>
+                        <ManagerCard name="Connor Schneider" imagePath="/img/fall25_mgmt/Connor_Schneider.jpg" role="Treasurer" email="connorsc@mtu.edu" active=""/>
+                        <ManagerCard name="Dr. Robert Pastel" imagePath="/img/fall25_mgmt/robert_p.jpg" role="Faculty Advisor" email="pastel@mtu.edu" active=""/>
+                        <ManagerCard name="Yasmin Fitzgerald" imagePath="/img/fall25_mgmt/yasmin_f.jpg" role="Chem Store Co-Team Lead" email="ysfitzge@mtu.edu" active=""/>
+                        <ManagerCard name="Ben Ryan" imagePath="/img/fall25_mgmt/Ben_Ryan.jpg" role="Chem Store Co-Team Lead" email="bjryan@mtu.edu" active=""/>
+                        <ManagerCard name="Zach Starry" imagePath="/img/fall25_mgmt/Zach_Starry.jpg" role="CS Dept Scheduling App" email="ztstarry@mtu.edu" active=""/>
+                        <ManagerCard name="Ethan Deur" imagePath="/img/fall25_mgmt/Ethan_Deur.jpg" role="Human Factors Expungement App Team Lead" email="edeur@mtu.edu" active=""/>
+                        <ManagerCard name="Hudson Look" imagePath="/img/fall25_mgmt/Hudson_Look.JPG" role="Human Factors Whirlpool Co-Team Lead" email="hblook@mtu.edu" active=""/>
+                        <ManagerCard name="Katrina Carlson" imagePath="/img/fall25_mgmt/Katrina_Carlson.jpg" role="Human Factors Whirlpool Co-Team Lead" email="katrinac@mtu.edu" active=""/>
+                        <ManagerCard name="Morgan Aufdencamp" imagePath="/img/fall25_mgmt/Morgan_Aufdencamp.JPG" role="Human Factors Whirlpool Co-Team Lead" email="maufdenc@mtu.edu" active=""/>
+                        <ManagerCard name="Zak Senske" imagePath="/img/fall25_mgmt/Zak_Senske.jpg" role="Little Brothers Team Lead" email="zjsenske@mtu.edu" active=""/>
+                        <ManagerCard name="Valen Kurmaniak" imagePath="/img/fall25_mgmt/valen_k.jpg" role="SLS Team Lead" email="vkkurman@mtu.edu" active=""/>
+                        <ManagerCard name="Brayden Gilland" imagePath="/img/fall25_mgmt/brayden_g.jpg" role="Gardner rifle Club Team Lead" email="bngillan@mtu.edu" active=""/>
+                        {/*<ManagerCard name="Rhys Brockenshire" imagePath="/img/fall25_mgmt/Rhys_Brockenshrire.jpg" role="HCHS Team Lead" email="crrochon@mtu.edu" active=""/>*/}
+                        <ManagerCard name="Alyssa Tripp" imagePath="/img/fall25_mgmt/Alyssa_Tripp.jpg" role="Michigan HERP Atlas Team Lead" email="ajvangor@mtu.edu" active=""/>
+                        <ManagerCard name="Michael Kaatz" imagePath="/img/fall25_mgmt/Michael_Kaatz.jpg" role="Machine Shop Check-In Team Lead" email="mvkaatz@mtu.edu" active=""/>
+                        <ManagerCard name="Chloe Scheetz" imagePath="/img/fall25_mgmt/Chloe_Scheetz.jpg" role="Wrestling Club Team Lead" email="cescheet@mtu.edu" active=""/>
                     </div>
                     <a className="left carousel-control" href="#managementCarousel" data-slide="prev">
                         <span className="glyphicon glyphicon-chevron-left"/>

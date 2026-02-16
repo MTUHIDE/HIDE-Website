@@ -22,11 +22,21 @@ export default class CurrentProjects extends React.Component {
             </div>
           </section>
           <CurrentProject isDark={false}
+                          title={"Whirlpool Project"}
+                          id={"hf"}
+                          description={"We are working on improving the sustainability of appliances for Whirlpool Corporation using human factors techniques and methodology."}
+                          name={"Morgan Aufdencamp, Hudson Look"}
+                          email={"maufdenc@mtu.edu"}
+                          pictures={[
+                            "/img/currentprojects/hf.jpg",
+                          ]}
+          />
+          <CurrentProject isDark={false}
                           title={"Chem Store"}
                           id={"chemstore"}
                           description={"A web application that keeps track of the inventory of chemicals on campus.\n" +
                           "Users can search for chemicals, log transfers, request chemicals, and more!"}
-                          name={"Yasmin Fitzgerald and Ben Ryan"}
+                          name={"Yasmin Fitzgerald & Drew Broekhuis"}
                           email={"ysfitzge@mtu.edu"}
                           pictures={[
                             "/img/currentprojects/chemstore_screenshot.png",
@@ -44,50 +54,6 @@ export default class CurrentProjects extends React.Component {
                             "/img/currentprojects/CSschedulingList.png"]}
           />
           <CurrentProject isDark={false}
-                          title={"Human Factors Team"}
-                          id={"hf"}
-                          description={"This team focuses on UI/UX-centered design for HIDE's interface projects " +
-                          "and collaboration with other enterprises."}
-                          name={"Ethan Deur, Morgan Aufdencamp, Katrina Carlson, Hudson Look"}
-                          email={"ejdeur@mtu.edu"}
-                          pictures={[
-                            "/img/currentprojects/hf.jpg",
-                          ]}
-          />
-          <CurrentProject isDark={true}
-                          title={"Little Brothers"}
-                          id={"lb"}
-                          description={"A web application designed to streamline the medical transportation services " +
-                          "that LBFE offers free-of-charge to elderly Houghton and Keweenaw Counties residents age 60+."}
-                          name={"Zak Senske"}
-                          email={"zjsenske@mtu.edu"}
-                          pictures={[
-                            "/img/currentprojects/lb1.jpg",
-                            "/img/currentprojects/lb2.jpg",
-                          ]}
-          />
-          <CurrentProject isDark={false}
-                          title={"SLS Website"}
-                          id={"sls"}
-                          description={"MTU's Sound and Lighting Services has an employee website for keeping track of " +
-                          "upcoming events and supply stock. This project focuses on updating that website and adding " +
-                          "new features."}
-                          name={"Valen Kurmaniak"}
-                          email={"vkkurman@mtu.edu"}
-                          pictures={[
-                            "/img/currentprojects/sls.png",
-                          ]}
-          />
-          <CurrentProject isDark={true}
-                          title={"Gardner Rifle Club"}
-                          id={"grc"}
-                          description={"Recreate an outdated application used by the Gardner Rifle Club for scoring," +
-                          "scheduling, and membership tracking using a modern framework."}
-                          name={"Brayden Gilland"}
-                          email={"bngillan@mtu.edu"}
-                          pictures={["/img/currentprojects/gardner_rifle.jpg"]}
-          />
-          <CurrentProject isDark={false}
                           title={"YooPapers"}
                           id={"yoopapers"}
                           description={"An app for assisting in due process serving court papers. The primary users " +
@@ -97,25 +63,15 @@ export default class CurrentProjects extends React.Component {
                           email={"rwbrocke@mtu.edu"}
                           pictures={["/img/currentprojects/yoopapers.jpg"]}
           />
-          {/* <CurrentProject isDark={true}
-                          title={"Keweenaw Historical Society"}
-                          id={"hchs"}
-                          description={"An android app for their kiosk which people can use" +
-                          " to search for people, wars, and other events in their database. It will" +
-                          " also be capable of displaying more than 40,000 photos."}
-                          name={"Christopher Rochon"}
-                          email={"crrochon@mtu.edu"}
-                          pictures={["/img/currentprojects/hchs.jpg"]}
-          /> */}
-          {/* <CurrentProject isDark={false}
-                          title={"MTU Courses"}
-                          id={"mtucourses"}
-                          description={"An application that will present MTU course information in a more" +
-                          " user-friendly manner than banweb."}
-                          name={"Dylan Hojnoski"}
-                          email={"dahojnos@mtu.edu"}
-                          pictures={["/img/currentprojects/mtucourses.png"]}
-          /> */}
+          <CurrentProject isDark={true}
+                          title={"Gardner Rifle Club"}
+                          id={"grc"}
+                          description={"Recreate an outdated application used by the Gardner Rifle Club for scoring," +
+                          "scheduling, and membership tracking using a modern framework."}
+                          name={"Kyle Hamby"}
+                          email={"kjhamby@mtu.edu"}
+                          pictures={["/img/currentprojects/gardner_rifle.jpg"]}
+          />
           <CurrentProject isDark={true}
                           title={"Michigan Herp Atlas"}
                           id={"herpatlas"}
@@ -127,29 +83,20 @@ export default class CurrentProjects extends React.Component {
                           pictures={["/img/currentprojects/herpatlas.png"]}
           />
           <CurrentProject isDark={false}
-                          title={"Machine Shop check-in"}
+                          title={"Machine Shop Check-in System"}
                           id={"mscheckin"}
                           description={"Made for a machine shop at Michigan Tech. A checkout system that uses a QR code on each machine to verify that a student " +
                           "has met all the required training before usage."}
-                          name={"Michael Kaatz"}
-                          email={"mvkaatz@mtu.edu"}
+                          name={"Josh Kozlowski"}
+                          email={"jdkozlow@mtu.edu"}
                           pictures={["/img/currentprojects/mtu_logo.webp"]}
           />
-          {/* <CurrentProject isDark={true}
-                          title={"SERC"}
-                          id={"serc"}
-                          description={"An application that can detect activity in confusing visual background." +
-                          " Uses advanced image processing that can detect humans obscured by camouflage."}
-                          name={"Ashley Baird"}
-                          email={"ambaird@mtu.edu"}
-                          pictures={["/img/currentprojects/serc.png"]}
-          /> */}
           <CurrentProject isDark={true}
                           title={"Wrestling Club"}
                           id={"wclub"}
-                          description={"A website that will serve as a hub for the wrestling club. It will educate about the club and its history, " + 
+                          description={"A website that will serve as a hub for the wrestling club. It will educate about the club and its history, " +
                           "keep track of events, provide a space for sponsors and fundraising, and hold a media gallery."}
-                          name={"Chloe Scheetz"}
+                          name={"Chloe Scheetz & Zak Senske"}
                           email={"cescheet@mtu.edu"}
                           pictures={["/img/currentprojects/mtu_logo.webp"]}
           />
@@ -171,4 +118,3 @@ export default class CurrentProjects extends React.Component {
     );
   }
 }
-

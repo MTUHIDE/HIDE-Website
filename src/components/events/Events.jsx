@@ -22,9 +22,8 @@ const UpcomingEvents = () => {
               as well as a presentation on what we do and how to join. Can't make it in person? No problem! We will also have a zoom link available.</p>
             <p><strong><a href={"mailto:jkbrende@mtu.edu"}>Click here to request the zoom link</a></strong></p>
             </Event>
-            <Event title={"General Body Meetings"} location={"Fisher 328 or Zoom (by request)"} when={"Every Wednesday from 7pm to 8pm."}>
-              <p><strong>Contact <a href="mailto:ysfitzge@mtu.edu"> Yasmin Fitzgerald </a> or
-                <a href="mailto:dbwrobel@mtu.edu"> Danica Wrobel </a> to request the Zoom link.</strong></p>
+            <Event title={"General Body Meetings"} location={"MEEM 112 or Zoom (by request)"} when={"Every Wednesday from 6PM to 7PM."}>
+              <p><strong>Contact <a href="mailto:ysfitzge@mtu.edu"> Yasmin Fitzgerald </a> to request the Zoom link.</strong></p>
             </Event>
           </div>
           <div className="col-md-4 col-sm-12">

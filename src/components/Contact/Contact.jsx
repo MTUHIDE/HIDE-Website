@@ -8,7 +8,7 @@ const Contact = () => {
                     <div className="row">
                       <div className="col-md-6 col-md-offset-3">
                         <h3>Contact</h3>
-                        <p>Our general meetings are <strong>Wednesdays from 7-8pm in Fisher 328 or on Zoom (by request).
+                        <p>Our general meetings are <strong>Wednesdays from 6-7pm in MEEM 112 or on Zoom (by request).
                           Contact <a href="mailto:ysfitzge@mtu.edu"> Yasmin Fitzgerald </a> or
                           <a href="mailto:dbwrobel@mtu.edu"> Danica Wrobel </a> to request the Zoom link.
                         </strong> Prospective

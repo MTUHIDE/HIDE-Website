@@ -15,9 +15,8 @@ This site uses [React](https://reactjs.org/) for the front end.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-**Contacts:** 
- - Jacob Brendemuehl - <jkbrende@mtu.edu>
- - Caden Kienitz - <cdkienit@mtu.edu>
+**Contacts:**
+ - HIDE Management - <hide-management-l@mtu.edu>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
